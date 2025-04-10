@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="w-full fixed top-0 left-0 bg-gradient-to-r from-blue-100 via-white to-purple-100 z-50 font-sans">
       <div className="bg-blue/60 backdrop-blur-lg shadow-md border-b">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-6 md:px-12 gap-4">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-6 md:px-1 gap-4">
           <div className="flex items-center gap-4">
             <img src={logo} alt="IndoCrypt Logo" className="w-20 h-20 object-contain drop-shadow-lg" />
             <div>
@@ -38,13 +38,15 @@ const Header = () => {
         </div>
       </div>
 
-      <Marquee gradient={false} speed={50} className="bg-blue-500 text-white py-2 text-sm font-medium shadow-inner animate-pulse">
+      <Marquee gradient={false} speed={50} className="bg-blue-500 text-white py-2 text-sm font-medium shadow-inner">
+        <div className="zigzag-line"></div>
         🎉 Early Bird Registration ends May 30! &nbsp;&nbsp;&nbsp; 📢 Call for Papers open now! &nbsp;&nbsp;&nbsp; 🎓 Keynote by Dr. Alice Cryptman!
+        <div className="zigzag-line"></div>
       </Marquee>
 
       <div className="bg-white/70 backdrop-blur-md border-b border-white/20 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between py-1">
-          <nav className="hidden md:flex gap-6 text-gray-800 text-sm font-semibold">
+        <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-center py-1"> {/* Centering the nav links */}
+          <nav className="flex gap-6 text-gray-800 text-sm font-semibold">
             {navLinks.map(link => (
               <a
                 key={link.name}
