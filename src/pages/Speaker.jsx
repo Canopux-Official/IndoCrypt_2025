@@ -272,40 +272,6 @@ const Speaker = () => {
           </button>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-blue-900 text-white py-16">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <div>
-              <h3 className="text-2xl font-bold mb-6">IndoCrypt 2025</h3>
-              <p className="text-blue-200 text-lg">
-                The premier cryptography conference in India, bringing together researchers, practitioners, and industry leaders.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Quick Links</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-blue-200 hover:text-white transition-colors text-lg">Home</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition-colors text-lg">Speakers</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition-colors text-lg">Schedule</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition-colors text-lg">Venue</a></li>
-                <li><a href="#" className="text-blue-200 hover:text-white transition-colors text-lg">Contact</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Contact Us</h3>
-              <p className="text-blue-200 text-lg mb-3">IIT Bombay, Powai</p>
-              <p className="text-blue-200 text-lg mb-3">Mumbai, Maharashtra 400076</p>
-              <p className="text-blue-200 text-lg">indocrypt2025@example.com</p>
-            </div>
-          </div>
-          <div className="border-t border-blue-800 mt-10 pt-8 text-center text-blue-300">
-            <p className="text-lg">© 2025 IndoCrypt. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-
       {/* Abstract Modal */}
       <AbstractModal 
         isOpen={isModalOpen} 

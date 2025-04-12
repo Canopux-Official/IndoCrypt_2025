@@ -205,8 +205,7 @@ const Header = () => {
     },
     {
       name: 'General',
-      children: [
-        { name: 'Sponsors', to: '/sponsors' },
+      children: [,
         { name: 'Partners', to: '/partners' },
         { name: 'About', to: '/about' },
         { name: 'FAQ', to: '/faq' },

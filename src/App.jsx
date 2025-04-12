@@ -6,6 +6,7 @@ import Speaker from "./pages/Speaker";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
+import Venue from "./components/Venue";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/speakers" element={<Speaker/>} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/venue" element={<Venue />} />
         </Routes>
         <Footer />
       </Router>
