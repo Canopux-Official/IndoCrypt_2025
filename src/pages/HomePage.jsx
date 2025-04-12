@@ -8,10 +8,10 @@ const HomePage = () => {
   return (
     <>
         <Header/>
-        {/* <HeroSection/>
+        <HeroSection/>
         <ConferencePage/>
-        <Footer /> */}
         <Schedule/>
+      <Footer />
 
     </>
   )
