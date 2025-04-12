@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Schedule from "./pages/Schedule";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/contact" element={<Contact />} />
           <Route path="/schedule" element={<Schedule />} />
         </Routes>
         <Footer />
