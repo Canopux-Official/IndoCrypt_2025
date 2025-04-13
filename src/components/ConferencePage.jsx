@@ -46,41 +46,6 @@ const ConferencePage = () => {
         </div>
       </section>
 
-      {/* Keynote Speakers Section */}
-      <section className="py-20 bg-white text-gray-800 text-center">
-        <motion.h2
-          className="text-4xl sm:text-5xl font-semibold mb-12"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          Meet Our Keynote Speakers
-        </motion.h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-          {/* Speaker 1 */}
-          <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
-            <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Speaker 1" className="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-indigo-300" />
-            <h3 className="text-xl font-semibold mb-2">Speaker</h3>
-            <p className="opacity-70 mb-4">Professor of Cryptography, MIT</p>
-            <p className="text-sm">John will discuss quantum cryptography's role in securing data against future computing threats.</p>
-          </div>
-          {/* Speaker 2 */}
-          <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
-            <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Speaker 2" className="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-indigo-300" />
-            <h3 className="text-xl font-semibold mb-2">Speaker</h3>
-            <p className="opacity-70 mb-4">Head of Cybersecurity, Stanford University</p>
-            <p className="text-sm">Jane will explore the intersection of blockchain and cryptography in decentralized systems.</p>
-          </div>
-          {/* Speaker 3 */}
-          <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
-            <img src="https://randomuser.me/api/portraits/men/25.jpg" alt="Speaker 3" className="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-indigo-300" />
-            <h3 className="text-xl font-semibold mb-2">Speaker</h3>
-            <p className="opacity-70 mb-4">Professor of Advanced Cryptography, University of Oxford</p>
-            <p className="text-sm">Chris will discuss how machine learning impacts modern cryptographic algorithms.</p>
-          </div>
-        </div>
-      </section>
-
       {/* Conference Schedule Section */}
       <section className="py-20 bg-gradient-to-r from-indigo-50 to-indigo-100 text-gray-800 text-center">
         <motion.h2
