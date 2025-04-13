@@ -43,7 +43,7 @@ const FAQ = () => {
     };
 
     return (
-        <div style={{ width: "100vw" }} className='relative pt-90 pb-20 px-4 md:px-12 bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen'>
+        <div style={{ width: "100vw" }} className='relative pt-20 pb-20 px-4 md:px-12 bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen'>
             <section className="w-full min-h-screen pb-20 px-6 font-sans">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-6">

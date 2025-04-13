@@ -4,11 +4,12 @@ import background from "../assets/background.png"
 const HeroSection = () => {
   return (
     <div
-      className="relative w-screen h-screen bg-cover bg-center mt-3"
+      className="relative w-screen bg-cover bg-center mt-3"
       style={{
         backgroundImage: `url(${background})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        height: "60vh"
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30"></div>

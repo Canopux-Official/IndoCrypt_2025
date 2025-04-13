@@ -132,7 +132,7 @@ const Speaker = () => {
   const speakers = [
     {
       id: 1,
-      name: "Luca De Feo",
+      name: "Speaker",
       title: "SQIsign: past, present and future",
       abstract: "5 years ago, while everyone was raving about the compactness of SIKE's public keys and ciphertexts, the isogeny community was facing a conundrum: why isn't there any compact isogeny-based signature? The solution came from a technique that was originally devised to attack SIKE: thanks to the KLPT algorithm, it became possible for the first time to \"rerandomize\" isogeny walks, provided knowledge of endomorphism rings, which could then be used as cryptographic trapdoors. As our understanding of the connections between elliptic curves and their endomorphism rings expanded, new cryptographic discoveries kept coming. Among them, the celebrated equivalence between the supersingular isogeny path problem and the endomorphism ring problem. Some feared the devastating attacks on SIKE would spell the end of isogeny-based cryptography. Instead, the technique of higher-dimensional embeddings they introduced has generated a remarkable stream of research, using the new tools to construct and improve all sorts of schemes. As we celebrate SQIsign advancing to the 2nd round of the on-ramp NIST call for signatures today, higher-dimensional embeddings have entered SQIsign in various declinations (SQIsignHD, SQIsign2D, etc.), revolutionizing performance and proof techniques for isogeny-based signatures and heralding a new era for SQIsign.",
       bio: "Luca De Feo is a researcher at IBM Research Europe working on quantum-safe cryptography. He graduated from École Polytechnique in 2010 with a thesis on isogeny computations; He has been computing them ever since.",
@@ -140,7 +140,7 @@ const Speaker = () => {
     },
     {
       id: 2,
-      name: "Lucca Hirschi",
+      name: "Speaker",
       title: "Logic-Based Verification of Cryptographic Protocols",
       abstract: "Today's information society crucially relies on cryptographic protocols. These protocols leverage cryptographic primitives to ensure confidentiality, integrity, or other security goals. Any attack in these protocols can have dramatic consequences, amplified by their ubiquity and our dependence on them for example in finance, business, and communication. And yet, critical and widely used cryptographic protocols have repeatedly been found to contain flaws in both their design and their implementation, opening the way for serious attacks (such as onTLS in web browsing, EMV in credit card transactions, 5G in mobilenetworks, WPA2 in WiFi, and e-voting systems). A widespread class of these vulnerabilities is logical attacks, which exploit flawed protocol logic. This keynote will examine two logic-based methods to preclude logical attacks from protocol designs and implementations. First, we will discuss automated formal verification methods based on Dolev-Yao (DY) models, which formally define and excel at finding such flaws on abstract specifications. This approach has evolved over 40 years and yielded significant results, which we will highlight. Nevertheless, these methods alone cannot secure protocol implementations, as bugs may introduce implementation-level logical attacks. We will present a recent research avenue that aims to integrate formal DY models with fuzz testing techniques to capture logical attacks in cryptographic protocol implementations.",
       bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
@@ -148,7 +148,7 @@ const Speaker = () => {
     },
     {
       id: 3,
-      name: "Vincent Rijmen",
+      name: "Speaker",
       title: "Challenges in Symmetric-Key Cryptography",
       abstract: "Almost 25 years ago, the block cipher Rijndael was selected to become the Advanced Encryption Standard (AES). This concluded two research lines that were of great importance in the 1990's: the security evaluation of the DES and the design of a replacement mainstream blockcipher. Since then the community has identified a number of new challenges. Symmetric-key primitives are used in a wide range of new applications: zero-knowledge proofs, fully homomorphic encryption schemes, quantum-secure signature schemes, etc.In this talk we will give an overview of challenges in symmetric-keycryptography and the progress that has been made on them. We will also present our own selection of most important research topics in symmetric-key cryptography for the future.",
       bio: "Vincent Rijmen graduated in 1993 as electronics engineer from the KU Leuven (Belgium) and finished his doctoral dissertation on the design and analysis of block ciphers in 1997.",
@@ -261,17 +261,7 @@ const Speaker = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-purple-100 to-blue-50">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold text-gray-800 mb-8">Join Us at IndoCrypt 2025</h2>
-          <p className="text-2xl text-gray-600 max-w-2xl mx-auto mb-10">
-            Don't miss this opportunity to learn from leading experts in cryptography and network with professionals from around the world.
-          </p>
-          <button className="px-10 py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold text-xl rounded-md shadow-md hover:shadow-lg transition-all duration-300">
-            Register Now
-          </button>
-        </div>
-      </section>
+
       {/* Abstract Modal */}
       <AbstractModal 
         isOpen={isModalOpen} 

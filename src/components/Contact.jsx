@@ -4,7 +4,7 @@ import { MapPin, Mail, Phone } from 'lucide-react';
 
 const Contact = () => {
     return (
-        <div style={{ width: "100vw" }} className='relative pt-80 pb-20 px-4 md:px-12 bg-gradient-to-br from-white to-blue-50 min-h-screen'>
+        <div style={{ width: "100vw" }} className='relative pt-15 pb-20 px-4 md:px-12 bg-gradient-to-br from-white to-blue-50 min-h-screen'>
             <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}

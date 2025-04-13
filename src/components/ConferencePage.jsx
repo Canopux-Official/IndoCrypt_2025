@@ -60,21 +60,21 @@ const ConferencePage = () => {
           {/* Speaker 1 */}
           <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
             <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Speaker 1" className="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-indigo-300" />
-            <h3 className="text-xl font-semibold mb-2">John Doe</h3>
+            <h3 className="text-xl font-semibold mb-2">Speaker</h3>
             <p className="opacity-70 mb-4">Professor of Cryptography, MIT</p>
             <p className="text-sm">John will discuss quantum cryptography's role in securing data against future computing threats.</p>
           </div>
           {/* Speaker 2 */}
           <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
             <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Speaker 2" className="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-indigo-300" />
-            <h3 className="text-xl font-semibold mb-2">Jane Smith</h3>
+            <h3 className="text-xl font-semibold mb-2">Speaker</h3>
             <p className="opacity-70 mb-4">Head of Cybersecurity, Stanford University</p>
             <p className="text-sm">Jane will explore the intersection of blockchain and cryptography in decentralized systems.</p>
           </div>
           {/* Speaker 3 */}
           <div className="bg-gray-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
             <img src="https://randomuser.me/api/portraits/men/25.jpg" alt="Speaker 3" className="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-indigo-300" />
-            <h3 className="text-xl font-semibold mb-2">Chris Brown</h3>
+            <h3 className="text-xl font-semibold mb-2">Speaker</h3>
             <p className="opacity-70 mb-4">Professor of Advanced Cryptography, University of Oxford</p>
             <p className="text-sm">Chris will discuss how machine learning impacts modern cryptographic algorithms.</p>
           </div>
