@@ -5,7 +5,7 @@ import bannerIIIT from '../assets/IIIT-Bhubaneswar.webp';
 
 const Venue = () => {
     return (
-        <div className="w-full bg-gray-50 text-gray-800 pt-80">
+        <div className="w-full bg-gray-50 text-gray-800">
             {/* Banner */}
             <div className="relative h-[50vh] w-full">
                 <img style={{opacity: "0.65"}}
