@@ -7,6 +7,9 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
 import Venue from "./components/Venue";
+import AccommodationPage from "./components/AccommodationPage";
+import VisaPage from "./components/VisaPage";
+import PlacesOfInterest from "./components/PlacesOfInterest";
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           <Route path="/speakers" element={<Speaker/>} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/venue" element={<Venue />} />
+          <Route path="/accommodation" element={<AccommodationPage />} />
+          <Route path="/visa" element={<VisaPage />} />
+          <Route path="/places-of-interest" element={<PlacesOfInterest />} />
         </Routes>
         <Footer />
       </Router>

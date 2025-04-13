@@ -234,9 +234,7 @@ const Header = () => {
         { name: 'Venue', to: '/venue' },
         { name: 'Accommodation', to: '/accommodation' },
         { name: 'Visa', to: '/visa' },
-        { name: 'Travel Grant', to: '/travel-grant' },
         { name: 'Places of Interest', to: '/places-of-interest' },
-        { name: 'Emergency Contact', to: '/emergency-contact' },
       ]
     },
   ];
