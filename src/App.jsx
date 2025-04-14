@@ -11,6 +11,7 @@ import AccommodationPage from "./components/AccommodationPage";
 import VisaPage from "./components/VisaPage";
 import PlacesOfInterest from "./components/PlacesOfInterest";
 import CommitteePage from "./components/CommitteePage";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/visa" element={<VisaPage />} />
           <Route path="/places-of-interest" element={<PlacesOfInterest />} />
           <Route path="/committee" element={<CommitteePage />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>

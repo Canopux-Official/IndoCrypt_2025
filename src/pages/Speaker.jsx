@@ -53,7 +53,7 @@ const CustomMarquee = ({ children, speed = 40 }) => {
   );
 };
 
-// Abstract Modal Component
+// Abstract Modal Component with a single scrollbar for the entire modal
 const AbstractModal = ({ isOpen, onClose, speaker }) => {
   if (!speaker) return null;
   
@@ -68,40 +68,46 @@ const AbstractModal = ({ isOpen, onClose, speaker }) => {
           onClick={onClose}
         >
           <motion.div 
-            className="bg-white rounded-xl max-w-3xl w-full max-h-90vh overflow-y-auto"
+            className="bg-white rounded-xl max-w-3xl w-full max-h-[90vh] flex flex-col"
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{ type: "spring", damping: 20 }}
             onClick={e => e.stopPropagation()}
           >
-            <div className="flex justify-between items-center p-6 border-b border-gray-200">
+            <div className="flex justify-between items-center p-6 border-b border-gray-200 sticky top-0 bg-white z-10">
               <h3 className="text-2xl font-bold text-gray-800">{speaker.name}</h3>
               <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
                 <X size={24} />
               </button>
             </div>
-            <div className="p-6">
-              <div className="flex flex-col md:flex-row gap-6 mb-6">
-                <div className="md:w-1/3 flex-shrink-0">
-                  <img 
-                    src={speaker.image} 
-                    alt={speaker.name} 
-                    className="w-full rounded-lg shadow-md"
-                  />
+            
+            <div className="overflow-y-auto flex-grow">
+              <div className="p-6">
+                <div className="flex flex-col md:flex-row gap-6 mb-6">
+                  <div className="md:w-1/3 flex-shrink-0">
+                    <img 
+                      src={speaker.image} 
+                      alt={speaker.name} 
+                      className="w-full rounded-lg shadow-md"
+                    />
+                  </div>
+                  <div className="md:w-2/3">
+                    <h4 className="text-xl font-bold text-purple-700 mb-2">{speaker.title}</h4>
+                    <p className="text-gray-600 text-lg mb-4">{speaker.bio}</p>
+                  </div>
                 </div>
-                <div className="md:w-2/3">
-                  <h4 className="text-xl font-bold text-purple-700 mb-2">{speaker.title}</h4>
-                  <p className="text-gray-600 text-lg mb-4">{speaker.bio}</p>
+                
+                <div>
+                  <h4 className="text-xl font-bold text-purple-700 mb-3">Abstract</h4>
+                  <p className="text-gray-800 text-lg leading-relaxed">
+                    {speaker.abstract}
+                  </p>
                 </div>
-              </div>
-              
-              <div>
-                <h4 className="text-xl font-bold text-purple-700 mb-3">Abstract</h4>
-                <p className="text-gray-800 text-lg leading-relaxed">{speaker.abstract}</p>
               </div>
             </div>
-            <div className="p-6 border-t border-gray-200 bg-gray-50 flex justify-end">
+            
+            <div className="p-6 border-t border-gray-200 bg-gray-50 flex justify-end sticky bottom-0">
               <button 
                 onClick={onClose}
                 className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-md"
@@ -259,8 +265,6 @@ const Speaker = () => {
           </div>
         </div>
       </section>
-
-      {/* Call to Action */}
 
       {/* Abstract Modal */}
       <AbstractModal 
