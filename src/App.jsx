@@ -10,6 +10,7 @@ import Venue from "./components/Venue";
 import AccommodationPage from "./components/AccommodationPage";
 import VisaPage from "./components/VisaPage";
 import PlacesOfInterest from "./components/PlacesOfInterest";
+import CommitteePage from "./components/CommitteePage";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/accommodation" element={<AccommodationPage />} />
           <Route path="/visa" element={<VisaPage />} />
           <Route path="/places-of-interest" element={<PlacesOfInterest />} />
+          <Route path="/committee" element={<CommitteePage />} />
         </Routes>
         <Footer />
       </Router>

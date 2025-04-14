@@ -14,6 +14,7 @@ import skillsda from '../assets/silver_sponsors/skillsda.png'
 import tnscst from '../assets/silver_sponsors/tnscst.png'
 import zoho from '../assets/silver_sponsors/zoho.png'
 import bharat from '../assets/gold_sponsors/bharat.png'
+import OrganizerSection from './OrganizerSection';
 
 
 
@@ -129,6 +130,10 @@ const ConferencePage = () => {
           Register Now
         </a>
       </section>
+
+
+      {/* organizer section */}
+      <OrganizerSection />
 
       {/* Sponsors Section */}
 
