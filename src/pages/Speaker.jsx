@@ -135,6 +135,7 @@ const Speaker = () => {
     setIsModalOpen(false);
   };
 
+  //update here the content of the speakers
   const speakers = [
     {
       id: 1,

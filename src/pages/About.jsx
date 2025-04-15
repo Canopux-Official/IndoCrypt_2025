@@ -32,7 +32,6 @@ const About = () => {
       }
     }
   };
-  const ConferenceBanner = "https://example.com/conference-banner.jpg";
 
   const objectives = [
     {
@@ -74,11 +73,11 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-purple-100 to-white py-16 relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-10">
-          <img
+          {/* <img
             src={ConferenceBanner}
             alt="Background Pattern"
             className="w-full h-full object-cover"
-          />
+          /> */}
         </div>
 
         <div className="container mx-auto px-6 text-center relative z-10">
