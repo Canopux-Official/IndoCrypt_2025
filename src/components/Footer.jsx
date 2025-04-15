@@ -110,7 +110,7 @@ const Footer = () => {
       <div className="mt-16 border-t border-slate-600 pt-6 text-center text-sm text-gray-400">
         &copy; IndoCrypt 2025. All rights reserved.
         <div className="mt-4 text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-green-500 to-blue-400 animate-pulse tracking-wide leading-relaxed">
-          Maintained with ❤️ By Team
+          Maintained with ❤️ By 
           <a
             href="https://canopux.vercel.app/"
             target="_blank"
