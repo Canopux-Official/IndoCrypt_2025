@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import visa from '../assets/visa-Details.pdf'
+import visa from '../assets/Visa-Details.pdf';
 
 const faqs = [
     {
