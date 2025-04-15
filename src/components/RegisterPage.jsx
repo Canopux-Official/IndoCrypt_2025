@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 const RegisterPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+      
     return (
         <div>
             <section className="bg-gradient-to-b from-indigo-50 to-white pt-10 flex items-center justify-center px-6 py-20 md:px-12 font-sans">

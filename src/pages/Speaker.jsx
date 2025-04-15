@@ -161,7 +161,10 @@ const Speaker = () => {
       image: VincentRijmen
     }
   ];
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

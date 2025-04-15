@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { motion } from 'framer-motion';
 import { Calendar, MapPin, Users, Building, Award, BookOpen } from 'lucide-react';
 import IIITBhubaneswarLogo from "../assets/IIIT-Bhubaneswar.webp";
@@ -64,8 +64,12 @@ const About = () => {
     { year: "2020", location: "IIT Jodhpur", theme: "Cryptographic Implementations" },
     { year: "2019", location: "IIT Hyderabad", theme: "Lightweight Cryptography" }
   ];
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
+    
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-purple-100 to-white py-16 relative overflow-hidden">

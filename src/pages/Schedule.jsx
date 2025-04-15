@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import ScheduleCard from "../components/ScheduleCard";
 import Countdown from "../components/Countdown";
@@ -41,6 +41,11 @@ const scheduleData = [
 ];
 
 const Schedule = () => {
+  // Scroll to top when component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="w-full pt-20 bg-gradient-to-b from-[#f0f4ff] to-[#ffffff] pt-10s px-6">
       <motion.h1
@@ -49,7 +54,7 @@ const Schedule = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-      Conference Schedule
+        Conference Schedule
       </motion.h1>
 
       <div className="flex flex-col md:flex-row justify-between items-start">
@@ -84,7 +89,7 @@ const Schedule = () => {
                   Question 2
                 </h4>
                 <p className="accordion-body text-sm text-gray-600">
-                To Be Updated
+                  To Be Updated
                 </p>
               </div>
             </div>
