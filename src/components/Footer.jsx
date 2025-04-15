@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -17,11 +18,10 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold text-indigo-300 mb-4">Quick Links</h3>
           <ul className="space-y-3 text-base text-gray-300">
-            <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
-            <li><a href="#schedule" className="hover:text-white transition-colors">Schedule</a></li>
-            <li><a href="#speakers" className="hover:text-white transition-colors">Speakers</a></li>
-            <li><a href="#sponsors" className="hover:text-white transition-colors">Sponsors</a></li>
-            <li><a href="#register" className="hover:text-white transition-colors">Register</a></li>
+            <li><Link to="/about" className="hover:text-white transition-colors">About</Link></li>
+            <li><Link to="/schedule" className="hover:text-white transition-colors">Schedule</Link></li>
+            <li><Link to="/speakers" className="hover:text-white transition-colors">Speakers</Link></li>
+            <li><Link to="/register" className="hover:text-white transition-colors">Register</Link></li>
           </ul>
         </div>
 
@@ -29,9 +29,9 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold text-indigo-300 mb-4">Contact Us</h3>
           <ul className="space-y-3 text-base text-gray-300">
-            <li>Email: <a href="mailto:contact@indocrypt2025.org" className="hover:text-white transition-colors">contact@indocrypt2025.org</a></li>
-            <li>Phone: <a href="tel:+911234567890" className="hover:text-white transition-colors">+91 12345 67890</a></li>
-            <li>Location: IIT XYZ, India</li>
+            <li>Email: <a href="mailto:contact@indocrypt2025.org" className="hover:text-white transition-colors">xxxxxxxxxxxxxx</a></li>
+            <li>Phone: <a href="tel:+911234567890" className="hover:text-white transition-colors">xxxxxxxxxxxxx</a></li>
+            <li>Location: IIIT Bhubaneswar, Odisha, India</li>
           </ul>
         </div>
 
@@ -49,7 +49,10 @@ const Footer = () => {
 
       {/* Divider & Copyright */}
       <div className="mt-16 border-t border-slate-600 pt-6 text-center text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} IndoCrypt 2025. All rights reserved.
+        &copy; IndoCrypt 2025. All rights reserved.
+        <div className="mt-2 text-base font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-green-500 to-blue-400 animate-pulse tracking-wide">
+        Maintained with ❤️ By <span className="italic font-bold">Team Canopux</span>
+        </div>
       </div>
     </footer>
   );

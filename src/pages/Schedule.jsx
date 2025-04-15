@@ -42,14 +42,14 @@ const scheduleData = [
 
 const Schedule = () => {
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-[#f0f4ff] to-[#ffffff] py-50 px-6">
+    <div className="w-full min-h-screen bg-gradient-to-b from-[#f0f4ff] to-[#ffffff] pt-10s px-6">
       <motion.h1
         className="text-5xl font-bold text-center text-indigo-700 mb-16"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        🗓️ Conference Schedule
+      Conference Schedule
       </motion.h1>
 
       <div className="flex flex-col md:flex-row justify-between items-start">

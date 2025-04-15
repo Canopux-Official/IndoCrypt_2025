@@ -10,12 +10,14 @@ import Venue from "./components/Venue";
 import AccommodationPage from "./components/AccommodationPage";
 import VisaPage from "./components/VisaPage";
 import PlacesOfInterest from "./components/PlacesOfInterest";
-import CommitteePage from "./components/CommitteePage";
+import ProgramCommitte from "./components/ProgramCommitte";
 import About from "./pages/About";
 import CallForPapers from "./components/CallForPapers"
 import PaperSubmission from "./components/PaperSubmission";
 import AuthorRegistration from "./components/AuthorRegistration";
 import AuthorGuidelines from "./components/AuthorGuidelines";
+import GeneralChairs from "./components/GeneralChairs";
+import OrganizingCommitte from "./components/OrganizingCommitte";
 
 function App() {
   return (
@@ -29,11 +31,23 @@ function App() {
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/speakers" element={<Speaker/>} />
           <Route path="/faq" element={<FAQ />} />
+
+
+          {/* travel section */}
           <Route path="/venue" element={<Venue />} />
           <Route path="/accommodation" element={<AccommodationPage />} />
           <Route path="/visa" element={<VisaPage />} />
           <Route path="/places-of-interest" element={<PlacesOfInterest />} />
-          <Route path="/committee" element={<CommitteePage />} />
+
+
+          {/* committe section */}
+          <Route path="/program-committe" element={<ProgramCommitte />} />
+          <Route path="/general-chairs" element={<GeneralChairs />} />
+          <Route path="/organizing-committe" element={<OrganizingCommitte />} />
+          
+
+
+
           <Route path="/about" element={<About />} />
           <Route path="/call-for-papers" element={<CallForPapers />} />
           <Route path="/paper-submission" element={<PaperSubmission />} />

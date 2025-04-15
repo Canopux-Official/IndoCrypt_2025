@@ -9,7 +9,7 @@ const CommitteePage = () => {
   return (
     <div className="bg-white py-12 px-4 md:px-10">
       <h1 className="text-4xl font-bold text-center text-blue-800 mb-12">
-        IndoCrypt 2025 Committee
+        Program Committees
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
