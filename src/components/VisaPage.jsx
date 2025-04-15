@@ -1,6 +1,6 @@
-import { ChevronDown } from "lucide-react";
+
 import { useState } from "react";
-import visa from '../assets/visa Details.pdf'
+import visa from '../assets/visa-Details.pdf'
 
 const faqs = [
     {
