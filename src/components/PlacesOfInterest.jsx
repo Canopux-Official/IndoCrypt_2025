@@ -17,10 +17,10 @@ import konark1 from '../assets/Places of Interest/konark 1.jpg'; // can be same 
 import konark2 from '../assets/Places of Interest/konark 2.jpg'; // can be same if duplicate
 import konark3 from '../assets/Places of Interest/konark 3.jpg'; // can be same if duplicate
 import konark4 from '../assets/Places of Interest/konark 4.webp'; // can be same if duplicate
-import lingaraj1 from '../assets/Places of Interest/lingaraj 1.jpg'; // can be same if duplicate
-import lingaraj2 from '../assets/Places of Interest/lingaraj 2.jpg'; // can be same if duplicate
+import lingaraj1 from '../assets/Places of Interest/Lingaraj 1.jpg'; // can be same if duplicate
+import lingaraj2 from '../assets/Places of Interest/Lingaraj 2.jpg'; // can be same if duplicate
 import lingaraj3 from '../assets/Places of Interest/lingaraj 3.jpg'; // can be same if duplicate
-import lingaraj4 from '../assets/Places of Interest/lingaraj 4.jpg'; // can be same if duplicate 
+import lingaraj4 from '../assets/Places of Interest/Lingaraj 4.jpg'; // can be same if duplicate 
 import uday1 from '../assets/Places of Interest/Udayagiri 1.jpeg'; // can be same if duplicate
 import uday2 from '../assets/Places of Interest/Udayagiri 2.jpeg'; // can be same if duplicate
 import uday3 from '../assets/Places of Interest/Udayagiri 3.webp'; // can be same if duplicate
