@@ -12,6 +12,10 @@ import VisaPage from "./components/VisaPage";
 import PlacesOfInterest from "./components/PlacesOfInterest";
 import CommitteePage from "./components/CommitteePage";
 import About from "./pages/About";
+import CallForPapers from "./components/CallForPapers"
+import PaperSubmission from "./components/PaperSubmission";
+import AuthorRegistration from "./components/AuthorRegistration";
+import AuthorGuidelines from "./components/AuthorGuidelines";
 
 function App() {
   return (
@@ -31,6 +35,10 @@ function App() {
           <Route path="/places-of-interest" element={<PlacesOfInterest />} />
           <Route path="/committee" element={<CommitteePage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/call-for-papers" element={<CallForPapers />} />
+          <Route path="/paper-submission" element={<PaperSubmission />} />
+          <Route path="/registration" element={<AuthorRegistration />} />
+          <Route path="/guidelines" element={<AuthorGuidelines />} />
         </Routes>
         <Footer />
       </Router>

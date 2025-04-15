@@ -24,13 +24,13 @@ const HeroSection = () => {
           Indocrypt 2025
         </h1>
         <p className="text-lg md:text-2xl mb-4 max-w-3xl">
-          India’s Premier Conference on Cryptography & Information Security
+          India's Premier Conference on Cryptography & Information Security
         </p>
         
         <div className="text-sm md:text-lg font-medium mb-8 flex flex-wrap justify-center gap-4">
           <span className="text-cyan-300 drop-shadow-md animate-pulse">📍 IIIT Bhubaneswar</span>
           <span className="text-white">•</span>
-          <span className="text-yellow-300 drop-shadow-md">📅 December 10 - 13, 2025</span>
+          <span className="text-yellow-300 drop-shadow-md">📅 December 14 - 17, 2025</span>
         </div>
 
         <div className="flex gap-4">

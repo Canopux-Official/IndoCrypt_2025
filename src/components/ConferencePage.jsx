@@ -55,25 +55,16 @@ const ConferencePage = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Conference Schedule
+          Important Dates
         </motion.h2>
         <div className="flex justify-center gap-12">
-          {/* Morning Schedule */}
-          <div className="w-1/3 text-left bg-white text-black rounded-lg shadow-xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-            <h3 className="text-2xl font-semibold mb-4">Morning Session</h3>
+          <div className="w-2/3 text-left bg-white text-black rounded-lg shadow-xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+            <h3 className="text-2xl font-semibold mb-4">All deadlines correspond to 23:59:59 anywhere on Earth (UTC-12).</h3>
             <ul className="space-y-4">
-              <li>9:00 AM - Opening Keynote: Cryptography and Future Threats</li>
-              <li>10:30 AM - Blockchain & Cryptography: Securing Digital Assets</li>
-              <li>12:00 PM - Networking & Coffee Break</li>
-            </ul>
-          </div>
-          {/* Afternoon Schedule */}
-          <div className="w-1/3 text-left bg-white text-black rounded-lg shadow-xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-            <h3 className="text-2xl font-semibold mb-4">Afternoon Session</h3>
-            <ul className="space-y-4">
-              <li>1:00 PM - Advanced Cryptography in Real-World Applications</li>
-              <li>3:00 PM - AI & Cryptography: Evolving Security Models</li>
-              <li>4:30 PM - Closing Remarks & Networking</li>
+              <li> September 1, 2025 -Paper submission deadline</li>
+              <li>October 10, 2025 - Notification to authors</li>
+              <li>October 15, 2025 - Final manuscripts due </li>
+              <li>December 14-17, 2025 - Dates of the conference </li>
             </ul>
           </div>
         </div>
@@ -87,25 +78,25 @@ const ConferencePage = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Topics Covered
+          Topics to be Covered
         </motion.h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Topics */}
           <div className="bg-indigo-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
-            <h3 className="text-xl font-semibold mb-4">Cryptography Fundamentals</h3>
-            <p>Learn the foundational principles and algorithms that power cryptographic systems.</p>
+            <h3 className="text-xl font-semibold mb-4">To be Updated</h3>
+            {/* <p>Learn the foundational principles and algorithms that power cryptographic systems.</p> */}
           </div>
           <div className="bg-indigo-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
-            <h3 className="text-xl font-semibold mb-4">Blockchain Security</h3>
-            <p>How cryptography secures blockchain networks and digital assets.</p>
+            <h3 className="text-xl font-semibold mb-4">To be Updated</h3>
+            {/* <p>How cryptography secures blockchain networks and digital assets.</p> */}
           </div>
           <div className="bg-indigo-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
-            <h3 className="text-xl font-semibold mb-4">Quantum Cryptography</h3>
-            <p>The impact of quantum computing on current encryption techniques and future prospects.</p>
+            <h3 className="text-xl font-semibold mb-4">To be Updated</h3>
+            {/* <p>The impact of quantum computing on current encryption techniques and future prospects.</p> */}
           </div>
           <div className="bg-indigo-50 p-8 rounded-lg shadow-lg hover:scale-105 transform transition duration-300 hover:shadow-xl">
-            <h3 className="text-xl font-semibold mb-4">AI in Cryptography</h3>
-            <p>How artificial intelligence is shaping the future of cryptographic algorithms and security.</p>
+            <h3 className="text-xl font-semibold mb-4">To be Updated</h3>
+            {/* <p>How artificial intelligence is shaping the future of cryptographic algorithms and security.</p> */}
           </div>
         </div>
       </section>
@@ -144,11 +135,11 @@ const ConferencePage = () => {
             Platinum Sponsors
           </h3>
           <Marquee gradient={false} speed={50} className="py-2">
-            <img src={drdo} alt="Platinum 1" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
+            {/* <img src={drdo} alt="Platinum 1" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
             <img src={exnetwork} alt="Platinum 2" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
             <img src={nbhm} alt="Platinum 3" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
             <img src={odyssey} alt="Platinum 4" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <img src={thales} alt="Platinum 5" className="h-40 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
+            <img src={thales} alt="Platinum 5" className="h-40 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" /> */}
           </Marquee>
         </div>
 
@@ -157,7 +148,7 @@ const ConferencePage = () => {
           <h3 className="text-3xl sm:text-4xl font-semibold mb-6 text-center text-white">
             Gold Sponsors
           </h3>
-          <img src={bharat} alt="Gold 1" className="h-32 m-auto text-center w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
+          {/* <img src={bharat} alt="Gold 1" className="h-32 m-auto text-center w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" /> */}
         </div>
 
         {/* Silver Sponsors */}
@@ -166,7 +157,7 @@ const ConferencePage = () => {
             Silver Sponsors
           </h3>
           <Marquee gradient={false} speed={40} className="py-2">
-            <div >
+            {/* <div >
               <img src={elmack} alt="Silver 1" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300 " />
             </div>
             <div>
@@ -189,7 +180,7 @@ const ConferencePage = () => {
             </div>
             <div>
               <img src={zoho} alt="Silver 8" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div>
+            </div> */}
 
 
 

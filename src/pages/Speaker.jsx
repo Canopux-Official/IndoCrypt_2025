@@ -181,15 +181,15 @@ const Speaker = () => {
           <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
             <div className="flex items-center">
               <Calendar className="text-purple-600 mr-3" size={24} />
-              <span className="text-xl text-gray-700">April 15-17, 2025</span>
+              <span className="text-xl text-gray-700">To be Updated</span>
             </div>
             <div className="flex items-center">
               <MapPin className="text-purple-600 mr-3" size={24} />
-              <span className="text-xl text-gray-700">IIT Bombay, Mumbai</span>
+              <span className="text-xl text-gray-700">To be Updated</span>
             </div>
             <div className="flex items-center">
               <Users className="text-purple-600 mr-3" size={24} />
-              <span className="text-xl text-gray-700">300+ Attendees</span>
+              <span className="text-xl text-gray-700">To be Updated</span>
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@ const Speaker = () => {
                 <div className="flex justify-center pt-10 pb-6 bg-purple-100">
                   <div className="w-48 h-56 overflow-hidden rounded-lg shadow-md">
                     <img 
-                      src={speaker.image} 
+                      // src={speaker.image} 
                       alt={speaker.name} 
                       className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
                     />
@@ -239,17 +239,17 @@ const Speaker = () => {
                   
                   <div className="mb-6">
                     <h4 className="font-semibold text-purple-700 text-lg mb-1">Title of the talk:</h4>
-                    <p className="text-gray-800 text-lg">{speaker.title}</p>
+                    {/* <p className="text-gray-800 text-lg">{speaker.title}</p> */}
                   </div>
                   
                   <div>
                     <h4 className="font-semibold text-purple-700 text-lg mb-1">Brief Bio:</h4>
-                    <p className="text-gray-600 text-base">{speaker.bio}</p>
+                    {/* <p className="text-gray-600 text-base">{speaker.bio}</p> */}
                   </div>
                 </div>
                 
                 {/* Button container with proper positioning */}
-                <div className="px-8 pb-8 pt-2">
+                {/* <div className="px-8 pb-8 pt-2">
                   <button 
                     onClick={() => openModal(speaker)}
                     className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-md shadow-md hover:shadow-lg transition-all duration-300 text-sm flex items-center"
@@ -259,7 +259,7 @@ const Speaker = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </button>
-                </div>
+                </div> */}
               </motion.div>
             ))}
           </div>

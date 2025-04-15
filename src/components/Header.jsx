@@ -175,7 +175,7 @@ const Header = () => {
     seconds: 0
   });
 
-  const conferenceDate = new Date('December 8, 2025 00:00:00');
+  const conferenceDate = new Date('December 14, 2025 00:00:00');
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -283,7 +283,7 @@ const Header = () => {
       {/* Sticky Navbar Section - Only this part is sticky now */}
       <div className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-white/20 shadow-sm">
         <Marquee gradient={false} speed={50} className="bg-blue-500 text-white py-2 text-sm font-medium shadow-inner">
-          🎉 Early Bird Registration ends May 30! &nbsp;&nbsp;&nbsp; 📢 Call for Papers open now! &nbsp;&nbsp;&nbsp; 🎓 Keynote by Dr. Alice Cryptman!
+          🎉 To be updated &nbsp;&nbsp;&nbsp; 📢 To be updated &nbsp;&nbsp;&nbsp; 🎓 To be updated
         </Marquee>
 
         <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between py-2">
