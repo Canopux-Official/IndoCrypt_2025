@@ -5,36 +5,36 @@ import Countdown from "../components/Countdown";
 
 const scheduleData = [
   {
-    day: "Day 1 - April 20, 2025",
+    day: "Day",
     sessions: [
       {
-        time: "10:00 AM - 11:00 AM",
-        topic: "Quantum Cryptography: The Future of Secure Communication",
-        speaker: "Dr. Alice Kumar",
-        venue: "Main Hall A",
+        time: "time",
+        topic: "Topics",
+        speaker: "Speaker",
+        venue: "Venue",
       },
       {
-        time: "11:30 AM - 12:30 PM",
-        topic: "Breaking RSA: A Theoretical Approach",
-        speaker: "Prof. Bob Verma",
-        venue: "Main Hall A",
+        time: "time",
+        topic: "Topics",
+        speaker: "Speaker",
+        venue: "Venue",
       },
     ],
   },
   {
-    day: "Day 2 - April 21, 2025",
+    day: "Day",
     sessions: [
       {
-        time: "09:30 AM - 10:30 AM",
-        topic: "Blockchain and Cryptographic Hash Functions",
-        speaker: "Ms. Carol Singh",
-        venue: "Hall B",
+        time: "time",
+        topic: "Topics",
+        speaker: "Speaker",
+        venue: "Venue",
       },
       {
-        time: "11:00 AM - 12:00 PM",
-        topic: "Post-Quantum Cryptography: Standards and Strategies",
-        speaker: "Dr. David Mathew",
-        venue: "Hall B",
+        time: "time",
+        topic: "Topics",
+        speaker: "Speaker",
+        venue: "Venue",
       },
     ],
   },
@@ -42,7 +42,7 @@ const scheduleData = [
 
 const Schedule = () => {
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-[#f0f4ff] to-[#ffffff] pt-10s px-6">
+    <div className="w-full pt-20 bg-gradient-to-b from-[#f0f4ff] to-[#ffffff] pt-10s px-6">
       <motion.h1
         className="text-5xl font-bold text-center text-indigo-700 mb-16"
         initial={{ opacity: 0, y: -50 }}
@@ -63,7 +63,7 @@ const Schedule = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
               Countdown to Event
             </h3>
-            <Countdown eventDate="2025-04-20T10:00:00" />
+            <Countdown eventDate="December 14, 2025 00:00:00" />
           </div>
 
           <div className="mb-11">
@@ -73,21 +73,18 @@ const Schedule = () => {
             <div className="accordion space-y-4">
               <div className="accordion-item">
                 <h4 className="accordion-header text-lg font-medium text-indigo-700">
-                  What is the main theme of the event?
+                  Question 1
                 </h4>
                 <p className="accordion-body text-sm text-gray-600">
-                  The conference will focus on advanced topics in cryptography,
-                  including quantum cryptography and post-quantum security
-                  measures.
+                  To Be Updated
                 </p>
               </div>
               <div className="accordion-item">
                 <h4 className="accordion-header text-lg font-medium text-indigo-700">
-                  Where is the event taking place?
+                  Question 2
                 </h4>
                 <p className="accordion-body text-sm text-gray-600">
-                  The event will take place at the Grand Convention Center, Main
-                  Hall and additional breakout rooms.
+                To Be Updated
                 </p>
               </div>
             </div>

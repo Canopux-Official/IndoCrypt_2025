@@ -41,7 +41,7 @@ const Header = () => {
   const navLinks = [
     { name: 'Home', to: '/' },
     {
-      name: 'Committe',
+      name: 'Committees',
       children: [
         { name: 'Program Committe', to: '/program-committe' },
         { name: 'General Chairs', to: '/general-chairs' },

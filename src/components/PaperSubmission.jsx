@@ -1,24 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const PaperSubmission = () => {
-  const [formData, setFormData] = useState({
-    title: '',
-    abstract: '',
-    keywords: '',
-    authorName: '',
-    authorEmail: '',
-    authorAffiliation: '',
-    file: null,
-    supportingMaterial: null,
-    termsAccepted: false,
-  });
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(formData);
-    // Handle submission logic here
-  };
-
   return (
     <div className="max-w-5xl mx-auto py-12 px-6">
       <div className="text-center mb-12">
@@ -46,96 +28,27 @@ const PaperSubmission = () => {
           </ul>
           <p className="mt-4 text-gray-600 text-md">
             Download templates: {' '}
-            <a href="/latex-template" className="text-blue-600 underline hover:text-blue-800">LaTeX</a> or {' '}
-            <a href="/word-template" className="text-blue-600 underline hover:text-blue-800">Word</a>.
+            {/* <a href="/latex-template" className="text-blue-600 underline hover:text-blue-800">LaTeX</a> or {' '}
+            <a href="/word-template" className="text-blue-600 underline hover:text-blue-800">Word</a>. */}
+            <a className="text-lg text-gray-700 font-medium mt-6">
+              Updated Soon.
+            </a>
           </p>
         </section>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
-          {[
-            { id: 'title', label: 'Paper Title', type: 'text', required: true },
-            { id: 'abstract', label: 'Abstract', type: 'textarea', required: true },
-            { id: 'keywords', label: 'Keywords', type: 'text', required: true },
-            { id: 'authorName', label: 'Author Name (optional)', type: 'text' },
-            { id: 'authorEmail', label: 'Author Email', type: 'email', required: true },
-            { id: 'authorAffiliation', label: 'Author Affiliation', type: 'text', required: true },
-          ].map(({ id, label, type, required }) => (
-            <div key={id}>
-              <label htmlFor={id} className="block text-md font-medium text-gray-800 mb-1">
-                {label} {required && <span className="text-red-500">*</span>}
-              </label>
-              {type === 'textarea' ? (
-                <textarea
-                  id={id}
-                  rows="4"
-                  className="w-full p-4 text-md border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
-                  value={formData[id]}
-                  onChange={(e) => setFormData({ ...formData, [id]: e.target.value })}
-                  required={required}
-                ></textarea>
-              ) : (
-                <input
-                  type={type}
-                  id={id}
-                  className="w-full p-4 text-md border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
-                  value={formData[id]}
-                  onChange={(e) => setFormData({ ...formData, [id]: e.target.value })}
-                  required={required}
-                />
-              )}
-            </div>
-          ))}
-
-          <div>
-            <label className="block text-md font-medium text-gray-800 mb-1" htmlFor="file">
-              Upload Paper (PDF) <span className="text-red-500">*</span>
-            </label>
-            <input
-              type="file"
-              id="file"
-              accept=".pdf"
-              onChange={(e) => setFormData({ ...formData, file: e.target.files[0] })}
-              required
-              className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
-            />
+        <section className="text-center">
+          <p className="text-lg text-gray-700 font-medium mt-6">
+            🛠️ The submission link will be updated soon.
+          </p>
+          <p className="text-md text-gray-500 mt-2">
+            Please follow the guidelines above and prepare your paper accordingly. Check back later for the official submission portal.
+          </p>
+          <div className="mt-6">
+            <span className="inline-block px-6 py-3 bg-indigo-100 text-indigo-800 font-semibold rounded-md">
+              📤 Submission link coming soon!
+            </span>
           </div>
-
-          <div>
-            <label className="block text-md font-medium text-gray-800 mb-1" htmlFor="supportingMaterial">
-              Additional Supporting Material (Optional)
-            </label>
-            <input
-              type="file"
-              id="supportingMaterial"
-              onChange={(e) => setFormData({ ...formData, supportingMaterial: e.target.files[0] })}
-              className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
-
-          <div className="flex items-start space-x-3">
-            <input
-              type="checkbox"
-              id="termsAccepted"
-              checked={formData.termsAccepted}
-              onChange={(e) => setFormData({ ...formData, termsAccepted: e.target.checked })}
-              required
-              className="h-5 w-5 mt-1 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
-            />
-            <label htmlFor="termsAccepted" className="text-md text-gray-600">
-              I accept the{' '}
-              <a href="/terms-and-conditions" className="text-blue-600 hover:underline">
-                Terms and Conditions
-              </a>
-            </label>
-          </div>
-
-          <button
-            type="submit"
-            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 rounded-md text-lg font-semibold hover:opacity-90 transition"
-          >
-            🚀 Submit Paper
-          </button>
-        </form>
+        </section>
       </div>
     </div>
   );

@@ -76,12 +76,12 @@ const Contact = () => {
 
                     <div className="flex items-center gap-4 mb-4">
                         <Mail className="text-indigo-600" size={24} />
-                        <p className="text-gray-800 text-base font-medium">contact@indocrypt2025.org</p>
+                        <p className="text-gray-800 text-base font-medium">xxxxxxxxxxxxx@org</p>
                     </div>
 
                     <div className="flex items-center gap-4">
                         <Phone className="text-indigo-600" size={24} />
-                        <p className="text-gray-800 text-base font-medium">+91 98765 43210</p>
+                        <p className="text-gray-800 text-base font-medium">xxxxxxxxxxx</p>
                     </div>
                 </div>
             </motion.div>

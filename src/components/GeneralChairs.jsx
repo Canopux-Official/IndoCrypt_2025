@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import committeeData from "../assets/committe.json";
 import user from '../assets/user.png';
 
-const CommitteePage = () => {
+const GeneralChairs = () => {
     // console.log(committeeData); // Check the structure of committeeData
     //   const [data, setData] = useState(committeeData);
 
@@ -73,4 +73,4 @@ const CommitteePage = () => {
     );
 };
 
-export default CommitteePage;
+export default GeneralChairs;

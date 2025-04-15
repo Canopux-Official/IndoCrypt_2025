@@ -49,7 +49,7 @@ export default function AccommodationPage() {
   return (
     <section className="p-6 md:p-12 font-sans bg-gradient-to-b from-blue-50 to-white min-h-screen">
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-blue-800">
-        Accommodation Options
+        Accommodation
       </h2>
 
       <div className="grid gap-8 md:grid-cols-3">

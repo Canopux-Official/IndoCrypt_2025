@@ -18,6 +18,11 @@ import AuthorRegistration from "./components/AuthorRegistration";
 import AuthorGuidelines from "./components/AuthorGuidelines";
 import GeneralChairs from "./components/GeneralChairs";
 import OrganizingCommitte from "./components/OrganizingCommitte";
+import AdvisoryCommitte from "./components/AdvisoryCommitte";
+import RegisterPage from "./components/RegisterPage";
+import Program from "./components/Program";
+import PastIndocrypt from "./components/PastIndocrypt";
+import Partners from "./components/Partners";
 
 function App() {
   return (
@@ -26,11 +31,18 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<Contact />} />
+          
+
+          {/* schedule section */}
           <Route path="/schedule" element={<Schedule />} />
-          <Route path="/schedule" element={<Schedule />} />
+
+
+          {/* speakers section */}
           <Route path="/speakers" element={<Speaker/>} />
-          <Route path="/faq" element={<FAQ />} />
+
+
+          <Route path="/register-page" element={<RegisterPage/>} />
+          
 
 
           {/* travel section */}
@@ -44,15 +56,28 @@ function App() {
           <Route path="/program-committe" element={<ProgramCommitte />} />
           <Route path="/general-chairs" element={<GeneralChairs />} />
           <Route path="/organizing-committe" element={<OrganizingCommitte />} />
+          <Route path="/advisory-committe" element={<AdvisoryCommitte />} />
           
 
-
-
+          {/* general section */}
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/partners" element={<Partners />} />
+
+
+          {/* Authors*/}
           <Route path="/call-for-papers" element={<CallForPapers />} />
           <Route path="/paper-submission" element={<PaperSubmission />} />
           <Route path="/registration" element={<AuthorRegistration />} />
-          <Route path="/guidelines" element={<AuthorGuidelines />} />
+          <Route path="/guidelines" element={<AuthorGuidelines />} /> 
+
+
+          {/* program page */}
+          <Route path="/program" element={<Program />} /> 
+          <Route path="/past-indocrypt" element={<PastIndocrypt />} /> 
+          
+
         </Routes>
         <Footer />
       </Router>

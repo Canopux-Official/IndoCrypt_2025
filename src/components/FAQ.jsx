@@ -4,34 +4,34 @@ import { div } from "framer-motion/client";
 
 const faqs = [
     {
-        question: "What is IndoCrypt 2025?",
+        question: "Question 1",
         answer:
-            "IndoCrypt 2025 is the International Conference on Cryptology in India, focused on the latest advancements in cryptographic research and applications.",
+            "To Be Updated",
     },
     {
-        question: "When and where will IndoCrypt 2025 be held?",
+        question: "Question 2",
         answer:
-            "IndoCrypt 2025 will take place from December 8–10, 2025, at IIIT Bhubaneswar, Odisha, India.",
+            "To Be Updated",
     },
     {
-        question: "Who should attend the conference?",
+        question: "Question 3",
         answer:
-            "Researchers, academicians, students, professionals, and anyone interested in cryptography, cybersecurity, and related fields are encouraged to attend.",
+            "To Be Updated",
     },
     {
-        question: "How can I submit a paper?",
+        question: "Question 4",
         answer:
-            "You can submit your paper through the 'Paper Submission' section on the official website. Ensure your submission follows the provided guidelines and deadlines.",
+            "To Be Updated",
     },
     {
-        question: "Are there travel grants for students?",
+        question: "Question 5",
         answer:
-            "Yes, limited travel grants are available for students. Please check the 'Travel Grant' section for eligibility and application process.",
+            "To Be Updated",
     },
     {
-        question: "Will I get a certificate of participation?",
+        question: "Question 6",
         answer:
-            "Yes, all registered participants will receive a certificate of participation after the conference.",
+            "To Be Updated",
     },
 ];
 
@@ -43,7 +43,7 @@ const FAQ = () => {
     };
 
     return (
-        <div style={{ width: "100vw" }} className='relative pt-20 pb-20 px-4 md:px-12 bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen'>
+        <div style={{ width: "100vw" }} className='relative pt-20 px-2 md:px-12 bg-gradient-to-br from-blue-50 to-indigo-50 min-h-screen'>
             <section className="w-full min-h-screen pb-20 px-6 font-sans">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-6">

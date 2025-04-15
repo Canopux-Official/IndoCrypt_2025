@@ -1,7 +1,18 @@
 import { motion } from 'framer-motion';
 import background from "../assets/background.png";
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
+
+  const navigate=useNavigate()
+  const handleRegister = () => {
+    navigate("/register-page")
+  }
+
+  const handleSchedule = () => {
+    navigate("/schedule")
+  }
+
   return (
     <div
       className="relative w-screen bg-cover bg-center mt-3"
@@ -34,10 +45,10 @@ const HeroSection = () => {
         </div>
 
         <div className="flex gap-4">
-          <button className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-2xl shadow-lg transition duration-300">
+          <button onClick={handleRegister} className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-2xl shadow-lg transition duration-300">
             Register Now
           </button>
-          <button className="px-6 py-3 border border-white rounded-2xl hover:bg-white hover:text-black transition duration-300">
+          <button onClick={handleSchedule} className="px-6 py-3 border border-white rounded-2xl hover:bg-white hover:text-black transition duration-300">
             View Schedule
           </button>
         </div>

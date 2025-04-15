@@ -24,9 +24,10 @@ const Venue = () => {
                 <section>
                     <h2 className="text-3xl font-semibold mb-4">IIIT Bhubaneswar</h2>
                     <p className="text-gray-700 text-lg leading-relaxed">
-                        The IndoCrypt 2025 conference will take place at the Indian Institute of Information Technology (IIIT) Bhubaneswar, a prestigious academic institution located in the heart of Odisha’s capital. Known for its peaceful, green campus and strong focus on research and innovation, IIIT Bhubaneswar is an ideal setting for academic collaboration and cutting-edge discussion in the field of cryptography.
+                    International Institute of Information Technology Bhubaneswar (IIIT Bhubaneswar) is a premier institute dedicated to education, research, and innovation in the fields of information technology and allied disciplines. Established in 2006, it operates as a university with a focus on academic excellence, fostering cutting-edge research, and industry collaboration. The institute offers undergraduate, postgraduate, and doctoral programs in Computer Science, Electronics, and related engineering domains. With a modern campus, state-of-the-art laboratories, and a research-driven environment, IIIT Bhubaneswar actively contributes to advancements in artificial intelligence, cybersecurity, communication systems, and more. It is also involved in interdisciplinary research, including geospatial technologies, remote sensing, and cyber-physical systems. The institute maintains strong ties with industry and academia, encouraging innovation through startup initiatives and technical workshops. Strategically located in Bhubaneswar, a growing IT and education hub, IIIT Bhubaneswar plays a vital role in shaping skilled professionals and fostering technological advancements in the region.
                     </p>
                 </section>
+                
 
                 {/* Image Gallery */}
                 <section className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -49,12 +50,12 @@ const Venue = () => {
                             Address
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                            Indian Institute of Information Technology Bhubaneswar, <br />
+                            International Institute of Information Technology Bhubaneswar, <br />
                             Gothapatna, PO: Malipada, Bhubaneswar – 751003, <br />
                             Odisha, India
                         </p>
                         <a
-                            href="https://goo.gl/maps/q9aQatD4jyz"
+                            href="https://www.google.com/maps?q=IIIT+Bhubaneswar"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-600 underline mt-3 inline-block"

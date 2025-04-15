@@ -15,11 +15,24 @@ import tnscst from '../assets/silver_sponsors/tnscst.png'
 import zoho from '../assets/silver_sponsors/zoho.png'
 import bharat from '../assets/gold_sponsors/bharat.png'
 import OrganizerSection from './OrganizerSection';
-
-
-
+import { Link, useNavigate } from 'react-router-dom';
 
 const ConferencePage = () => {
+
+
+  const navigate=useNavigate()
+  const handleRegister = () => {
+    navigate("/register-page")
+  }
+
+  const handleSchedule = () => {
+    navigate("/schedule")
+  }
+
+  const handleLearnMore=()=>{
+    navigate("/about")
+  }
+
   return (
     <div className="font-sans">
 
@@ -38,10 +51,10 @@ const ConferencePage = () => {
           Join us for a deep dive into cryptographic advancements that are shaping the future.
         </p>
         <div className="flex justify-center gap-6">
-          <button className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white text-lg font-semibold rounded-full shadow-md transform transition duration-300 hover:scale-105">
+          <button onClick={handleLearnMore} className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white text-lg font-semibold rounded-full shadow-md transform transition duration-300 hover:scale-105">
             Learn More
           </button>
-          <button className="px-8 py-3 border border-indigo-600 hover:bg-indigo-600 hover:text-white text-indigo-600 text-lg font-semibold rounded-full shadow-md transform transition duration-300 hover:scale-105">
+          <button onClick={handleRegister} className="px-8 py-3 border border-indigo-600 hover:bg-indigo-600 hover:text-white text-indigo-600 text-lg font-semibold rounded-full shadow-md transform transition duration-300 hover:scale-105">
             Register Now
           </button>
         </div>
@@ -114,12 +127,12 @@ const ConferencePage = () => {
         <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto opacity-80">
           Don’t miss your chance to be a part of the most exciting cryptography event in India. Register now for a chance to meet leading experts and learn the future of cryptography.
         </p>
-        <a
-          href="/register"
+        <Link
+          to="/register-page"
           className="px-8 py-4 bg-white text-indigo-600 rounded-full shadow-xl text-xl font-semibold transform transition duration-300 hover:scale-105"
         >
           Register Now
-        </a>
+        </Link>
       </section>
 
 

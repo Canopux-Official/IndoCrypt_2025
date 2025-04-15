@@ -2,14 +2,14 @@ import React, { useState } from "react";
 // import committeeData from "../assets/committe.json";
 import user from '../assets/user.png';
 
-const OrganizingCommitte = () => {
+const AdvisoryCommitte = () => {
     // console.log(committeeData); // Check the structure of committeeData
     //   const [data, setData] = useState(committeeData);
 
     return (
         <div className="bg-white py-12 px-4 md:px-10">
             <h1 className="text-4xl font-bold text-center text-blue-800 mb-12">
-                Organizing Committees
+                Advisory Committees
             </h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -73,4 +73,4 @@ const OrganizingCommitte = () => {
     );
 };
 
-export default OrganizingCommitte;
+export default AdvisoryCommitte;

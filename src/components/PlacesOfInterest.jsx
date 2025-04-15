@@ -78,7 +78,7 @@ const PlacesOfInterest = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-16">
-      <h2 className="text-4xl font-bold text-center mb-12 text-indigo-800">Places of Interest in Bhubaneswar</h2>
+      <h2 className="text-4xl font-bold text-center mb-12 text-indigo-800">Places of Interest</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {placeData.map((place, index) => (
           <div key={index} className="bg-white shadow-lg rounded-2xl overflow-hidden transition hover:shadow-xl">

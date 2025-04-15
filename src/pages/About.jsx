@@ -5,8 +5,20 @@ import IIITBhubaneswarLogo from "../assets/IIIT-Bhubaneswar.webp";
 // import ConferenceBanner from "../assets/images/conference-banner.jpg";
 import CryptoImage from "../assets/crypto-illustration.jpg";
 import TeamworkImage from "../assets/teamwork.jpg";
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+
+
+  const navigate=useNavigate()
+  const handleRegister = () => {
+    navigate("/register-page")
+  }
+
+  const handleSubmitPaper=()=>{
+    navigate("/paper-submission")
+  }
+
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
@@ -320,10 +332,10 @@ const About = () => {
                 Be part of India's premier cryptography conference and connect with leading researchers, industry experts, and fellow enthusiasts. Experience thought-provoking discussions, cutting-edge research presentations, and valuable networking opportunities.
               </p>
               <div className="flex flex-wrap gap-4">
-                <button className="px-6 py-3 bg-white text-purple-700 font-semibold rounded-md hover:bg-purple-100 transition-colors duration-300">
+                <button onClick={handleRegister} className="px-6 py-3 bg-white text-purple-700 font-semibold rounded-md hover:bg-purple-100 transition-colors duration-300">
                   Register Now
                 </button>
-                <button className="px-6 py-3 border-2 border-white text-white font-semibold rounded-md hover:bg-white hover:text-purple-700 transition-colors duration-300">
+                <button onClick={handleSubmitPaper} className="px-6 py-3 border-2 border-white text-white font-semibold rounded-md hover:bg-white hover:text-purple-700 transition-colors duration-300">
                   Submit Paper
                 </button>
               </div>
