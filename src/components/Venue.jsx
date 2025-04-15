@@ -2,6 +2,9 @@ import React from "react";
 import { MapPin } from "lucide-react";
 import { div } from "framer-motion/client";
 import bannerIIIT from '../assets/IIIT-Bhubaneswar.webp';
+import img4 from '../assets/iiit bbsr/img4.jpeg'
+import img2 from '../assets/iiit bbsr/img2.jpg'
+import img3 from '../assets/iiit bbsr/img3.jpeg'
 
 const Venue = () => {
     return (
@@ -31,10 +34,10 @@ const Venue = () => {
 
                 {/* Image Gallery */}
                 <section className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"].map((img, i) => (
+                    {[img4, img2,img3].map((img, i) => (
                         <img
                             key={i}
-                            src={`/images/venue/${img}`}
+                            src={img}
                             alt={`IIIT Bhubaneswar ${i + 1}`}
                             className="rounded-2xl w-full h-60 object-cover shadow-md"
                         />

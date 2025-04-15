@@ -89,7 +89,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-indigo-300 mb-4">
             Connect With Us
           </h3>
-          <div className="flex gap-4 mt-2 text-2xl">
+          {/* <div className="flex gap-4 mt-2 text-2xl">
             <a href="#" className="hover:text-indigo-400 transition-colors">
               <i className="fab fa-twitter"></i>
             </a>
@@ -102,7 +102,7 @@ const Footer = () => {
             <a href="#" className="hover:text-indigo-400 transition-colors">
               <i className="fab fa-instagram"></i>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 
