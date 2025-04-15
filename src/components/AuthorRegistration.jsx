@@ -2,7 +2,7 @@ import React from "react";
 
 const AuthorRegistration = () => {
   return (
-    <div className=" py-10 bg-gradient-to-br from-blue-50 to-purple-100 flex items-center justify-center py-1 px-4">
+    <div className=" py-10 bg-gradient-to-br from-blue-50 to-purple-100 flex items-center justify-center px-4">
       <div className="bg-white shadow-xl rounded-3xl w-full max-w-3xl p-8 md:p-12 text-center">
         <h2 className="text-3xl font-bold text-blue-700 mb-6">
           Author Registration
