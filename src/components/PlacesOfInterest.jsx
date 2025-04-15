@@ -23,8 +23,8 @@ import lingaraj3 from '../assets/Places of Interest/lingaraj 3.jpg'; // can be s
 import lingaraj4 from '../assets/Places of Interest/Lingaraj 4.jpg'; // can be same if duplicate 
 import uday1 from '../assets/Places of Interest/Udayagiri 1.jpeg'; // can be same if duplicate
 import uday2 from '../assets/Places of Interest/Udayagiri 2.jpeg'; // can be same if duplicate
-import uday3 from '../assets/Places of Interest/Udayagiri 3.webp'; // can be same if duplicate
-import uday4 from '../assets/Places of Interest/Udayagiri 4.jpg'; // can be same if duplicate
+import uday3 from '../assets/Places of Interest/udayagiri 3.webp'; // can be same if duplicate
+import uday4 from '../assets/Places of Interest/udayagiri 4.jpg'; // can be same if duplicate
 import n1 from '../assets/Places of Interest/Nandankanan 1.jpg'; // can be same if duplicate
 import n2 from '../assets/Places of Interest/Nandankanan 2.jpg'; // can be same if duplicate
 import n3 from '../assets/Places of Interest/Nandankanan 3.jpeg'; // can be same if duplicate  
