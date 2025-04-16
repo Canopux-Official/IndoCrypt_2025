@@ -78,12 +78,7 @@ const PlacesOfInterest = () => {
       description:
         'The Jagannath Temple in Puri is one of the most sacred pilgrimage sites for Hindus, dedicated to Lord Jagannath, a form of Lord Vishnu. Known for its towering spire and intricate carvings, the temple is a masterpiece of Kalinga architecture. It draws millions of devotees each year, especially during the grand Rath Yatra, when the deities are taken out in massive chariots.',
       mapLink: 'https://www.google.com/maps/place/Shree+Jagannatha+Temple+Puri/@19.8049379,84.6643741,9z/data=!4m10!1m2!2m1!1sjagannath+temple+puri!3m6!1s0x3a19c6b8bfe386af:0x8f052c84639c7d48!8m2!3d19.8049379!4d85.8179386!15sChVqYWdhbm5hdGggdGVtcGxlIHB1cmlaFyIVamFnYW5uYXRoIHRlbXBsZSBwdXJpkgEMaGluZHVfdGVtcGxl4AEA!16zL20vMGN2eDd4?entry=ttu&g_ep=EgoyMDI1MDMzMS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D',
-      gallery: [
-        puriTemple1,
-        puriTemple2,
-        puriTemple3,
-        puriTemple4
-      ]
+      gallery: [puriTemple1, puriTemple2, puriTemple3, puriTemple4]
     },
     {
       name: 'Puri Sea Beach',
@@ -91,12 +86,7 @@ const PlacesOfInterest = () => {
       description:
         'Puri Beach is a popular destination along the eastern coast of India, known for its golden sands and rhythmic waves of the Bay of Bengal. Its a favorite spot for both pilgrims and tourists, offering a peaceful retreat, especially during sunrise and sunset. The beach also hosts cultural festivals and sand art exhibitions that add to its vibrant charm.',
       mapLink: 'https://www.google.com/maps/search/puri+sea+beach/',
-      gallery: [
-        puriBeach1,
-        puriBeach2,
-        puriBeach3,
-        puriBeach4
-      ]
+      gallery: [puriBeach1, puriBeach2, puriBeach3, puriBeach4]
     },
     {
       name: 'Chilika Lake',
@@ -104,9 +94,7 @@ const PlacesOfInterest = () => {
       description:
         'Chilika Lake, located near Puri, is Asia’s largest brackish water lagoon and a haven for nature lovers. It is home to a wide variety of migratory birds, especially during winter, and is one of the few places where you can spot the endangered Irrawaddy dolphins. The lakes scenic beauty and biodiversity make it a must-visit for wildlife enthusiasts and photographers.',
       mapLink: 'https://www.google.com/maps/place/Chilika+Lake/',
-      gallery: [
-        chilika1,chilika2,chilika3,chilika4
-      ]
+      gallery: [chilika1, chilika2, chilika3, chilika4]
     },
     {
       name: 'Konark Sun Temple',
@@ -114,59 +102,47 @@ const PlacesOfInterest = () => {
       description:
         'The Konark Sun Temple, located in Odisha, is a 13th-century architectural marvel built by King Narasimhadeva I of the Eastern Ganga dynasty. Designed in the shape of a colossal chariot dedicated to the Sun God, Surya, it features intricately carved wheels, horses, and sculptures that reflect the brilliance of ancient Indian craftsmanship. Recognized as a UNESCO World Heritage Site, the temple stands as a symbol of Odisha rich cultural heritage and artistic excellence.',
       mapLink: 'https://www.google.com/maps/place/Konark,+Odisha+752111/@19.8918524,86.0906213,19z/data=!4m6!3m5!1s0x3a19ed591ff3c6b5:0x5ae97a04d50af18b!8m2!3d19.8920686!4d86.091184!16zL20vMDZzeG5q?entry=tts&g_ep=EgoyMDI1MDIyNi4xIPu8ASoASAFQAw%3D%3D',
-      gallery: [
-        konark1,konark2,konark3,konark4 
-      ]
+      gallery: [konark1, konark2, konark3, konark4]
     },
     {
       name: 'Lingaraj Temple',
       thumbnail: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmOnY2Co6TaeGhyphenhyphenzTkro9391IDhI0JwkUsn6XlHr_KwyNEXXyl3dM7Ydo9T8SrCtQ1ki0gi5ktZGok-GcSAe6L_0m4fPIm0qMD8faJkZRfdsen03fvQYN_cZEwPDrZb0zbgf6cx6bedOa986UmG_FUoQqxZZ4aXO8o8dKZukZrWvAukCO1JpJIx6zbdO1y/s800/Screenshot_20240916-200822_Maps.jpg',
       description:
-        'One of the oldest and most revered temples in Bhubaneswar, Lingaraj Temple dates back to the 11th century and is dedicated to Lord Shiva. The temple is a stunning example of Kalinga architecture, featuring a towering 180-ft tall shikhara (&amp;shy;spire&amp;shy;), intricately carved walls, and over 50 smaller shrines within the complex. The sacred Bindu Sagar Lake, believed to have holy water from all major rivers of India, lies nearby. Non-Hindus cannot enter but can view the temple from an external platform.',
+        'One of the oldest and most revered temples in Bhubaneswar, Lingaraj Temple dates back to the 11th century and is dedicated to Lord Shiva. The temple is a stunning example of Kalinga architecture, featuring a towering 180-ft tall shikhara (spire), intricately carved walls, and over 50 smaller shrines within the complex. The sacred Bindu Sagar Lake, believed to have holy water from all major rivers of India, lies nearby. Non-Hindus cannot enter but can view the temple from an external platform.',
       mapLink: 'https://maps.app.goo.gl/s2YxuHpGSsb4UEuw8',
-      gallery: [
-        lingaraj1,lingaraj2,lingaraj3,lingaraj4
-      ]
+      gallery: [lingaraj1, lingaraj2, lingaraj3, lingaraj4]
     },
     {
       name: 'Udayagiri and Khandagiri Caves',
       thumbnail: 'https://i0.wp.com/compass.rauias.com/wp-content/uploads/2024/07/image-24.png',
       description:
-        'These rock-cut caves were built during the 2nd century BCE under King Kharavela for Jain monks. Udayagiri (Sunrise Hill) has 18 caves, while Khandagiri has 15, featuring intricate carvings, inscriptions, and meditation chambers. The most famous cave, Rani Gumpha (Queen&rsquo;s Cave), has beautiful sculptures depicting ancient royal life. A trek to the top offers breathtaking views of Bhubaneswar.',
+        'These rock-cut caves were built during the 2nd century BCE under King Kharavela for Jain monks. Udayagiri (Sunrise Hill) has 18 caves, while Khandagiri has 15, featuring intricate carvings, inscriptions, and meditation chambers. The most famous cave, Rani Gumpha (Queen’s Cave), has beautiful sculptures depicting ancient royal life. A trek to the top offers breathtaking views of Bhubaneswar.',
       mapLink: 'https://maps.app.goo.gl/3627PoMugJZgCxCS8',
-      gallery: [
-          uday1,uday2,uday3,uday4
-      ]
+      gallery: [uday1, uday2, uday3, uday4]
     },
     {
       name: 'Nandankanan Zoological Park',
       thumbnail: 'https://orissaguide.com/wp-content/uploads/2024/01/Nandankanan-Zoological-Park-11.jpg',
       description:
-        'Spread over 437 hectares, this wildlife park is home to India&rsquo;s first white tiger safari. Other attractions include a herbivore safari, lion safari, reptile park, and an extensive aviary. The Kanjia Lake inside the park offers boating, and the zoo is known for successful conservation programs of species like gharials, pangolins, and Asiatic lions.',
+        'Spread over 437 hectares, this wildlife park is home to India’s first white tiger safari. Other attractions include a herbivore safari, lion safari, reptile park, and an extensive aviary. The Kanjia Lake inside the park offers boating, and the zoo is known for successful conservation programs of species like gharials, pangolins, and Asiatic lions.',
       mapLink: 'https://maps.app.goo.gl/qJpCYH6E4Qxutyxu6',
-      gallery: [
-        n1,n2,n3,n4
-      ]
+      gallery: [n1, n2, n3, n4]
     },
     {
       name: 'Rajarani Temple',
       thumbnail: 'https://s7ap1.scene7.com/is/image/incredibleindia/rajarani-temple-bhubaneshwar-odisha-2-attr-hero?qlt=82&ts=1727010605038',
       description:
-        'Often called the &quot;Love Temple&quot;, Rajarani Temple (11th century) is unique as it has no presiding deity. Its red and yellow sandstone structure is decorated with detailed sculptures of dancing women, musicians, and celestial beings. The temple&rsquo;s name comes from &quot;Rajarani&quot; stone, a special type of sandstone used in its construction.',
+        'Often called the "Love Temple", Rajarani Temple (11th century) is unique as it has no presiding deity. Its red and yellow sandstone structure is decorated with detailed sculptures of dancing women, musicians, and celestial beings. The temple’s name comes from "Rajarani" stone, a special type of sandstone used in its construction.',
       mapLink: 'https://maps.app.goo.gl/PozEYZT2FpAYw3xC6',
-      gallery: [
-        rt1,rt2,rt3,rt4
-      ]
+      gallery: [rt1, rt2, rt3, rt4]
     },
     {
       name: 'Mukteshwar Temple',
       thumbnail: 'https://bhubaneswartourism.in/images//tourist-places/mukteswara-temple-bhubaneswar/mukteswara-temple-bhubaneswar-india-tourism-history.jpg',
       description:
-        'Built in the 10th century, this temple is a masterpiece of Odisha&rsquo;s temple architecture, often called the &quot;Gem of Kalinga Architecture&quot;. It is famous for its ornate torana (arched gateway), which resembles Buddhist influences. The temple is dedicated to Lord Shiva and is an important pilgrimage site',
+        'Built in the 10th century, this temple is a masterpiece of Odisha’s temple architecture, often called the "Gem of Kalinga Architecture". It is famous for its ornate torana (arched gateway), which resembles Buddhist influences. The temple is dedicated to Lord Shiva and is an important pilgrimage site',
       mapLink: 'https://maps.app.goo.gl/FSKpUSNHrztfPqHx6',
-      gallery: [
-        mt1,mt2,mt3,mt4
-      ]
+      gallery: [mt1, mt2, mt3, mt4]
     },
     {
       name: 'Dhauligiri Shanti Stupa',
@@ -174,52 +150,42 @@ const PlacesOfInterest = () => {
       description:
         'This white Buddhist peace pagoda, built by the Japanese in 1972, marks the site where Emperor Ashoka fought the bloody Kalinga War (261 BCE) and later embraced Buddhism. The hilltop location offers panoramic views of the Daya River, where it is believed the river turned red due to the war. The site features beautiful Buddha statues, inscriptions, and Ashokan edicts carved on rock.',
       mapLink: 'https://maps.app.goo.gl/6K8n9y35PxtKM5e79',
-      gallery: [
-        dg1,dg2,dg3,dg4
-      ]
+      gallery: [dg1, dg2, dg3, dg4]
     },
-    
     {
-        name: 'Odisha State Museum',
-        thumbnail: 'https://d3sftlgbtusmnv.cloudfront.net/blog/wp-content/uploads/2024/10/odisha-state-museum-Cover-840x425.jpg',
-        description:
-          'A paradise for history buffs, this museum showcases a vast collection of ancient manuscripts, palm-leaf inscriptions, stone sculptures, tribal weapons, and rare musical instruments. The highlight is the Pattachitra paintings, a unique Odia art form with intricate detailing. There is also a natural history section with fossils and an impressive collection of rare coins.',
-        mapLink: 'https://maps.app.goo.gl/UAuLDzNsiCLzrwgY7',
-        gallery: [
-          os1,os2,os3,os4
-        ]
-      },
-      {
-        name: 'Ekamra Kanan Botanical Garden',
-        thumbnail: 'https://www.nandankanan.org/images/botanical.jpg',
-        description:
-          'This 500-acre garden is the largest botanical garden in Bhubaneswar, featuring a cactus house, rose garden, and orchid house. It is home to a diverse collection of exotic and medicinal plants, making it an ideal place for nature lovers, photographers, and morning walkers. A large artificial lake within the park adds to its beauty, and paddle boating is available.',
-        mapLink: 'https://maps.app.goo.gl/M7TURaXsTjTM3rnZA',
-        gallery: [
-          bg1,bg2,bg3,bg4
-        ]
-      },
-      {
-        name: 'Deras Dam',
-        thumbnail: 'https://bhubaneswartourism.in/images/places-to-visit/headers/deras-dam-bhubaneswar-tourism-entry-fee-timings-holidays-reviews-header.jpg',
-        description:
-          'Located about 20 km from Bhubaneswar, Deras Dam is a scenic reservoir surrounded by forests. It serves as a picnic and trekking spot, offering serene water views, lush greenery, and a peaceful atmosphere. The area is part of the Chandaka-Dampara Wildlife Sanctuary, home to elephants and other wildlife.',
-        mapLink: 'https://maps.app.goo.gl/bzJmSZVZ9WgYbF9JA',
-        gallery: [
-          Dd1,Dd2,Dd3,Dd4
-        ]
-      },
-      {
-        name: 'Pathani Samanta Planetarium',
-        thumbnail: 'https://thenewshashtag.com/wp-content/uploads/2024/06/Pathani-Samanta-Planetarium.jpg',
-        description:
-          'Named after the great Odia astronomer Pathani Samanta, this planetarium is a hub for astronomy enthusiasts. It offers space shows, interactive exhibits, and a 3D celestial dome where visitors can explore planets, stars, and space phenomena. The center frequently hosts educational workshops and observation programs.',
-        mapLink: 'https://maps.app.goo.gl/e7hFtkWvpu8Q9xfL8',
-        gallery: [
-          p1,p2,p3,p4
-        ]
-      }
+      name: 'Odisha State Museum',
+      thumbnail: 'https://d3sftlgbtusmnv.cloudfront.net/blog/wp-content/uploads/2024/10/odisha-state-museum-Cover-840x425.jpg',
+      description:
+        'A paradise for history buffs, this museum showcases a vast collection of ancient manuscripts, palm-leaf inscriptions, stone sculptures, tribal weapons, and rare musical instruments. The highlight is the Pattachitra paintings, a unique Odia art form with intricate detailing. There is also a natural history section with fossils and an impressive collection of rare coins.',
+      mapLink: 'https://maps.app.goo.gl/UAuLDzNsiCLzrwgY7',
+      gallery: [os1, os2, os3, os4]
+    },
+    {
+      name: 'Ekamra Kanan Botanical Garden',
+      thumbnail: 'https://www.nandankanan.org/images/botanical.jpg',
+      description:
+        'This 500-acre garden is the largest botanical garden in Bhubaneswar, featuring a cactus house, rose garden, and orchid house. It is home to a diverse collection of exotic and medicinal plants, making it an ideal place for nature lovers, photographers, and morning walkers. A large artificial lake within the park adds to its beauty, and paddle boating is available.',
+      mapLink: 'https://maps.app.goo.gl/M7TURaXsTjTM3rnZA',
+      gallery: [bg1, bg2, bg3, bg4]
+    },
+    {
+      name: 'Deras Dam',
+      thumbnail: 'https://bhubaneswartourism.in/images/places-to-visit/headers/deras-dam-bhubaneswar-tourism-entry-fee-timings-holidays-reviews-header.jpg',
+      description:
+        'Located about 20 km from Bhubaneswar, Deras Dam is a scenic reservoir surrounded by forests. It serves as a picnic and trekking spot, offering serene water views, lush greenery, and a peaceful atmosphere. The area is part of the Chandaka-Dampara Wildlife Sanctuary, home to elephants and other wildlife.',
+      mapLink: 'https://maps.app.goo.gl/bzJmSZVZ9WgYbF9JA',
+      gallery: [Dd1, Dd2, Dd3, Dd4]
+    },
+    {
+      name: 'Pathani Samanta Planetarium',
+      thumbnail: 'https://thenewshashtag.com/wp-content/uploads/2024/06/Pathani-Samanta-Planetarium.jpg',
+      description:
+        'Named after the great Odia astronomer Pathani Samanta, this planetarium is a hub for astronomy enthusiasts. It offers space shows, interactive exhibits, and a 3D celestial dome where visitors can explore planets, stars, and space phenomena. The center frequently hosts educational workshops and observation programs.',
+      mapLink: 'https://maps.app.goo.gl/e7hFtkWvpu8Q9xfL8',
+      gallery: [p1, p2, p3, p4]
+    }
   ];
+  
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-16">
