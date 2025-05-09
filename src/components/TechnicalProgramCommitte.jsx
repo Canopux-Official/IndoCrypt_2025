@@ -23,20 +23,6 @@ const TechnicalProgramCommitte = () => {
                         className="w-14 h-14 rounded-full object-cover border border-gray-300"
                     />
                     <div>
-                        <p className="font-semibold text-gray-800">Sanjit Chatterjee</p>
-                        <p className="text-sm text-gray-600">IISc Bangalore</p>
-                    </div>
-                </div>
-
-                {/* <div
-                    className="flex items-center gap-4 bg-gray-50 hover:bg-gray-100 transition p-3 rounded-lg shadow-sm"
-                >
-                    <img
-                        src={user}
-                        alt=""
-                        className="w-14 h-14 rounded-full object-cover border border-gray-300"
-                    />
-                    <div>
                         <p className="font-semibold text-gray-800">To Be Updated</p>
                         <p className="text-sm text-gray-600">To Be Updated</p>
                     </div>
@@ -68,7 +54,21 @@ const TechnicalProgramCommitte = () => {
                         <p className="font-semibold text-gray-800">To Be Updated</p>
                         <p className="text-sm text-gray-600">To Be Updated</p>
                     </div>
-                </div> */}
+                </div>
+
+                <div
+                    className="flex items-center gap-4 bg-gray-50 hover:bg-gray-100 transition p-3 rounded-lg shadow-sm"
+                >
+                    <img
+                        src={user}
+                        alt=""
+                        className="w-14 h-14 rounded-full object-cover border border-gray-300"
+                    />
+                    <div>
+                        <p className="font-semibold text-gray-800">To Be Updated</p>
+                        <p className="text-sm text-gray-600">To Be Updated</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
