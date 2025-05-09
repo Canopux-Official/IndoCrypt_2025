@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import committeeData from "../assets/committe.json";
+import committeeData from "../assets/jsonFile/committe.json";
 import user from '../assets/user.png';
 
 const CommitteePage = () => {

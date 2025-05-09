@@ -23,6 +23,7 @@ import RegisterPage from "./components/RegisterPage";
 import Program from "./components/Program";
 import PastIndocrypt from "./components/PastIndocrypt";
 import Partners from "./components/Partners";
+import TechnicalProgramCommitte from "./components/TechnicalProgramCommitte";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
           <Route path="/general-chairs" element={<GeneralChairs />} />
           <Route path="/organizing-committe" element={<OrganizingCommitte />} />
           <Route path="/advisory-committe" element={<AdvisoryCommitte />} />
+          <Route path="/technical-committe" element={<TechnicalProgramCommitte />} />
           
 
           {/* general section */}

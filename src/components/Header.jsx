@@ -47,6 +47,7 @@ const Header = () => {
         { name: 'General Chairs', to: '/general-chairs' },
         { name: 'Organizing Committe', to: '/organizing-committe' },
         { name: 'Advisory Committe', to: '/advisory-committe' },
+        { name: 'Technical Committe', to: '/technical-committe' },
       ]
     },
     {
