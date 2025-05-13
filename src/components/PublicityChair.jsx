@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import advisoryData from '../assets/jsonFile/advisoryCommitee.json'
+import publicityData from '../assets/jsonFile/publicityChair.json'
 import user from '../assets/user.png';
 
-const AdvisoryCommitte = () => {
-    const [data] = useState(advisoryData);
+const PublicityChair = () => {
+    const [data] = useState(publicityData);
 
     const chairs = data.filter(member => member.type === "chair");
     const members = data.filter(member => member.type === "member");
@@ -33,13 +33,13 @@ const AdvisoryCommitte = () => {
     return (
         <div className="bg-white py-12 px-4 md:px-10">
             <h1 className="text-4xl font-bold text-center text-blue-800 mb-12">
-                Advisory Committees
+                Publicity Chairs
             </h1>
 
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Advisory Committee Members</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Publicity Chair Members</h2>
             {renderMembers(members)}
         </div>
     );
 };
 
-export default AdvisoryCommitte;
+export default PublicityChair;

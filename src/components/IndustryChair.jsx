@@ -1,10 +1,9 @@
-
-import React, { useState } from "react";
-import technicalCommitteData from '../assets/jsonFile/techinicalCommitte.json'
+import React, { useState } from 'react'
+import industrychairData from '../assets/jsonFile/industryChair.json'
 import user from '../assets/user.png';
 
-const TechnicalProgramCommitte = () => {
-    const [data] = useState(technicalCommitteData);
+const IndustryChair = () => {
+    const [data] = useState(industrychairData);
 
     const chairs = data.filter(member => member.type === "chair");
     const members = data.filter(member => member.type === "member");
@@ -29,18 +28,16 @@ const TechnicalProgramCommitte = () => {
             ))}
         </div>
     );
-
     return (
         <div className="bg-white py-12 px-4 md:px-10">
             <h1 className="text-4xl font-bold text-center text-blue-800 mb-12">
-                Technical Committees
+                Industry Chairs
             </h1>
 
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Technical Committee Members</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Industry Chair Members</h2>
             {renderMembers(members)}
         </div>
-    );
-};
+    )
+}
 
-export default TechnicalProgramCommitte;
-
+export default IndustryChair

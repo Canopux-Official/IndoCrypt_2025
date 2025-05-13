@@ -24,6 +24,9 @@ import Program from "./components/Program";
 import PastIndocrypt from "./components/PastIndocrypt";
 import Partners from "./components/Partners";
 import TechnicalProgramCommitte from "./components/TechnicalProgramCommitte";
+import FinanceAndAdvisoryCommitte from "./components/FinanceCommitte";
+import PublicityChair from "./components/PublicityChair";
+import IndustryChair from "./components/IndustryChair";
 
 function App() {
   return (
@@ -59,6 +62,10 @@ function App() {
           <Route path="/organizing-committe" element={<OrganizingCommitte />} />
           <Route path="/advisory-committe" element={<AdvisoryCommitte />} />
           <Route path="/technical-committe" element={<TechnicalProgramCommitte />} />
+          <Route path="/finance-committe" element={<FinanceAndAdvisoryCommitte />} />
+          <Route path="/publicity-chair" element={<PublicityChair />} />
+          <Route path="/industry-chair" element={<IndustryChair />} />
+          
           
 
           {/* general section */}
