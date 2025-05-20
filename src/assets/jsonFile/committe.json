@@ -67,5 +67,7 @@
   { "name": "Tapas Pal", "institute": "Karlsruhe Institute of Technology (KASTEL), Germany", "type": "member" },
   { "name": "Vireshwar Kumar", "institute": "IIT Delhi, India", "type": "member" },
   { "name": "Yixin Shen", "institute": "Inria, Univ. Rennes, IRISA, France", "type": "member" },
-  { "name": "Sanjit Chatterjee", "institute": "IISc Bangalore", "type": "member" }
+  { "name": "Sanjit Chatterjee", "institute": "IISc Bangalore, India", "type": "member" },
+  { "name": "Srikanta Patnaik", "institute": "IIMT Bhubaneswar, India", "type": "member" },
+  { "name": "Mahsweta Sarkar", "institute": "San Diego State University, USA ", "type": "member" }
 ]
