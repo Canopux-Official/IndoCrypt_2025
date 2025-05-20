@@ -1,8 +1,4 @@
 [
-  { "name": "Luca de Feo", "institute": "IBM Research, Zürich", "type": "chair" },
-  { "name": "Ratna Dutta", "institute": "IIT Kharagpur, India", "type": "chair" },
-  { "name": "Sugata Gangopadhyay", "institute": "IIT Roorkee", "type": "chair" },
-
   { "name": "Aditi Gangopadhyay", "institute": "Indian Institute of Technology Roorkee", "type": "member" },
   { "name": "Ajith Suresh", "institute": "Technology Innovation Institute (TII), UAE", "type": "member" },
   { "name": "Ana Salagean", "institute": "Loughborough University, UK", "type": "member" },
@@ -30,7 +26,9 @@
   { "name": "Jayaprakash Kar", "institute": "LNM Institute of Information Technology, India", "type": "member" },
   { "name": "Kazuhiko Minematsu", "institute": "NEC, Kawasaki, Japan", "type": "member" },
   { "name": "Lilya Budaghyan", "institute": "University of Bergen", "type": "member" },
+  { "name": "Luca de Feo", "institute": "IBM Research, Zürich", "type": "chair" },
   { "name": "Mahabir Prasad Jhanwar", "institute": "Department of Computer Science, Ashoka University", "type": "member" },
+  { "name": "Mahsweta Sarkar", "institute": "San Diego State University, USA", "type": "member" },
   { "name": "Mainack Mondal", "institute": "IIT Kharagpur, India", "type": "member" },
   { "name": "Marine Minier", "institute": "LORIA, France", "type": "member" },
   { "name": "Meltem Turan", "institute": "National Institute of Standards and Technology, USA", "type": "member" },
@@ -44,9 +42,11 @@
   { "name": "Pratish Datta", "institute": "NTT Research, USA", "type": "member" },
   { "name": "Raghvendra Singh Rohit", "institute": "IIT Roorkee", "type": "member" },
   { "name": "Rajat Sadhukhan", "institute": "IIT Roorkee", "type": "member" },
+  { "name": "Ratna Dutta", "institute": "IIT Kharagpur, India", "type": "chair" },
   { "name": "Rei Ueno", "institute": "Kyoto University", "type": "member" },
   { "name": "Saibal Pal", "institute": "SAG, DRDO, Delhi, India", "type": "member" },
   { "name": "Sambuddho", "institute": "IIIT Delhi, India", "type": "member" },
+  { "name": "Sanjit Chatterjee", "institute": "IISc Bangalore, India", "type": "member" },
   { "name": "Santanu Sarkar", "institute": "IIT Madras, India", "type": "member" },
   { "name": "Sarani Bhattacharya", "institute": "IIT Kharagpur, India", "type": "member" },
   { "name": "Sartaj ul Hassan", "institute": "IIT Jammu", "type": "member" },
@@ -62,12 +62,10 @@
   { "name": "Subhamoy Maitra", "institute": "Indian Statistical Institute Kolkata", "type": "member" },
   { "name": "Subhranil Dutta", "institute": "University of St Gallen", "type": "member" },
   { "name": "Subidh Ali", "institute": "IIT Bhilai, India", "type": "member" },
+  { "name": "Sugata Gangopadhyay", "institute": "IIT Roorkee", "type": "chair" },
   { "name": "Sumanta Sarkar", "institute": "University of Warwick, United Kingdom", "type": "member" },
   { "name": "Tanmoy Kanti Das", "institute": "National Institute of Technology, Raipur", "type": "member" },
   { "name": "Tapas Pal", "institute": "Karlsruhe Institute of Technology (KASTEL), Germany", "type": "member" },
   { "name": "Vireshwar Kumar", "institute": "IIT Delhi, India", "type": "member" },
-  { "name": "Yixin Shen", "institute": "Inria, Univ. Rennes, IRISA, France", "type": "member" },
-  { "name": "Sanjit Chatterjee", "institute": "IISc Bangalore, India", "type": "member" },
-  { "name": "Srikanta Patnaik", "institute": "IIMT Bhubaneswar, India", "type": "member" },
-  { "name": "Mahsweta Sarkar", "institute": "San Diego State University, USA", "type": "member" }
+  { "name": "Yixin Shen", "institute": "Inria, Univ. Rennes, IRISA, France", "type": "member" }
 ]
