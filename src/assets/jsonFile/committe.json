@@ -1,71 +1,352 @@
 [
-  { "name": "Aditi Gangopadhyay", "institute": "Indian Institute of Technology Roorkee", "type": "member" },
-  { "name": "Ajith Suresh", "institute": "Technology Innovation Institute (TII), UAE", "type": "member" },
-  { "name": "Ana Salagean", "institute": "Loughborough University, UK", "type": "member" },
-  { "name": "Andre Esser", "institute": "Cryptography Research Center, Technology Innovation Institute, Abu Dhabi, UAE", "type": "member" },
-  { "name": "Anubhab Baksi", "institute": "Lund University, Sweden", "type": "member" },
-  { "name": "Anupam Chattopadhyay", "institute": "Nanyang Technological University, Singapore", "type": "member" },
-  { "name": "Arka Rai Choudhuri", "institute": "NTT Research, USA", "type": "member" },
-  { "name": "Arpita Maitra", "institute": "IAI, TCG CREST, Kolkata, India", "type": "member" },
-  { "name": "Avishek Adhikari", "institute": "Presidency University, Kolkata, India", "type": "member" },
-  { "name": "Ayantika Chatterjee", "institute": "IIT Kharagpur, India", "type": "member" },
-  { "name": "Bhupendra Singh", "institute": "CAIR, DRDO, Bangalore", "type": "member" },
-  { "name": "Chaoyun Li", "institute": "The Surrey Centre for Cyber Security, University of Surrey", "type": "member" },
-  { "name": "Chinmoy Biswas", "institute": "University of Calgary", "type": "member" },
-  { "name": "Christina Boura", "institute": "University of Versailles, France", "type": "member" },
-  { "name": "Debapriya Basu Roy", "institute": "IIT Kanpur, India", "type": "member" },
-  { "name": "Deepak Kumar Dalai", "institute": "National Institute of Science Education and Research, Bhubaneswar, India", "type": "member" },
-  { "name": "Dipanwita Roy Chowdhury", "institute": "IIT Kharagpur, India", "type": "member" },
-  { "name": "Dirmanto Jap", "institute": "Nanyang Technological University, Singapore", "type": "member" },
-  { "name": "Divya Ravi", "institute": "University of Amsterdam, Netherlands", "type": "member" },
-  { "name": "Douglas Stebila", "institute": "University of Waterloo, Canada", "type": "member" },
-  { "name": "Francisco Rodríguez-Henríquez", "institute": "Cryptography Research Center, Technology Innovation Institute, UAE", "type": "member" },
-  { "name": "Haoyang Wang", "institute": "Shanghai Jiao Tong University, China", "type": "member" },
-  { "name": "Indivar Gupta", "institute": "SAG DRDO, India", "type": "member" },
-  { "name": "Jason LeGrow", "institute": "Virginia Polytechnic Institute and State University, USA", "type": "member" },
-  { "name": "Jayaprakash Kar", "institute": "LNM Institute of Information Technology, India", "type": "member" },
-  { "name": "Kazuhiko Minematsu", "institute": "NEC, Kawasaki, Japan", "type": "member" },
-  { "name": "Lilya Budaghyan", "institute": "University of Bergen", "type": "member" },
-  { "name": "Luca de Feo", "institute": "IBM Research, Zürich", "type": "chair" },
-  { "name": "Mahabir Prasad Jhanwar", "institute": "Department of Computer Science, Ashoka University", "type": "member" },
-  { "name": "Mahsweta Sarkar", "institute": "San Diego State University, USA", "type": "member" },
-  { "name": "Mainack Mondal", "institute": "IIT Kharagpur, India", "type": "member" },
-  { "name": "Marine Minier", "institute": "LORIA, France", "type": "member" },
-  { "name": "Meltem Turan", "institute": "National Institute of Standards and Technology, USA", "type": "member" },
-  { "name": "Mridul Nandi", "institute": "Indian Statistical Institute, Kolkata", "type": "member" },
-  { "name": "Mustafa Khairallah", "institute": "NTU", "type": "member" },
-  { "name": "Nicolas Sendrier", "institute": "INRIA, France", "type": "member" },
-  { "name": "Nilanjan Datta", "institute": "IAI, TCG CREST, Kolkata, India", "type": "member" },
-  { "name": "Nishanth Chandran", "institute": "Microsoft Research", "type": "member" },
-  { "name": "Pantelimon Stanica", "institute": "Naval Postgraduate School, Monterey, USA", "type": "member" },
-  { "name": "Prasanna Ravi", "institute": "Nanyang Technological University, Singapore", "type": "member" },
-  { "name": "Pratish Datta", "institute": "NTT Research, USA", "type": "member" },
-  { "name": "Raghvendra Singh Rohit", "institute": "IIT Roorkee", "type": "member" },
-  { "name": "Rajat Sadhukhan", "institute": "IIT Roorkee", "type": "member" },
-  { "name": "Ratna Dutta", "institute": "IIT Kharagpur, India", "type": "chair" },
-  { "name": "Rei Ueno", "institute": "Kyoto University", "type": "member" },
-  { "name": "Saibal Pal", "institute": "SAG, DRDO, Delhi, India", "type": "member" },
-  { "name": "Sambuddho", "institute": "IIIT Delhi, India", "type": "member" },
-  { "name": "Sanjit Chatterjee", "institute": "IISc Bangalore, India", "type": "member" },
-  { "name": "Santanu Sarkar", "institute": "IIT Madras, India", "type": "member" },
-  { "name": "Sarani Bhattacharya", "institute": "IIT Kharagpur, India", "type": "member" },
-  { "name": "Sartaj ul Hassan", "institute": "IIT Jammu", "type": "member" },
-  { "name": "Satrajit Ghosh", "institute": "IIT Kharagpur, India", "type": "member" },
-  { "name": "Sherman Chow", "institute": "Chinese University of Hong Kong", "type": "member" },
-  { "name": "Sihem Mesnager", "institute": "Universities of Paris VIII (Dep. Math) and Sorbonne North (LAGA)", "type": "member" },
-  { "name": "Sofia Celi", "institute": "Quito, Ecuador", "type": "member" },
-  { "name": "Somitra Sanadhya", "institute": "IIT Jodhpur, India", "type": "member" },
-  { "name": "Souradyuti Paul", "institute": "IIT Bhilai, India", "type": "member" },
-  { "name": "Sourav Mukhopadhyay", "institute": "IIT Kharagpur, India", "type": "member" },
-  { "name": "Sruthi Sekar", "institute": "IIT Bombay, India", "type": "member" },
-  { "name": "Stjepan Picek", "institute": "Radboud University, Netherlands", "type": "member" },
-  { "name": "Subhamoy Maitra", "institute": "Indian Statistical Institute Kolkata", "type": "member" },
-  { "name": "Subhranil Dutta", "institute": "University of St Gallen", "type": "member" },
-  { "name": "Subidh Ali", "institute": "IIT Bhilai, India", "type": "member" },
-  { "name": "Sugata Gangopadhyay", "institute": "IIT Roorkee", "type": "chair" },
-  { "name": "Sumanta Sarkar", "institute": "University of Warwick, United Kingdom", "type": "member" },
-  { "name": "Tanmoy Kanti Das", "institute": "National Institute of Technology, Raipur", "type": "member" },
-  { "name": "Tapas Pal", "institute": "Karlsruhe Institute of Technology (KASTEL), Germany", "type": "member" },
-  { "name": "Vireshwar Kumar", "institute": "IIT Delhi, India", "type": "member" },
-  { "name": "Yixin Shen", "institute": "Inria, Univ. Rennes, IRISA, France", "type": "member" }
+  {
+    "name": "Aditi Gangopadhyay",
+    "institute": "Indian Institute of Technology Roorkee",
+    "type": "member"
+  },
+  {
+    "name": "Ajith Suresh",
+    "institute": "Technology Innovation Institute (TII), UAE",
+    "type": "member"
+  },
+  {
+    "name": "Ana Salagean",
+    "institute": "Loughborough University, UK",
+    "type": "member"
+  },
+  {
+    "name": "Andre Esser",
+    "institute": "Cryptography Research Center, Technology Innovation Institute, Abu Dhabi, UAE",
+    "type": "member"
+  },
+  {
+    "name": "Anubhab Baksi",
+    "institute": "Lund University, Sweden",
+    "type": "member"
+  },
+  {
+    "name": "Anupam Chattopadhyay",
+    "institute": "Nanyang Technological University, Singapore",
+    "type": "member"
+  },
+  {
+    "name": "Arka Rai Choudhuri",
+    "institute": "NTT Research, USA",
+    "type": "member"
+  },
+  {
+    "name": "Arpita Maitra",
+    "institute": "IAI, TCG CREST, Kolkata, India",
+    "type": "member"
+  },
+  {
+    "name": "Avishek Adhikari",
+    "institute": "Presidency University, Kolkata, India",
+    "type": "member"
+  },
+  {
+    "name": "Ayantika Chatterjee",
+    "institute": "IIT Kharagpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Bhupendra Singh",
+    "institute": "CAIR, DRDO, Bangalore",
+    "type": "member"
+  },
+  {
+    "name": "Chaoyun Li",
+    "institute": "The Surrey Centre for Cyber Security, University of Surrey",
+    "type": "member"
+  },
+  {
+    "name": "Chinmoy Biswas",
+    "institute": "University of Calgary",
+    "type": "member"
+  },
+  {
+    "name": "Christina Boura",
+    "institute": "University of Versailles, France",
+    "type": "member"
+  },
+  {
+    "name": "Debapriya Basu Roy",
+    "institute": "IIT Kanpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Deepak Kumar Dalai",
+    "institute": "National Institute of Science Education and Research, Bhubaneswar, India",
+    "type": "member"
+  },
+  {
+    "name": "Dipanwita Roy Chowdhury",
+    "institute": "IIT Kharagpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Dirmanto Jap",
+    "institute": "Nanyang Technological University, Singapore",
+    "type": "member"
+  },
+  {
+    "name": "Divya Ravi",
+    "institute": "University of Amsterdam, Netherlands",
+    "type": "member"
+  },
+  {
+    "name": "Douglas Stebila",
+    "institute": "University of Waterloo, Canada",
+    "type": "member"
+  },
+  {
+    "name": "Francisco Rodríguez-Henríquez",
+    "institute": "Cryptography Research Center, Technology Innovation Institute, UAE",
+    "type": "member"
+  },
+  {
+    "name": "Haoyang Wang",
+    "institute": "Shanghai Jiao Tong University, China",
+    "type": "member"
+  },
+  {
+    "name": "Indivar Gupta",
+    "institute": "SAG DRDO, India",
+    "type": "member"
+  },
+  {
+    "name": "Jason LeGrow",
+    "institute": "Virginia Polytechnic Institute and State University, USA",
+    "type": "member"
+  },
+  {
+    "name": "Jayaprakash Kar",
+    "institute": "LNM Institute of Information Technology, India",
+    "type": "member"
+  },
+  {
+    "name": "Kazuhiko Minematsu",
+    "institute": "NEC, Kawasaki, Japan",
+    "type": "member"
+  },
+  {
+    "name": "Lilya Budaghyan",
+    "institute": "University of Bergen",
+    "type": "member"
+  },
+  {
+    "name": "Luca de Feo",
+    "institute": "IBM Research, Zürich",
+    "type": "chair"
+  },
+  {
+    "name": "Mahabir Prasad Jhanwar",
+    "institute": "Department of Computer Science, Ashoka University",
+    "type": "member"
+  },
+  {
+    "name": "Mahsweta Sarkar",
+    "institute": "San Diego State University, USA",
+    "type": "member"
+  },
+  {
+    "name": "Mainack Mondal",
+    "institute": "IIT Kharagpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Marine Minier",
+    "institute": "LORIA, France",
+    "type": "member"
+  },
+  {
+    "name": "Meltem Turan",
+    "institute": "National Institute of Standards and Technology, USA",
+    "type": "member"
+  },
+  {
+    "name": "Mridul Nandi",
+    "institute": "Indian Statistical Institute, Kolkata",
+    "type": "member"
+  },
+  {
+    "name": "Mustafa Khairallah",
+    "institute": "NTU",
+    "type": "member"
+  },
+  {
+    "name": "Nicolas Sendrier",
+    "institute": "INRIA, France",
+    "type": "member"
+  },
+  {
+    "name": "Nilanjan Datta",
+    "institute": "IAI, TCG CREST, Kolkata, India",
+    "type": "member"
+  },
+  {
+    "name": "Nishanth Chandran",
+    "institute": "Microsoft Research",
+    "type": "member"
+  },
+  {
+    "name": "Pantelimon Stanica",
+    "institute": "Naval Postgraduate School, Monterey, USA",
+    "type": "member"
+  },
+  {
+    "name": "Prasanna Ravi",
+    "institute": "Nanyang Technological University, Singapore",
+    "type": "member"
+  },
+  {
+    "name": "Pratish Datta",
+    "institute": "NTT Research, USA",
+    "type": "member"
+  },
+  {
+    "name": "Raghvendra Singh Rohit",
+    "institute": "IIT Roorkee",
+    "type": "member"
+  },
+  {
+    "name": "Rajat Sadhukhan",
+    "institute": "IIT Roorkee",
+    "type": "member"
+  },
+  {
+    "name": "Ratna Dutta",
+    "institute": "IIT Kharagpur, India",
+    "type": "chair"
+  },
+  {
+    "name": "Rei Ueno",
+    "institute": "Kyoto University",
+    "type": "member"
+  },
+  {
+    "name": "Saibal Pal",
+    "institute": "SAG, DRDO, Delhi, India",
+    "type": "member"
+  },
+  {
+    "name": "Sambuddho",
+    "institute": "IIIT Delhi, India",
+    "type": "member"
+  },
+  {
+    "name": "Sanjit Chatterjee",
+    "institute": "IISc Bangalore, India",
+    "type": "member"
+  },
+  {
+    "name": "Santanu Sarkar",
+    "institute": "IIT Madras, India",
+    "type": "member"
+  },
+  {
+    "name": "Sarani Bhattacharya",
+    "institute": "IIT Kharagpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Sartaj ul Hassan",
+    "institute": "IIT Jammu",
+    "type": "member"
+  },
+  {
+    "name": "Satrajit Ghosh",
+    "institute": "IIT Kharagpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Sherman Chow",
+    "institute": "Chinese University of Hong Kong",
+    "type": "member"
+  },
+  {
+    "name": "Sihem Mesnager",
+    "institute": "Universities of Paris VIII (Dep. Math) and Sorbonne North (LAGA)",
+    "type": "member"
+  },
+  {
+    "name": "Sofia Celi",
+    "institute": "Quito, Ecuador",
+    "type": "member"
+  },
+  {
+    "name": "Somitra Sanadhya",
+    "institute": "IIT Jodhpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Souradyuti Paul",
+    "institute": "IIT Bhilai, India",
+    "type": "member"
+  },
+  {
+    "name": "Sourav Mukhopadhyay",
+    "institute": "IIT Kharagpur, India",
+    "type": "member"
+  },
+  {
+    "name": "Srikanta Patnaik",
+    "institute": "IIMT Bhubaneswar, India",
+    "type": "member"
+  },
+  {
+    "name": "Sruthi Sekar",
+    "institute": "IIT Bombay, India",
+    "type": "member"
+  },
+  {
+    "name": "Stjepan Picek",
+    "institute": "Radboud University, Netherlands",
+    "type": "member"
+  },
+  {
+    "name": "Subhamoy Maitra",
+    "institute": "Indian Statistical Institute Kolkata",
+    "type": "member"
+  },
+  {
+    "name": "Subhranil Dutta",
+    "institute": "University of St Gallen",
+    "type": "member"
+  },
+  {
+    "name": "Subidh Ali",
+    "institute": "IIT Bhilai, India",
+    "type": "member"
+  },
+  {
+    "name": "Sugata Gangopadhyay",
+    "institute": "IIT Roorkee",
+    "type": "chair"
+  },
+  {
+    "name": "Sumanta Sarkar",
+    "institute": "University of Warwick, United Kingdom",
+    "type": "member"
+  },
+  {
+    "name": "Tanmoy Kanti Das",
+    "institute": "National Institute of Technology, Raipur",
+    "type": "member"
+  },
+  {
+    "name": "Tapas Pal",
+    "institute": "Karlsruhe Institute of Technology (KASTEL), Germany",
+    "type": "member"
+  },
+  {
+    "name": "Vireshwar Kumar",
+    "institute": "IIT Delhi, India",
+    "type": "member"
+  },
+  {
+    "name": "Yixin Shen",
+    "institute": "Inria, Univ. Rennes, IRISA, France",
+    "type": "member"
+  }
 ]
