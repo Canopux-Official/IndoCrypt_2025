@@ -4,7 +4,7 @@ import { Users, Calendar, MapPin, X } from 'lucide-react';
 import LucaDeFeo from "../assets/speaker/LucaDeFeo.jpg";
 import LuccaHirschi from "../assets/speaker/LuccaHirschi.jpg";
 import VincentRijmen from "../assets/speaker/VincentRijmen.png";
-import speaker from "../assets/speakerLogo.png";
+import speaker from "../assets/speakerLogo.jpg";
 
 // Custom marquee implementation without external library
 const CustomMarquee = ({ children, speed = 40 }) => {
@@ -138,35 +138,57 @@ const Speaker = () => {
   };
 
   //update here the content of the speakers
-  const speakers = [
+  const KeynoteSpeakers = [
     {
       id: 1,
-      name: "Speaker-1",
-      desg: "Affiliation",
-      // title: "SQIsign: past, present and future",
-      // abstract: "5 years ago, while everyone was raving about the compactness of SIKE's public keys and ciphertexts, the isogeny community was facing a conundrum: why isn't there any compact isogeny-based signature? The solution came from a technique that was originally devised to attack SIKE: thanks to the KLPT algorithm, it became possible for the first time to \"rerandomize\" isogeny walks, provided knowledge of endomorphism rings, which could then be used as cryptographic trapdoors. As our understanding of the connections between elliptic curves and their endomorphism rings expanded, new cryptographic discoveries kept coming. Among them, the celebrated equivalence between the supersingular isogeny path problem and the endomorphism ring problem. Some feared the devastating attacks on SIKE would spell the end of isogeny-based cryptography. Instead, the technique of higher-dimensional embeddings they introduced has generated a remarkable stream of research, using the new tools to construct and improve all sorts of schemes. As we celebrate SQIsign advancing to the 2nd round of the on-ramp NIST call for signatures today, higher-dimensional embeddings have entered SQIsign in various declinations (SQIsignHD, SQIsign2D, etc.), revolutionizing performance and proof techniques for isogeny-based signatures and heralding a new era for SQIsign.",
+      name: "Shivam Bhasin",
+      desg: "Professor",
+      title: "To Be Announced",
+      college: "Nanyang Technological University, Singapore",
       // bio: "Luca De Feo is a researcher at IBM Research Europe working on quantum-safe cryptography. He graduated from École Polytechnique in 2010 with a thesis on isogeny computations; He has been computing them ever since.",
       image: speaker
     },
     {
       id: 2,
-      name: "Speaker-2",
-      desg: "Affiliation",
-      // title: "Logic-Based Verification of Cryptographic Protocols",
-      // abstract: "Today's information society crucially relies on cryptographic protocols. These protocols leverage cryptographic primitives to ensure confidentiality, integrity, or other security goals. Any attack in these protocols can have dramatic consequences, amplified by their ubiquity and our dependence on them for example in finance, business, and communication. And yet, critical and widely used cryptographic protocols have repeatedly been found to contain flaws in both their design and their implementation, opening the way for serious attacks (such as onTLS in web browsing, EMV in credit card transactions, 5G in mobilenetworks, WPA2 in WiFi, and e-voting systems). A widespread class of these vulnerabilities is logical attacks, which exploit flawed protocol logic. This keynote will examine two logic-based methods to preclude logical attacks from protocol designs and implementations. First, we will discuss automated formal verification methods based on Dolev-Yao (DY) models, which formally define and excel at finding such flaws on abstract specifications. This approach has evolved over 40 years and yielded significant results, which we will highlight. Nevertheless, these methods alone cannot secure protocol implementations, as bugs may introduce implementation-level logical attacks. We will present a recent research avenue that aims to integrate formal DY models with fuzz testing techniques to capture logical attacks in cryptographic protocol implementations.",
+      name: "Debdeep Mukhopadhyay",
+      desg: "Professor",
+      title: "To Be Announced",
+      college: "Indian Institute of Technology Kharagpur, India",
+      // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
+      image: speaker
+    },
+    {
+      id: 3,
+      name: "Shuichi Katsumata",
+      desg: "Lead Cryptography Researcher",
+      title: "To Be Announced",
+      college: "PQShield Ltd, U.K",
+      // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
+      image: speaker
+    },
+  ];
+
+  const tutorialSpeakers = [
+    {
+      id: 1,
+      name: "Luca De Feo",
+      desg: "Research Staff Member",
+      title: "To Be Announced",
+      college: "IBM Research Europe",
       // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
       image: speaker
     },
     {
       id: 2,
-      name: "Speaker-3",
-      desg: "Affiliation",
-      // title: "Logic-Based Verification of Cryptographic Protocols",
-      // abstract: "Today's information society crucially relies on cryptographic protocols. These protocols leverage cryptographic primitives to ensure confidentiality, integrity, or other security goals. Any attack in these protocols can have dramatic consequences, amplified by their ubiquity and our dependence on them for example in finance, business, and communication. And yet, critical and widely used cryptographic protocols have repeatedly been found to contain flaws in both their design and their implementation, opening the way for serious attacks (such as onTLS in web browsing, EMV in credit card transactions, 5G in mobilenetworks, WPA2 in WiFi, and e-voting systems). A widespread class of these vulnerabilities is logical attacks, which exploit flawed protocol logic. This keynote will examine two logic-based methods to preclude logical attacks from protocol designs and implementations. First, we will discuss automated formal verification methods based on Dolev-Yao (DY) models, which formally define and excel at finding such flaws on abstract specifications. This approach has evolved over 40 years and yielded significant results, which we will highlight. Nevertheless, these methods alone cannot secure protocol implementations, as bugs may introduce implementation-level logical attacks. We will present a recent research avenue that aims to integrate formal DY models with fuzz testing techniques to capture logical attacks in cryptographic protocol implementations.",
+      name: "Speaker 2",
+      // desg: "Research Staff Member",
+      title: "To Be Announced",
+      college: "To Be Announced",
       // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
       image: speaker
     },
-  ];
+  ]
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -174,7 +196,7 @@ const Speaker = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-purple-100 to-white py-16">
+      <section className="bg-gradient-to-b from-blue-100 to-white py-16">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -189,15 +211,15 @@ const Speaker = () => {
 
           <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
             <div className="flex items-center">
-              <Calendar className="text-purple-600 mr-3" size={24} />
+              <Calendar className="text-green-600 mr-3" size={24} />
               <span className="text-xl text-gray-700">December 14 - 17 , 2025</span>
             </div>
             <div className="flex items-center">
-              <MapPin className="text-purple-600 mr-3" size={24} />
+              <MapPin className="text-green-600 mr-3" size={24} />
               <span className="text-xl text-gray-700">IIIT Bhubaneswar</span>
             </div>
             <div className="flex items-center">
-              <Users className="text-purple-600 mr-3" size={24} />
+              <Users className="text-green-600 mr-3" size={24} />
               <span className="text-xl text-gray-700">To be Updated</span>
             </div>
           </div>
@@ -205,15 +227,15 @@ const Speaker = () => {
       </section>
 
       {/* Custom Marquee */}
-      <div className="py-6 bg-purple-100">
+      <div className="py-6 bg-blue-100">
         <CustomMarquee speed={40}>
           <div className="flex whitespace-nowrap">
-            <span className="text-xl text-purple-800 font-medium mx-10">To Be Updated</span>
-            <span className="text-xl text-purple-800 font-medium mx-10">To Be Updated</span>
-            <span className="text-xl text-purple-800 font-medium mx-10">To Be Updated</span>
-            <span className="text-xl text-purple-800 font-medium mx-10">To Be Updated</span>
-            <span className="text-xl text-purple-800 font-medium mx-10">To Be Updated</span>
-            <span className="text-xl text-purple-800 font-medium mx-10">To Be Updated</span>
+            <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
+            <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
+            <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
+            <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
+            <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
+            <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
           </div>
         </CustomMarquee>
       </div>
@@ -221,19 +243,19 @@ const Speaker = () => {
       {/* Speakers List */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Featured Speakers</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Keynote Speakers</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {speakers.map((speaker) => (
+            {KeynoteSpeakers.map((speaker) => (
               <motion.div
                 key={speaker.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="bg-purple-50 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col"
+                className="bg-blue-50 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col"
               >
-                <div className="flex justify-center pt-10 pb-6 bg-purple-100">
+                <div className="flex justify-center pt-10 pb-6">
                   <div className="w-48 h-48 overflow-hidden rounded-full shadow-md">
                     <img
                       src={speaker.image}
@@ -244,21 +266,74 @@ const Speaker = () => {
                 </div>
                 <div className="p-8 flex-grow">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">{speaker.name}</h3>
-                  {/* <div className="h-px w-20 bg-purple-500 mb-6"></div> */}
-
-                  {/* <div className="mb-6">
-                    <h4 className="font-semibold text-purple-700 text-lg mb-1">Title of the talk:</h4>
-                    <p className="text-gray-800 text-lg">{speaker.title}</p>
-                  </div>
-                  
+                  <p className="text-gray-800 text-lg">{speaker.desg}</p>
                   <div>
-                    <h4 className="font-semibold text-purple-700 text-lg mb-1">Brief Bio:</h4>
-                    <p className="text-gray-600 text-base">{speaker.bio}</p>
-                  </div> */}
-                  <div className="mb-6">
-                    {/* <h4 className="font-semibold text-purple-700 text-lg mb-1">Title of the talk:</h4> */}
-                    <p className="text-gray-800 text-lg">{speaker.desg}</p>
+                    <h4 className="font-semibold text-black text-lg">Title of the talk:</h4>
+                    <p className="text-gray-800 text-base">To Be Decided</p>
                   </div>
+                  <div>
+                    <h4 className="font-semibold text-black text-lg">Affilation:</h4>
+                    <p className="text-gray-600 text-base">{speaker.college}</p>
+                  </div>
+
+                </div>
+
+                {/* Button container with proper positioning */}
+                {/* <div className="px-8 pb-8 pt-2">
+                  <button 
+                    onClick={() => openModal(speaker)}
+                    className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-md shadow-md hover:shadow-lg transition-all duration-300 text-sm flex items-center"
+                  >
+                    View Abstract
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+                </div> */}
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+
+      {/* Tutorial Speakers */}
+      <section className="py-5 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Tutorial Speakers</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {tutorialSpeakers.map((speaker) => (
+              <motion.div
+                key={speaker.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                viewport={{ once: true }}
+                className="bg-blue-50 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col"
+              >
+                <div className="flex justify-center pt-10 pb-6">
+                  <div className="w-48 h-48 overflow-hidden rounded-full shadow-md">
+                    <img
+                      src={speaker.image}
+                      alt={speaker.name}
+                      className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 rounded-full"
+                    />
+                  </div>
+                </div>
+                <div className="p-8 flex-grow">
+                  <h3 className="text-2xl font-bold text-gray-800 mb-2">{speaker.name}</h3>
+                  <p className="text-gray-800 text-lg">{speaker.desg}</p>
+                  <div>
+                    <h4 className="font-semibold text-black text-lg">Title of the talk:</h4>
+                    <p className="text-gray-800 text-base">{speaker.title}</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-black text-lg">Affilation:</h4>
+                    <p className="text-gray-600 text-base">{speaker.college}</p>
+                  </div>
+
                 </div>
 
                 {/* Button container with proper positioning */}
