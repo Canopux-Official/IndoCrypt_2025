@@ -68,7 +68,7 @@ const Footer = () => {
                 href="mailto:contact@indocrypt2025.org"
                 className="hover:text-white transition-colors"
               >
-                xxxxxxxxxxxxxx
+                indocrypt2025@iiit-bh.ac.in
               </a>
             </li>
             <li>
