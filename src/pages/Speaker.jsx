@@ -5,6 +5,10 @@ import LucaDeFeo from "../assets/speaker/LucaDeFeo.jpg";
 import LuccaHirschi from "../assets/speaker/LuccaHirschi.jpg";
 import VincentRijmen from "../assets/speaker/VincentRijmen.png";
 import speaker from "../assets/speakerLogo.jpg";
+import luca from '../assets/Speaker Images/luca.jpg'
+import img1 from '../assets/Speaker Images/img1.jpg'
+import img2 from '../assets/Speaker Images/img2.jpg'
+import img4 from '../assets/Speaker Images/img4.jpg'
 
 // Custom marquee implementation without external library
 const CustomMarquee = ({ children, speed = 40 }) => {
@@ -146,7 +150,7 @@ const Speaker = () => {
       title: "To Be Announced",
       college: "Nanyang Technological University, Singapore",
       // bio: "Luca De Feo is a researcher at IBM Research Europe working on quantum-safe cryptography. He graduated from École Polytechnique in 2010 with a thesis on isogeny computations; He has been computing them ever since.",
-      image: speaker
+      image: img2
     },
     {
       id: 2,
@@ -155,7 +159,7 @@ const Speaker = () => {
       title: "To Be Announced",
       college: "Indian Institute of Technology Kharagpur, India",
       // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
-      image: speaker
+      image: img4
     },
     {
       id: 3,
@@ -164,7 +168,7 @@ const Speaker = () => {
       title: "To Be Announced",
       college: "PQShield Ltd, U.K",
       // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
-      image: speaker
+      image: img1
     },
   ];
 
@@ -176,7 +180,7 @@ const Speaker = () => {
       title: "To Be Announced",
       college: "IBM Research Europe",
       // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
-      image: speaker
+      image: luca
     },
     {
       id: 2,
@@ -203,7 +207,7 @@ const Speaker = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">IndoCrypt 2025 Speakers</h1>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">Indocrypt 2025 Speakers</h1>
             <p className="text-2xl text-gray-600 max-w-3xl mx-auto">
               Join us for illuminating talks from experts in cryptography, security, and quantum-resistant algorithms.
             </p>
@@ -227,7 +231,7 @@ const Speaker = () => {
       </section>
 
       {/* Custom Marquee */}
-      <div className="py-6 bg-blue-100">
+      {/* <div className="py-6 bg-blue-100">
         <CustomMarquee speed={40}>
           <div className="flex whitespace-nowrap">
             <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
@@ -238,10 +242,10 @@ const Speaker = () => {
             <span className="text-xl text-black font-medium mx-10">To Be Updated</span>
           </div>
         </CustomMarquee>
-      </div>
+      </div> */}
 
       {/* Speakers List */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Keynote Speakers</h2>
 

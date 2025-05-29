@@ -256,7 +256,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Past Editions */}
+      {/* Past Editions
       <section className="py-20 bg-gray-100">
         <div className="container mx-auto px-6">
           <motion.div
@@ -283,7 +283,7 @@ const About = () => {
                 </tr>
               </thead>
               <tbody>
-                {/* {pastEditions.map((edition, index) => (
+                {pastEditions.map((edition, index) => (
                   <motion.tr
                     key={index}
                     className={index % 2 === 0 ? "bg-white" : "bg-purple-50"}
@@ -296,7 +296,7 @@ const About = () => {
                     <td className="py-4 px-6 border-b border-gray-200">{edition.location}</td>
                     <td className="py-4 px-6 border-b border-gray-200">{edition.theme}</td>
                   </motion.tr>
-                ))} */}
+                ))}
 
                 {pastEditions.map((edition, index) => (
                   <motion.tr
@@ -317,7 +317,7 @@ const About = () => {
             </table>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-blue-500 to-purple-800 text-white">

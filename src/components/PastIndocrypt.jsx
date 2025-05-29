@@ -1,27 +1,27 @@
 const pastConferences = [
     {
         year: "2024",
-        location: "City Name (TBD)",
-        dates: "dates",
-        theme: "Theme of IndoCrypt 2024",
+        location: "Chennai, India",
+        dates: "December 18 - 21 2024",
+        visit: "https://setsindia.in/indocrypt2024/indocrypt",
     },
     {
         year: "2023",
-        location: "City Name (TBD)",
-        dates: "Dates",
-        theme: "Theme of IndoCrypt 2023",
+        location: "BITS Pilani GOA, India",
+        dates: "December 10 - 13 2023",
+        visit: "https://crsind.in/indocrypt2023/",
     },
     {
         year: "2022",
-        location: "City Name (TBD)",
-        dates: "Dates",
-        theme: "Theme of IndoCrypt 2022",
+        location: "Bose Institute, EN 80, Sector V, Salt Lake. Kolkata, India",
+        dates: "December 11 - 14 2022",
+        visit: "https://www.tcgcrest.org/indocrypt-2022/",
     },
     {
         year: "2021",
-        location: "City Name (TBD)",
-        dates: "Dates",
-        theme: "Theme of IndoCrypt 2021",
+        location: "The LNM Institute of Information Technology , Jaipur, India",
+        dates: "December 13 - 15 2021",
+        visit: "https://indocrypt2021.lnmiit.ac.in/",
     },
 ];
 
@@ -41,7 +41,9 @@ export default function PastIndocrypt() {
                         <h2 className="text-2xl font-bold text-indigo-700 mb-2">IndoCrypt {conf.year}</h2>
                         <p className="text-sm text-gray-600 mb-2"><span className="font-medium">Location:</span> {conf.location}</p>
                         <p className="text-sm text-gray-600 mb-2"><span className="font-medium">Dates:</span> {conf.dates}</p>
-                        <p className="text-sm text-gray-600"><span className="font-medium">Theme:</span> {conf.theme}</p>
+                        <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-2xl shadow-lg transition duration-300">
+                            <a href={conf.visit} className="text-sm text-white"><span className="font-medium">Visit For More Details</span></a>
+                        </button>
                     </div>
                 ))}
             </div>

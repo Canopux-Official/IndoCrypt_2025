@@ -4,6 +4,9 @@ import { Menu, X, Clock, ChevronDown } from 'lucide-react';
 import logo from "../assets/logo.png";
 import Marquee from 'react-fast-marquee';
 import { Link } from 'react-router-dom';
+import { FaBullhorn } from 'react-icons/fa';
+import { MdAppRegistration } from 'react-icons/md';
+import { GiGraduateCap } from 'react-icons/gi';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -75,10 +78,10 @@ const Header = () => {
     {
       name: 'For Authors',
       children: [
-        { name: 'Paper Submission', to: '/paper-submission' },
         { name: 'Call for Papers', to: '/call-for-papers' },
-        { name: 'Registration', to: '/registration' },
         { name: 'Guidelines', to: '/guidelines' },
+        { name: 'Paper Submission', to: '/paper-submission' },
+        { name: 'Registration', to: '/registration' },
       ]
     },
     {
@@ -92,6 +95,15 @@ const Header = () => {
     },
   ];
 
+
+  // this is for the announcements
+  const announcements = [
+    { icon: <FaBullhorn color='red' className="inline mr-1" />, text: "Call For Papers", link: "/call-for-papers" },
+    { icon: <MdAppRegistration color='violet' className="inline mr-1" />, text: "Registration", link: "/registration" },
+    { icon: <GiGraduateCap color='yellow' className="inline mr-1" />, text: "Paper Submission", link: "/paper-submission" },
+  ];
+
+
   return (
     <header className="w-full font-sans">
       {/* Static Top Header */}
@@ -101,7 +113,7 @@ const Header = () => {
             <img src={logo} alt="IndoCrypt Logo" className="w-20 h-20 object-contain drop-shadow-lg" />
             <div>
               <h1 className="text-3xl font-extrabold tracking-tight leading-tight text-gray-900">
-                IndoCrypt <span className="text-indigo-600">2025</span>
+                Indocrypt <span className="text-indigo-600">2025</span>
               </h1>
               {/* <p className="text-sm text-indigo-700 font-semibold mt-1 bg-indigo-50 px-2 py-1 rounded-md inline-block">
                 Sponsored by ISEA-III Project under MeitY, Govt. of India
@@ -139,8 +151,19 @@ const Header = () => {
       {/* Sticky Navbar Section - Only this part is sticky now */}
       <div className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-white/20 shadow-sm">
         <Marquee gradient={false} speed={50} className="bg-blue-500 text-white py-2 text-sm font-medium shadow-inner">
-          🎉 To be updated &nbsp;&nbsp;&nbsp; 📢 To be updated &nbsp;&nbsp;&nbsp; 🎓 To be updated
+          {announcements.map((item, index) => (
+            <a
+              key={index}
+              href={item.link}
+              className="mx-6 hover:underline flex items-center"
+            >
+              {item.icon}
+              {item.text}
+            </a>
+          ))}
         </Marquee>
+
+
 
         <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between py-2">
           <nav className="hidden md:flex gap-6 text-gray-800 text-sm font-semibold relative">
