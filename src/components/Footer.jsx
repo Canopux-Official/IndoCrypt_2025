@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Logo & Description */}
         <div>
           <h2 className="text-3xl font-bold text-indigo-400 mb-4">
-            IndoCrypt 2025
+            Indocrypt 2025
           </h2>
           <p className="text-base text-gray-300 leading-relaxed">
             Premier international conference on cryptography and information
@@ -65,10 +65,10 @@ const Footer = () => {
             <li>
               Email:{" "}
               <a
-                href="mailto:contact@indocrypt2025.org"
+                href="mailto:contact@Indocrypt2025.org"
                 className="hover:text-white transition-colors"
               >
-                indocrypt2025@iiit-bh.ac.in
+                Indocrypt2025@iiit-bh.ac.in
               </a>
             </li>
             <li>
@@ -108,7 +108,7 @@ const Footer = () => {
 
       {/* Divider & Copyright */}
       <div className="mt-16 border-t border-slate-600 pt-6 text-center text-sm text-gray-400">
-        &copy; IndoCrypt 2025. All rights reserved.
+        &copy; Indocrypt 2025. All rights reserved.
         <div className="mt-4 text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-green-500 to-blue-400 animate-pulse tracking-wide leading-relaxed">
           Maintained with ❤️ By 
           <a

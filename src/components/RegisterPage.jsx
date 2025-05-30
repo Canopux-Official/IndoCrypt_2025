@@ -10,10 +10,10 @@ const RegisterPage = () => {
             <section className="bg-gradient-to-b from-indigo-50 to-white pt-10 flex items-center justify-center px-6 py-20 md:px-12 font-sans">
                 <div className="bg-white shadow-2xl rounded-3xl p-10 md:p-16 max-w-3xl text-center space-y-6">
                     <h1 className="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">
-                        Registration for IndoCrypt 2025
+                        Registration for Indocrypt 2025
                     </h1>
                     <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-                        We’re excited to welcome you to IndoCrypt 2025!
+                        We’re excited to welcome you to Indocrypt 2025!
                         Registration will open soon. Please check back later or follow us for updates.
                     </p>
 

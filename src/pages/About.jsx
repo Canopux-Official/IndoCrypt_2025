@@ -86,7 +86,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">About IndoCrypt 2025</h1>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">About Indocrypt 2025</h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
               India's Premier International Conference on Cryptography and Information Security
             </p>
@@ -123,13 +123,13 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">The Conference</h2>
               <div className="h-1 w-24 bg-purple-600 mb-6"></div>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                IndoCrypt is India's flagship annual international conference on cryptology that brings together researchers, practitioners, and students from around the world. Since its inception, IndoCrypt has been at the forefront of cryptographic research, showcasing groundbreaking work in both theoretical and applied cryptography.
+                Indocrypt is India's flagship annual international conference on cryptology that brings together researchers, practitioners, and students from around the world. Since its inception, Indocrypt has been at the forefront of cryptographic research, showcasing groundbreaking work in both theoretical and applied cryptography.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 The 2025 edition, hosted by IIIT Bhubaneswar, will focus on the emerging challenges and opportunities in post-quantum cryptography, secure multi-party computation, and cryptographic protocol analysis. The conference will feature keynote talks, technical presentations, poster sessions, and workshops conducted by experts from leading research institutions and industry.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                IndoCrypt 2025 aims to foster collaboration between academia and industry, providing a platform for researchers to present their latest findings and for practitioners to share real-world implementation challenges and solutions.
+                Indocrypt 2025 aims to foster collaboration between academia and industry, providing a platform for researchers to present their latest findings and for practitioners to share real-world implementation challenges and solutions.
               </p>
             </motion.div>
 
@@ -166,13 +166,13 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Hosted By IIIT Bhubaneswar</h2>
               <div className="h-1 w-24 bg-purple-600 mb-6"></div>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The International Institute of Information Technology Bhubaneswar (IIIT Bhubaneswar) is proud to host IndoCrypt 2025. Established in 2006, IIIT Bhubaneswar has emerged as a center of excellence in information technology education and research in eastern India.
+                The International Institute of Information Technology Bhubaneswar (IIIT Bhubaneswar) is proud to host Indocrypt 2025. Established in 2006, IIIT Bhubaneswar has emerged as a center of excellence in information technology education and research in eastern India.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 The institute's Center for Security, Theory and Algorithmic Research (CSTAR) has been actively contributing to cryptography research, with special focus on lightweight cryptography, post-quantum cryptographic constructions, and secure implementations of cryptographic primitives.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                IIIT Bhubaneswar's vibrant campus, situated amidst the serene environment of Gothapatna, provides an ideal setting for academic discourse and collaboration that IndoCrypt aims to foster.
+                IIIT Bhubaneswar's vibrant campus, situated amidst the serene environment of Gothapatna, provides an ideal setting for academic discourse and collaboration that Indocrypt aims to foster.
               </p>
             </motion.div>
 
@@ -213,7 +213,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Conference Objectives</h2>
             <div className="h-1 w-24 bg-purple-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              IndoCrypt 2025 aims to create a vibrant ecosystem for cryptographic research and innovation in India and beyond.
+              Indocrypt 2025 aims to create a vibrant ecosystem for cryptographic research and innovation in India and beyond.
             </p>
           </motion.div>
 
@@ -269,7 +269,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Past Editions</h2>
             <div className="h-1 w-24 bg-purple-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              IndoCrypt has a rich history of bringing together the global cryptography community at prestigious institutions across India.
+              Indocrypt has a rich history of bringing together the global cryptography community at prestigious institutions across India.
             </p>
           </motion.div>
 
@@ -330,7 +330,7 @@ const About = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Us at IndoCrypt 2025</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Us at Indocrypt 2025</h2>
               <p className="text-lg opacity-90 mb-8 leading-relaxed">
                 Be part of India's premier cryptography conference and connect with leading researchers, industry experts, and fellow enthusiasts. Experience thought-provoking discussions, cutting-edge research presentations, and valuable networking opportunities.
               </p>

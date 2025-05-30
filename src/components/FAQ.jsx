@@ -50,7 +50,7 @@ const FAQ = () => {
                         Frequently Asked <span className="text-indigo-600">Questions</span>
                     </h2>
                     <p className="text-center text-gray-600 mb-12">
-                        Find answers to some of the common questions about IndoCrypt 2025.
+                        Find answers to some of the common questions about Indocrypt 2025.
                     </p>
 
                     <div className="space-y-4">

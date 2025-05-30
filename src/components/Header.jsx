@@ -72,7 +72,7 @@ const Header = () => {
       name: 'Program',
       children: [
         { name: 'Program', to: '/program' },
-        { name: 'Past IndoCrypt', to: '/past-indocrypt' },
+        { name: 'Past Indocrypt', to: '/past-indocrypt' },
       ]
     },
     {

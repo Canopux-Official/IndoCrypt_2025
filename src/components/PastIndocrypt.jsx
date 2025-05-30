@@ -29,7 +29,7 @@ export default function PastIndocrypt() {
     return (
         <section className="bg-gradient-to-b from-indigo-50 to-white min-h-screen px-6 py-12 md:px-20 font-sans">
             <div className="text-center mb-12">
-                <h1 className="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">Past IndoCrypt Conferences</h1>
+                <h1 className="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">Past Indocrypt Conferences</h1>
             </div>
 
             <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
@@ -38,7 +38,7 @@ export default function PastIndocrypt() {
                         key={idx}
                         className="bg-white shadow-md rounded-2xl p-6 border-t-4 border-indigo-600 hover:shadow-xl transition duration-300"
                     >
-                        <h2 className="text-2xl font-bold text-indigo-700 mb-2">IndoCrypt {conf.year}</h2>
+                        <h2 className="text-2xl font-bold text-indigo-700 mb-2">Indocrypt {conf.year}</h2>
                         <p className="text-sm text-gray-600 mb-2"><span className="font-medium">Location:</span> {conf.location}</p>
                         <p className="text-sm text-gray-600 mb-2"><span className="font-medium">Dates:</span> {conf.dates}</p>
                         <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-2xl shadow-lg transition duration-300">

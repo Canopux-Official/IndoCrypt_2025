@@ -4,12 +4,12 @@ import visa from '../assets/Visa-Details.pdf';
 
 const faqs = [
     {
-        question: "Do I need a visa to attend IndoCrypt 2025 in India?",
+        question: "Do I need a visa to attend Indocrypt 2025 in India?",
         answer: "Yes, most international participants require a visa. We recommend applying for a Conference Visa or Tourist Visa depending on your country’s eligibility.",
     },
     {
         question: "What documents are needed for the visa?",
-        answer: "Passport, invitation letter from IndoCrypt 2025, proof of accommodation, return tickets, and passport-sized photographs.",
+        answer: "Passport, invitation letter from Indocrypt 2025, proof of accommodation, return tickets, and passport-sized photographs.",
     },
     {
         question: "How long does it take to process the visa?",
