@@ -120,7 +120,7 @@ export default function AccommodationPage() {
       </div>
 
       {/* Map section */}
-      <div className="mt-12">
+      {/* <div className="mt-12">
         <h3 className="text-2xl font-semibold text-blue-800 mb-4 text-center">Location Overview</h3>
         <div className="w-full h-96">
           <iframe
@@ -131,7 +131,7 @@ export default function AccommodationPage() {
             loading="lazy"
           ></iframe>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

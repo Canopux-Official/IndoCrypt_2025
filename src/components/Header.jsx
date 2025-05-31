@@ -209,20 +209,57 @@ const Header = () => {
           </div>
         </div>
 
+
+          {/* mobile version */}
         {menuOpen && (
           <div className="md:hidden px-6 py-4 bg-white border-t border-gray-200 animate-slideInDown rounded-b-xl shadow-lg">
-            {navLinks.map(link => (
-              <Link
-                key={link.name}
-                to={link.to}
-                onClick={() => setMenuOpen(false)}
-                className="block py-3 text-base font-medium text-gray-800 hover:text-indigo-600 transition-all cursor-pointer"
-              >
-                {link.name}
-              </Link>
+            {navLinks.map((link, index) => (
+              <div key={index} className="mb-2">
+                {link.children ? (
+                  <>
+                    <div
+                      onClick={() =>
+                        setDropdownOpen(dropdownOpen === index ? null : index)
+                      }
+                      className="flex justify-between items-center py-2 cursor-pointer text-base font-medium text-gray-800 hover:text-indigo-600"
+                    >
+                      <span>{link.name}</span>
+                      <ChevronDown
+                        size={18}
+                        className={`transform transition-transform duration-300 ${dropdownOpen === index ? 'rotate-180' : ''
+                          }`}
+                      />
+                    </div>
+                    {dropdownOpen === index && (
+                      <div className="ml-4">
+                        {link.children.map((sublink, subIndex) => (
+                          <Link
+                            key={subIndex}
+                            to={sublink.to}
+                            onClick={() => setMenuOpen(false)}
+                            className="block py-2 pl-2 text-sm text-gray-600 hover:text-indigo-600"
+                          >
+                            {sublink.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <Link
+                    to={link.to}
+                    onClick={() => setMenuOpen(false)}
+                    className="block py-2 text-base font-medium text-gray-800 hover:text-indigo-600"
+                  >
+                    {link.name}
+                  </Link>
+                )}
+              </div>
             ))}
           </div>
         )}
+
+
       </div>
     </header>
 
