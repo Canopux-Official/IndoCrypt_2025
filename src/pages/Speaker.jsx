@@ -96,6 +96,7 @@ const AbstractModal = ({ isOpen, onClose, speaker }) => {
                       alt={speaker.name}
                       className="w-full rounded-full shadow-md"
                       style={{ borderRadius: "20px" }}
+                      loading="lazy"
                     />
                   </div>
                   <div className="md:w-2/3">
@@ -264,6 +265,7 @@ const Speaker = () => {
                     <img
                       src={speaker.image}
                       alt={speaker.name}
+                      loading="lazy"
                       className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 rounded-full"
                     />
                   </div>
@@ -321,6 +323,7 @@ const Speaker = () => {
                   <div className="w-48 h-48 overflow-hidden rounded-full shadow-md">
                     <img
                       src={speaker.image}
+                      loading="lazy"
                       alt={speaker.name}
                       className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300 rounded-full"
                     />

@@ -25,6 +25,7 @@ const OrganizerSection = () => {
               src="https://upload.wikimedia.org/wikipedia/en/b/b2/IIIT_Bhubaneswar_Logo.png"
               alt="IIIT Bhubaneswar Logo"
               className="w-40 mx-auto object-contain"
+              loading="lazy"
             />
           </div>
         </div>

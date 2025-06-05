@@ -20,6 +20,7 @@ const FinanceAndAdvisoryCommitte = () => {
                             src={user}
                             alt={member.name}
                             className="w-14 h-14 rounded-full object-cover border border-gray-300"
+                            loading="lazy"
                         />
                         <div>
                             <p className="font-semibold text-gray-800">{member.name}</p>

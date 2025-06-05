@@ -121,6 +121,7 @@ const Footer = () => {
               src={logo}
               alt="Canopus Logo"
               className="inline-block w-25  h-auto ml-2 transition-transform duration-300 transform group-hover:scale-110"
+              loading="lazy"
             />
           </a>
         </div>

@@ -18,6 +18,7 @@ const CommitteePage = () => {
           <img
             src={user}
             alt={member.name}
+            loading="lazy"
             className="w-14 h-14 rounded-full object-cover border border-gray-300"
           />
           <div>

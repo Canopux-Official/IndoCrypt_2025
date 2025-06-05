@@ -145,6 +145,7 @@ const About = () => {
                   src={CryptoImage}
                   alt="Cryptography Illustration"
                   className="w-full h-auto"
+                  loading="lazy"
                 />
               </div>
             </motion.div>
@@ -188,6 +189,7 @@ const About = () => {
                   src={IIITBhubaneswarLogo}
                   alt="IIIT Bhubaneswar Logo"
                   className="w-64 h-auto mx-auto mb-6"
+                  loading="lazy"
                 />
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">IIIT Bhubaneswar</h3>
@@ -355,6 +357,7 @@ const About = () => {
                 src={TeamworkImage}
                 alt="Collaboration"
                 className="w-full rounded-xl shadow-lg"
+                loading="lazy"
               />
             </motion.div>
           </div>

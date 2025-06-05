@@ -110,7 +110,7 @@ const Header = () => {
       <div className="bg-blue/60 backdrop-blur-lg shadow-md border-b">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-6 md:px-1 gap-4">
           <div className="flex items-center gap-4">
-            <img src={logo} alt="IndoCrypt Logo" className="w-20 h-20 object-contain drop-shadow-lg" />
+            <img src={logo} alt="IndoCrypt Logo" className="w-20 h-20 object-contain drop-shadow-lg" loading="lazy"/>
             <div>
               <h1 className="text-3xl font-extrabold tracking-tight leading-tight text-gray-900">
                 Indocrypt <span className="text-indigo-600">2025</span>

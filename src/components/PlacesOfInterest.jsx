@@ -193,7 +193,7 @@ const PlacesOfInterest = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {placeData.map((place, index) => (
           <div key={index} className="bg-white shadow-lg rounded-2xl overflow-hidden transition hover:shadow-xl">
-            <img src={place.thumbnail} alt={place.name} className="w-full h-48 object-cover" />
+            <img src={place.thumbnail} alt={place.name} className="w-full h-48 object-cover" loading="lazy" />
             <div className="p-5">
               <h3 className="text-xl font-semibold text-indigo-700 mb-1">{place.name}</h3>
               <p className="text-sm text-gray-600 mb-3">{place.description.slice(0, 100)}...</p>
@@ -235,6 +235,7 @@ const PlacesOfInterest = () => {
                 src={img}
                 alt={`Gallery image ${i + 1}`}
                 className="w-full h-48 object-cover rounded-md"
+                loading="lazy"
               />
             ))}
           </div>

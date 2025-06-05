@@ -15,6 +15,7 @@ const Venue = () => {
                     src={bannerIIIT}
                     alt="IIIT Bhubaneswar"
                     className="object-cover w-full h-full"
+                    loading="lazy"
                 />
                 <div className="absolute inset-0 bg-opacity-70 flex items-center justify-center">
                     <h1 className="text-4xl md:text-5xl text-black font-bold">Venue</h1>
@@ -40,6 +41,7 @@ const Venue = () => {
                             src={img}
                             alt={`IIIT Bhubaneswar ${i + 1}`}
                             className="rounded-2xl w-full h-60 object-cover shadow-md"
+                            loading="lazy"
                         />
                     ))}
                 </section>
