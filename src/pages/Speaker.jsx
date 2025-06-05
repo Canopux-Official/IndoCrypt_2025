@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Users, Calendar, MapPin, X } from 'lucide-react';
-import { Helmet } from 'react-helmet-async';
 import LucaDeFeo from "../assets/speaker/LucaDeFeo.jpg";
 import LuccaHirschi from "../assets/speaker/LuccaHirschi.jpg";
 import VincentRijmen from "../assets/speaker/VincentRijmen.png";
@@ -201,9 +200,6 @@ const Speaker = () => {
 
   return (
     <>
-    <Helmet>
-          <title>IndoCrypt-2025 | About</title>
-        </Helmet>
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-blue-100 to-white py-16">

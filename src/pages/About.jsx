@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { motion } from 'framer-motion';
 import { Calendar, MapPin, Users, Building, Award, BookOpen } from 'lucide-react';
 import IIITBhubaneswarLogo from "../assets/IIIT-Bhubaneswar.webp";
-import { Helmet } from "react-helmet-async";
 // import ConferenceBanner from "../assets/images/conference-banner.jpg";
 import CryptoImage from "../assets/crypto-illustration.jpg";
 import TeamworkImage from "../assets/teamwork.jpg";
@@ -70,9 +69,6 @@ const About = () => {
   
   return (
     <>
-      <Helmet>
-        <title>IndoCrypt-2025 | About</title>
-      </Helmet>
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-purple-100 to-white py-16 relative overflow-hidden">
