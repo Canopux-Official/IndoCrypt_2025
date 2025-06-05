@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import ScheduleCard from "../components/ScheduleCard";
 import Countdown from "../components/Countdown";
+import { Helmet } from "react-helmet-async";
 
 const scheduleData = [
   {
@@ -47,6 +48,10 @@ const Schedule = () => {
   }, []);
 
   return (
+    <>
+      <Helmet>
+            <title>IndoCrypt-2025 | Schedule</title>
+          </Helmet>
     <div className="w-full pt-20 bg-gradient-to-b from-[#f0f4ff] to-[#ffffff] pt-10s px-6">
       <motion.h1
         className="text-5xl font-bold text-center text-indigo-700 mb-16"
@@ -160,6 +165,7 @@ const Schedule = () => {
         </motion.div>
       </div>
     </div>
+    </>
   );
 };
 
