@@ -26,29 +26,39 @@ const PaperSubmission = () => {
             <li>Submit through the EasyChair platform.</li>
             <li>Only PDF format is accepted.</li>
           </ul>
-          <p className="mt-4 text-gray-600 text-md">
+          {/* <p className="mt-4 text-gray-600 text-md">
             Download templates: {' '}
-            {/* <a href="/latex-template" className="text-blue-600 underline hover:text-blue-800">LaTeX</a> or {' '}
-            <a href="/word-template" className="text-blue-600 underline hover:text-blue-800">Word</a>. */}
+            <a href="/latex-template" className="text-blue-600 underline hover:text-blue-800">LaTeX</a> or {' '}
+            <a href="/word-template" className="text-blue-600 underline hover:text-blue-800">Word</a>.
             <a className="text-lg text-gray-700 font-medium mt-6">
               Updated Soon.
             </a>
-          </p>
+          </p> */}
         </section>
 
         <section className="text-center">
-          <p className="text-lg text-gray-700 font-medium mt-6">
-            🛠️ The submission link will be updated soon.
-          </p>
+          <div className="flex justify-center items-center gap-2 mt-6">
+            <p className="text-lg text-gray-700 font-medium">
+              🛠️ The paper submission portal is now live!
+            </p>
+            <span className="w-3 h-3 bg-green-600 rounded-full animate-pulse inline-block"></span>
+          </div>
           <p className="text-md text-gray-500 mt-2">
-            Please follow the guidelines above and prepare your paper accordingly. Check back later for the official submission portal.
+            Please ensure your paper follows the guidelines provided above before submitting. Use the official EasyChair portal below.
           </p>
           <div className="mt-6">
-            <span className="inline-block px-6 py-3 bg-indigo-100 text-indigo-800 font-semibold rounded-md">
-              📤 Submission link coming soon!
-            </span>
+            <a
+              href="https://easychair.org/conferences/?conf=indocrypt2025"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-indigo-100 text-indigo-800 font-semibold rounded-md hover:bg-indigo-200 transition"
+            >
+              📤 Click to Submit your paper on EasyChair
+            </a>
           </div>
         </section>
+
+
       </div>
     </div>
   );

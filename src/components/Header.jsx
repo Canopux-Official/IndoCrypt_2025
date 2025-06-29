@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Menu, X, Clock, ChevronDown } from 'lucide-react';
 import logo from "../assets/logo.png";
 import Marquee from 'react-fast-marquee';
@@ -100,8 +100,24 @@ const Header = () => {
   const announcements = [
     { icon: <FaBullhorn color='red' className="inline mr-1" />, text: "Call For Papers", link: "/call-for-papers" },
     { icon: <MdAppRegistration color='violet' className="inline mr-1" />, text: "Registration", link: "/registration" },
-    { icon: <GiGraduateCap color='yellow' className="inline mr-1" />, text: "Paper Submission", link: "/paper-submission" },
+    { icon: <GiGraduateCap color='yellow' className="inline mr-1" />, text: "Paper Submission is Live", link: "/paper-submission" },
   ];
+
+
+  const dropdownRef = useRef(null);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownOpen(null);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
 
 
   return (
@@ -110,7 +126,7 @@ const Header = () => {
       <div className="bg-blue/60 backdrop-blur-lg shadow-md border-b">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-6 md:px-1 gap-4">
           <div className="flex items-center gap-4">
-            <img src={logo} alt="IndoCrypt Logo" className="w-20 h-20 object-contain drop-shadow-lg" loading="lazy"/>
+            <img src={logo} alt="IndoCrypt Logo" className="w-20 h-20 object-contain drop-shadow-lg" loading="lazy" />
             <div>
               <h1 className="text-3xl font-extrabold tracking-tight leading-tight text-gray-900">
                 Indocrypt <span className="text-indigo-600">2025</span>
@@ -166,10 +182,11 @@ const Header = () => {
 
 
         <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between py-2">
-          <nav className="hidden md:flex gap-6 text-gray-800 text-sm font-semibold relative">
+          <nav ref={dropdownRef} className="hidden md:flex gap-6 text-gray-800 text-sm font-semibold relative">
             {navLinks.map((link, index) => (
-              <div key={index} className="relative group">
+              <div key={index} className="relative">
                 <div
+                  onClick={() => setDropdownOpen(dropdownOpen === index ? null : index)}
                   className="flex items-center gap-1 px-4 py-2 cursor-pointer hover:text-indigo-700 hover:bg-indigo-50 rounded-md transition duration-300 ease-in-out"
                 >
                   {link.children ? (
@@ -182,13 +199,14 @@ const Header = () => {
                   )}
                 </div>
 
-                {link.children && (
-                  <div className="absolute left-0 mt-1 hidden group-hover:block bg-white shadow-lg rounded-lg border border-gray-200 min-w-[200px] z-50 transition-all duration-300 ease-in-out">
+                {link.children && dropdownOpen === index && (
+                  <div className="absolute left-0 mt-1 bg-white shadow-lg rounded-lg border border-gray-200 min-w-[200px] z-50">
                     {link.children.map((sublink, subIndex) => (
                       <Link
                         key={subIndex}
                         to={sublink.to}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-100 hover:text-indigo-700 transition duration-200"
+                        onClick={() => setDropdownOpen(null)}
                       >
                         {sublink.name}
                       </Link>
@@ -198,6 +216,9 @@ const Header = () => {
               </div>
             ))}
           </nav>
+
+
+
 
           <div className="md:hidden">
             <button
@@ -210,7 +231,7 @@ const Header = () => {
         </div>
 
 
-          {/* mobile version */}
+        {/* mobile version */}
         {menuOpen && (
           <div className="md:hidden px-6 py-4 bg-white border-t border-gray-200 animate-slideInDown rounded-b-xl shadow-lg">
             {navLinks.map((link, index) => (

@@ -9,6 +9,7 @@ import luca from '../assets/Speaker Images/luca.jpg'
 import img1 from '../assets/Speaker Images/img1.jpg'
 import img2 from '../assets/Speaker Images/img2.jpg'
 import img4 from '../assets/Speaker Images/img4.jpg'
+import img3 from '../assets/Speaker Images/img3.jpg'
 
 // Custom marquee implementation without external library
 const CustomMarquee = ({ children, speed = 40 }) => {
@@ -185,12 +186,12 @@ const Speaker = () => {
     },
     {
       id: 2,
-      name: "Speaker 2",
-      // desg: "Research Staff Member",
+      name: "Sugata Gangopadhyay",
+      desg: "Professor",
       title: "To Be Announced",
-      college: "To Be Announced",
+      college: "Indian Institute of Technology Roorkee, India",
       // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
-      image: speaker
+      image: img3
     },
   ]
 
