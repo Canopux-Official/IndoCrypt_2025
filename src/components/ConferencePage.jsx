@@ -74,7 +74,7 @@ const ConferencePage = () => {
           <div className="w-2/3 text-left bg-white text-black rounded-lg shadow-xl p-8 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
             <h3 className="text-2xl font-semibold mb-4">All deadlines correspond to 23:59:59 anywhere on Earth (UTC-12).</h3>
             <ul className="space-y-4">
-              <li> September 1, 2025 -Paper submission deadline</li>
+              <li> September 10, 2025 -Paper submission deadline</li>
               <li>October 10, 2025 - Notification to authors</li>
               <li>October 15, 2025 - Final manuscripts due </li>
               <li>December 14-17, 2025 - Dates of the conference </li>
