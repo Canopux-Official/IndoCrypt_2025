@@ -11,7 +11,7 @@ const PaperSubmission = () => {
           Submit your paper below following the guidelines provided.
         </p>
         <div className="mt-6 inline-block bg-yellow-100 text-yellow-800 text-md font-semibold px-6 py-2 rounded-full shadow-sm">
-          📅 Paper Submission Deadline: <span className="font-bold">September 1, 2025</span>
+          📅 Paper Submission Deadline: <span className="font-bold">September 10, 2025</span>
         </div>
       </div>
 
