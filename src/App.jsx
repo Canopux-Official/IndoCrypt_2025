@@ -26,6 +26,7 @@ import Partners from "./components/Partners";
 import FinanceAndAdvisoryCommitte from "./components/FinanceCommitte";
 import PublicityChair from "./components/PublicityChair";
 import IndustryChair from "./components/IndustryChair";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -84,6 +85,10 @@ function App() {
           {/* program page */}
           <Route path="/program" element={<Program />} /> 
           <Route path="/past-indocrypt" element={<PastIndocrypt />} /> 
+
+
+          {/* Not found route */}
+          <Route path="*" element={<NotFound/>} />
           
 
         </Routes>
