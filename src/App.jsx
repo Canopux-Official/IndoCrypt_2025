@@ -27,26 +27,28 @@ import FinanceAndAdvisoryCommitte from "./components/FinanceCommitte";
 import PublicityChair from "./components/PublicityChair";
 import IndustryChair from "./components/IndustryChair";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/utils/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          
+
 
           {/* schedule section */}
           <Route path="/schedule" element={<Schedule />} />
 
 
           {/* speakers section */}
-          <Route path="/speakers" element={<Speaker/>} />
+          <Route path="/speakers" element={<Speaker />} />
 
 
-          <Route path="/register-page" element={<RegisterPage/>} />
-          
+          <Route path="/register-page" element={<RegisterPage />} />
+
 
 
           {/* travel section */}
@@ -65,8 +67,8 @@ function App() {
           <Route path="/finance-committe" element={<FinanceAndAdvisoryCommitte />} />
           <Route path="/publicity-chair" element={<PublicityChair />} />
           <Route path="/industry-chair" element={<IndustryChair />} />
-          
-          
+
+
 
           {/* general section */}
           <Route path="/faq" element={<FAQ />} />
@@ -79,17 +81,17 @@ function App() {
           <Route path="/call-for-papers" element={<CallForPapers />} />
           <Route path="/paper-submission" element={<PaperSubmission />} />
           <Route path="/registration" element={<AuthorRegistration />} />
-          <Route path="/guidelines" element={<AuthorGuidelines />} /> 
+          <Route path="/guidelines" element={<AuthorGuidelines />} />
 
 
           {/* program page */}
-          <Route path="/program" element={<Program />} /> 
-          <Route path="/past-indocrypt" element={<PastIndocrypt />} /> 
+          <Route path="/program" element={<Program />} />
+          <Route path="/past-indocrypt" element={<PastIndocrypt />} />
 
 
           {/* Not found route */}
-          <Route path="*" element={<NotFound/>} />
-          
+          <Route path="*" element={<NotFound />} />
+
 
         </Routes>
         <Footer />
