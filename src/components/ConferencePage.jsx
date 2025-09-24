@@ -16,6 +16,7 @@ import zoho from '../assets/silver_sponsors/zoho.png'
 import bharat from '../assets/gold_sponsors/bharat.png'
 import OrganizerSection from './OrganizerSection';
 import { Link, useNavigate } from 'react-router-dom';
+import SponsorsImage from './SponsorsImage';
 
 const ConferencePage = () => {
 
@@ -141,69 +142,7 @@ const ConferencePage = () => {
 
       {/* Sponsors Section */}
 
-      <section className="bg-gray-900 text-white">
-        {/* Platinum Sponsors */}
-        <div className="py-12 bg-gradient-to-r from-gray-900 via-indigo-900 to-gray-900">
-          <h3 className="text-3xl sm:text-4xl font-semibold mb-6 text-center text-white">
-            Platinum Sponsors
-          </h3>
-          <Marquee gradient={false} speed={50} className="py-2">
-            {/* <img src={drdo} alt="Platinum 1" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <img src={exnetwork} alt="Platinum 2" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <img src={nbhm} alt="Platinum 3" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <img src={odyssey} alt="Platinum 4" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <img src={thales} alt="Platinum 5" className="h-40 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" /> */}
-          </Marquee>
-        </div>
-
-        {/* Gold Sponsors */}
-        <div className="py-12 bg-gradient-to-r from-gray-900 via-yellow-800 to-gray-900">
-          <h3 className="text-3xl sm:text-4xl font-semibold mb-6 text-center text-white">
-            Gold Sponsors
-          </h3>
-          {/* <img src={bharat} alt="Gold 1" className="h-32 m-auto text-center w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" /> */}
-        </div>
-
-        {/* Silver Sponsors */}
-        <div className="py-12 bg-gradient-to-r from-gray-900 via-gray-600 to-gray-900">
-          <h3 className="text-3xl sm:text-4xl font-semibold mb-6 text-center text-white">
-            Silver Sponsors
-          </h3>
-          <Marquee gradient={false} speed={40} className="py-2">
-            {/* <div >
-              <img src={elmack} alt="Silver 1" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300 " />
-            </div>
-            <div>
-              <img src={matrix} alt="Silver 2" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div>
-            <div>
-              <img src={ntro} alt="Silver 3" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div>
-            <div>
-              <img src={payatu} alt="Silver 4" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div>
-            <div>
-              <img src={prama} alt="Silver 5" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div>
-            <div>
-              <img src={skillsda} alt="Silver 6" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div>
-            <div>
-              <img src={tnscst} alt="Silver 7" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div>
-            <div>
-              <img src={zoho} alt="Silver 8" className="h-32 w-auto mx-8 object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            </div> */}
-
-
-
-
-
-
-
-          </Marquee>
-        </div>
-      </section>
+      <SponsorsImage/>
 
 
     </div>

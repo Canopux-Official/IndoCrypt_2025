@@ -28,6 +28,10 @@ import PublicityChair from "./components/PublicityChair";
 import IndustryChair from "./components/IndustryChair";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/utils/ScrollToTop";
+import Sponsors from "./pages/Sponsors";
+import RegistrationForIndianStudents from "./components/RegistrationForIndianStudents";
+import RegistrationForForeignParticipants from "./components/RegistrationForForeignParticipants";
+import CodeOfConduct from "./components/CodeOfConduct";
 
 function App() {
   return (
@@ -45,9 +49,6 @@ function App() {
 
           {/* speakers section */}
           <Route path="/speakers" element={<Speaker />} />
-
-
-          <Route path="/register-page" element={<RegisterPage />} />
 
 
 
@@ -88,9 +89,20 @@ function App() {
           <Route path="/program" element={<Program />} />
           <Route path="/past-indocrypt" element={<PastIndocrypt />} />
 
+          {/* Sponsors page */}
+          <Route path="/sponsors" element={<Sponsors />} />
+
+          {/* User Registration Page */}
+          <Route path="/register-page" element={<RegisterPage />} />
+          <Route path="/register-for-indian-participants" element={<RegistrationForIndianStudents />} />
+          <Route path="/register-for-foreign-participants" element={<RegistrationForForeignParticipants />} />
+          <Route path="/code-of-conduct" element={<CodeOfConduct />} />
+
 
           {/* Not found route */}
           <Route path="*" element={<NotFound />} />
+
+          
 
 
         </Routes>

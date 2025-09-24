@@ -93,6 +93,18 @@ const Header = () => {
         { name: 'Places of Interest', to: '/places-of-interest' },
       ]
     },
+    {
+      name: 'Registration',
+      children: [,
+        { name: 'Registration Fee Details', to: '/register-page' },
+        { name: 'Registration For Indian Participants', to: '/register-for-indian-participants' },
+        { name: 'Registration For Foreign Participants', to: '/register-for-foreign-participants' },
+        { name: 'Code Of Conduct', to: '/code-of-conduct' },
+      ]
+    },
+    {
+      name: 'Sponsors', to: '/sponsors'
+    },
   ];
 
 
