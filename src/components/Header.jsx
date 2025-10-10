@@ -6,7 +6,11 @@ import Marquee from 'react-fast-marquee';
 import { Link } from 'react-router-dom';
 import { FaBullhorn } from 'react-icons/fa';
 import { MdAppRegistration } from 'react-icons/md';
-import { GiGraduateCap } from 'react-icons/gi';
+import { GiGraduateCap, GiTeacher } from 'react-icons/gi';
+import { IoNewspaper } from 'react-icons/io5';
+import { RiAdminFill } from 'react-icons/ri';
+import { PiUsersThreeFill } from 'react-icons/pi';
+import { HiUsers } from 'react-icons/hi';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -111,8 +115,9 @@ const Header = () => {
   // this is for the announcements
   const announcements = [
     { icon: <FaBullhorn color='red' className="inline mr-1" />, text: "Call For Papers", link: "/call-for-papers" },
-    { icon: <MdAppRegistration color='violet' className="inline mr-1" />, text: "Registration", link: "/registration" },
-    { icon: <GiGraduateCap color='yellow' className="inline mr-1" />, text: "Paper Submission is Live", link: "/paper-submission" },
+    { icon: <RiAdminFill color='violet' className="inline mr-1" />, text: "Author Registration", link: "/registration" },
+    { icon: <IoNewspaper color='yellow' className="inline mr-1" />, text: "Paper Submission is Live", link: "/paper-submission" },
+    { icon: <HiUsers color='black' className="inline mr-1" />, text: "General Registration Is Open Now", link: "/register-page" }
   ];
 
 

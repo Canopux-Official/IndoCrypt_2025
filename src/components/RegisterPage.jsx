@@ -101,6 +101,11 @@ const RegisterPage = () => {
                         </div>
                     </div>
 
+                    <p className="text-base text-gray-600 mb-4">
+                        This registration is for general participants and attendees.
+                        For author registration, please visit the <a href="/registration" className="text-indigo-600 underline">Author Registration</a> page.
+                    </p>
+
                     <p className="text-sm text-gray-500 mt-8">
                         For registration queries, contact us at&nbsp;
                         <a
