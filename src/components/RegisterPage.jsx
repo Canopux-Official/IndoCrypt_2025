@@ -4,7 +4,7 @@ const RegisterPage = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-      
+
     return (
         <div>
             <section className="bg-gradient-to-b from-indigo-50 to-white pt-10 flex items-center justify-center px-6 py-20 md:px-12 font-sans">
@@ -14,7 +14,7 @@ const RegisterPage = () => {
                     </h1>
                     <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
                         We're excited to welcome you to Indocrypt 2025!
-                        Registration will open soon. Please check back later or follow us for updates.
+                        Registration is now open. Please complete your registration below.
                     </p>
 
                     {/* Registration Fee Details */}
@@ -22,7 +22,7 @@ const RegisterPage = () => {
                         <h2 className="text-2xl md:text-3xl font-bold text-indigo-800 mb-6">
                             Registration Fee Details
                         </h2>
-                        
+
                         <div className="overflow-x-auto">
                             <table className="w-full border-collapse border border-gray-300 bg-white">
                                 <thead>
@@ -84,31 +84,36 @@ const RegisterPage = () => {
                         </div>
                     </div>
 
-                    {/* <div className="mt-10">
-                        <span className="text-base md:text-lg text-gray-600">
-                            Registration Link:
-                        </span>
-                        <div className="mt-3">
-                            <a
-                                href="#"
-                                className="inline-block px-6 py-3 bg-indigo-600 text-white font-medium text-lg rounded-full shadow hover:bg-indigo-700 transition duration-300 cursor-not-allowed opacity-60"
-                                onClick={(e) => e.preventDefault()}
-                            >
-                                Link will be updated soon
-                            </a>
+                    {/* KonfHub Registration Widget */}
+                    <div className="mt-12">
+                        <h2 className="text-2xl md:text-3xl font-bold text-indigo-800 mb-6">
+                            Complete Your Registration
+                        </h2>
+                        <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-lg border border-gray-200">
+                            <iframe
+                                src="https://konfhub.com/widget/indocrypt-2025?desc=false&secondaryBg=F7F7F7&ticketBg=F7F7F7&borderCl=F7F7F7&bg=FFFFFF&fontColor=1e1f24&ticketCl=1e1f24&btnColor=002E6E&fontFamily=Hind&borderRadius=10&widget_type=standard&tickets=62321%2C62322%2C62323%2C62324%2C62325%2C62326%2C62327%2C62328&ticketId=62321%7C0%3B62322%7C0%3B62323%7C0%3B62324%7C0%3B62325%7C0%3B62326%7C0%3B62327%7C0%3B62328%7C0"
+                                id="konfhub-widget"
+                                title="Register for Indocrypt 2025"
+                                width="100%"
+                                height="500"
+                                style={{ border: "none" }}
+                            ></iframe>
                         </div>
                     </div>
 
                     <p className="text-sm text-gray-500 mt-8">
-                        If you have any questions, feel free to contact us at&nbsp;
-                        <a href="mailto:registration@indocrypt2025.org" className="text-indigo-600 underline">
-                            registration@indocrypt2025.org
+                        For registration queries, contact us at&nbsp;
+                        <a
+                            href="mailto:registration@indocrypt2025.org"
+                            className="text-indigo-600 underline"
+                        >
+                            Indocrypt2025@iiit-bh.ac.in
                         </a>
-                    </p> */}
+                    </p>
                 </div>
             </section>
         </div>
-    )
-}
+    );
+};
 
-export default RegisterPage
+export default RegisterPage;

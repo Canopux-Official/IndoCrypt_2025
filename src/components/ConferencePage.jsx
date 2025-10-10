@@ -1,19 +1,4 @@
 import { motion } from 'framer-motion';
-import Marquee from 'react-fast-marquee';
-import drdo from '../assets/platinum_sponsors/drdo.png'
-import exnetwork from '../assets/platinum_sponsors/exnetwork.png'
-import nbhm from '../assets/platinum_sponsors/nbhm.png'
-import odyssey from '../assets/platinum_sponsors/odyssey.png'
-import thales from '../assets/platinum_sponsors/thales.png'
-import elmack from '../assets/silver_sponsors/elmack.png'
-import matrix from '../assets/silver_sponsors/matrix.png'
-import ntro from '../assets/silver_sponsors/ntro.png'
-import payatu from '../assets/silver_sponsors/payatu.png'
-import prama from '../assets/silver_sponsors/prama.png'
-import skillsda from '../assets/silver_sponsors/skillsda.png'
-import tnscst from '../assets/silver_sponsors/tnscst.png'
-import zoho from '../assets/silver_sponsors/zoho.png'
-import bharat from '../assets/gold_sponsors/bharat.png'
 import OrganizerSection from './OrganizerSection';
 import { Link, useNavigate } from 'react-router-dom';
 import SponsorsImage from './SponsorsImage';
