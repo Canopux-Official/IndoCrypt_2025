@@ -61,7 +61,7 @@ const AcceptedPapers = () => {
             </div>
 
             <a
-              href="/assets/list_of_accepted_indocrypt_2025.pdf"
+              href="/assets/List_of_accepted_indocrypt_2025.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-indigo-600 text-white px-6 py-2.5 rounded-lg shadow-md font-semibold hover:bg-indigo-700 transition duration-300"
