@@ -1,11 +1,13 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
 import ConferencePage from '../components/ConferencePage'
+import AcceptedPapersPopup from '../components/AcceptedPapersPopUp'
 const HomePage = () => {
   return (
     <>
-        <HeroSection/>
-        <ConferencePage/>
+      <AcceptedPapersPopup />
+      <HeroSection />
+      <ConferencePage />
     </>
   )
 }

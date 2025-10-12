@@ -48,17 +48,19 @@ const RegistrationForForeignParticipants = () => {
                         {/* Account Details */}
                         <div>
                             <h2 className="text-2xl md:text-3xl font-bold text-indigo-800 mb-4">
-                                Account Details
+                                Register Now
                             </h2>
-                            <div className="bg-gray-50 rounded-lg p-8 text-center border border-gray-200">
-                                <p className="text-xl text-gray-600 italic">
-                                    To be updated
-                                </p>
-                                <p className="text-sm text-gray-500 mt-2">
-                                    Payment information will be available soon. Please check back later for detailed payment instructions.
-                                </p>
+                            <div className="bg-gray-50 rounded-lg p-6 text-center border border-gray-200">
+                                <a
+                                    href="/register-page"
+                                    className="text-indigo-600 font-semibold hover:text-indigo-800 underline"
+                                >
+                                    Click here for registration
+                                </a>
                             </div>
                         </div>
+
+
 
                         {/* Terms and Conditions */}
                         <div>

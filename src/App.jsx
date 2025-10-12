@@ -32,6 +32,7 @@ import Sponsors from "./pages/Sponsors";
 import RegistrationForIndianStudents from "./components/RegistrationForIndianStudents";
 import RegistrationForForeignParticipants from "./components/RegistrationForForeignParticipants";
 import CodeOfConduct from "./components/CodeOfConduct";
+import AcceptedPapers from "./components/AcceptedPapers";
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
           <Route path="/paper-submission" element={<PaperSubmission />} />
           <Route path="/registration" element={<AuthorRegistration />} />
           <Route path="/guidelines" element={<AuthorGuidelines />} />
+          <Route path="/accepted-papers" element={<AcceptedPapers />} />
 
 
           {/* program page */}
