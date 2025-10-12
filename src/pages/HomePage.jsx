@@ -5,7 +5,7 @@ import AcceptedPapersListPopup from '../components/AcceptedPapersListPopup'
 const HomePage = () => {
   return (
     <>
-      <AcceptedPapersListPopup />
+      {/* <AcceptedPapersListPopup /> */}
       <HeroSection />
       <ConferencePage />
     </>
