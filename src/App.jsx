@@ -82,7 +82,7 @@ function App() {
           {/* Authors*/}
           <Route path="/call-for-papers" element={<CallForPapers />} />
           <Route path="/paper-submission" element={<PaperSubmission />} />
-          <Route path="/registration" element={<AuthorRegistration />} />
+          {/* <Route path="/registration" element={<AuthorRegistration />} /> */}
           <Route path="/guidelines" element={<AuthorGuidelines />} />
           {/* <Route path="/accepted-papers" element={<AcceptedPapers />} /> */}
 
