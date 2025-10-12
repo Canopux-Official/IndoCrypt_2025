@@ -10,7 +10,7 @@ const RegisterPage = () => {
             <section className="bg-gradient-to-b from-indigo-50 to-white pt-10 flex items-center justify-center px-6 py-20 md:px-12 font-sans">
                 <div className="bg-white shadow-2xl rounded-3xl p-10 md:p-16 max-w-4xl text-center space-y-8">
                     <h1 className="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">
-                        INDOCRYPT 2025 Registration
+                        Indocrypt 2025 Registration
                     </h1>
                     <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
                         We're excited to welcome you to Indocrypt 2025!
@@ -100,16 +100,6 @@ const RegisterPage = () => {
                             ></iframe>
                         </div>
                     </div>
-
-                    <p className="text-sm text-gray-500 mt-8">
-                        For any queries, contact us at&nbsp;
-                        <a
-                            href="mailto:registration@indocrypt2025.org"
-                            className="text-indigo-600 underline"
-                        >
-                            Indocrypt2025@iiit-bh.ac.in
-                        </a>
-                    </p>
                 </div>
             </section>
         </div>

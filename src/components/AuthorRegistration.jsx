@@ -8,7 +8,7 @@ const AuthorRegistration = () => {
           Author Registration
         </h2>
         <p className="text-lg text-gray-700 mb-4">
-          🛑 Author registration for IndoCrypt 2025 is now closed.
+          🛑 Author registration for Indocrypt 2025 is now closed.
         </p>
         <div className="inline-block px-6 py-3 bg-indigo-100 text-indigo-800 font-semibold rounded-md">
           📅 Registration link will reopen if additional slots become available.

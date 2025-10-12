@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const AcceptedPapersPopup = () => {
+const AcceptedPapersListPopup = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const AcceptedPapersPopup = () => {
         </h2>
         <p className="text-gray-600 mb-6">
           We’re delighted to announce that the list of accepted papers for
-          IndoCrypt 2025 is now available.
+          Indocrypt 2025 is now available.
         </p>
         <div className="flex justify-center gap-3">
           <Link
@@ -41,4 +41,4 @@ const AcceptedPapersPopup = () => {
   );
 };
 
-export default AcceptedPapersPopup;
+export default AcceptedPapersListPopup;

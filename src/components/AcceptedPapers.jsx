@@ -6,7 +6,7 @@ const AcceptedPapers = () => {
     {
       title: "Indocrypt 2025 Accepted Papers List",
       description:
-        "The official list of papers accepted for presentation at IndoCrypt 2025, including titles, authors, and affiliations.",
+        "The official list of papers accepted for presentation at Indocrypt 2025, including titles, authors, and affiliations.",
     },
   ];
 
@@ -19,11 +19,11 @@ const AcceptedPapers = () => {
         <div className="absolute bottom-0 right-1/3 w-[60%] h-[60%] bg-blue-500 rounded-full opacity-10 blur-2xl"></div>
 
         <h1 className="relative text-4xl md:text-5xl font-extrabold text-white mb-3 tracking-tight z-10">
-          📢 Accepted Papers – IndoCrypt 2025
+          📢 Accepted Papers – Indocrypt 2025
         </h1>
         <p className="relative text-lg md:text-xl text-indigo-100 z-10 max-w-3xl mx-auto">
           Celebrating excellence in cryptography research. Explore the
-          officially accepted papers for IndoCrypt 2025.
+          officially accepted papers for Indocrypt 2025.
         </p>
       </section>
 
@@ -34,7 +34,7 @@ const AcceptedPapers = () => {
             Congratulations to All Authors
           </h2>
           <p className="text-gray-600">
-            The IndoCrypt 2025 organizing committee is pleased to share the
+            The Indocrypt 2025 organizing committee is pleased to share the
             complete list of accepted papers. We look forward to your valuable
             presentations during the conference.
           </p>

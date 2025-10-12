@@ -7,7 +7,7 @@ const CallForPapers = () => {
         {/* Header */}
         <header className="text-center">
           <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 animate__animated animate__fadeIn">
-            INDOCRYPT 2025
+            Indocrypt 2025
           </h1>
           <p className="mt-4 text-lg md:text-xl text-gray-600 font-medium">
             International Conference on Cryptology in India – Call For Papers
@@ -23,7 +23,7 @@ const CallForPapers = () => {
               About the Conference
             </h2>
             <p className="text-gray-800 leading-relaxed text-justify">
-              The International Conference on Cryptology in India (INDOCRYPT) is an annual cryptography conference organised by the Cryptology Research Society of India (CRSI) in association with an Indian institute or organisation. The conference seeks submissions from academia, industry, and government on all theoretical and practical aspects relevant to cryptology, network security, and related fields. This year conveys the 26th edition of the conference, which will be held in Bhubaneswar, India. Proceedings will be published by Springer in the LNCS series.
+              The International Conference on Cryptology in India (Indocrypt) is an annual cryptography conference organised by the Cryptology Research Society of India (CRSI) in association with an Indian institute or organisation. The conference seeks submissions from academia, industry, and government on all theoretical and practical aspects relevant to cryptology, network security, and related fields. This year conveys the 26th edition of the conference, which will be held in Bhubaneswar, India. Proceedings will be published by Springer in the LNCS series.
             </p>
           </section>
 

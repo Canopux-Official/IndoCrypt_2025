@@ -65,7 +65,7 @@ const Footer = () => {
             <li>
               Email:{" "}
               <a
-                href="mailto:contact@Indocrypt2025.org"
+                href="mailto:Indocrypt2025@iiit-bh.ac.in"
                 className="hover:text-white transition-colors"
               >
                 Indocrypt2025@iiit-bh.ac.in

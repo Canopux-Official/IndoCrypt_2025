@@ -5,7 +5,7 @@ const PaperSubmission = () => {
     <div className="max-w-5xl mx-auto py-12 px-6">
       <div className="text-center mb-12">
         <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-purple-700">
-          INDOCRYPT 2025
+          Indocrypt 2025
         </h1>
         <p className="mt-4 text-xl text-gray-700">
           Submit your paper below following the guidelines provided.
