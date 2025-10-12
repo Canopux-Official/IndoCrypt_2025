@@ -1,11 +1,11 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
 import ConferencePage from '../components/ConferencePage'
-import AcceptedPapersPopup from '../components/AcceptedPapersPopUp'
+import AcceptedPapersListPopup from '../components/AcceptedPapersListPopup'
 const HomePage = () => {
   return (
     <>
-      <AcceptedPapersPopup />
+      <AcceptedPapersListPopup />
       <HeroSection />
       <ConferencePage />
     </>
