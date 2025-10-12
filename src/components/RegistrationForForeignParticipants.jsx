@@ -28,19 +28,15 @@ const RegistrationForForeignParticipants = () => {
                             <ul className="space-y-2 text-gray-700">
                                 <li className="flex items-start">
                                     <span className="text-indigo-600 mr-2">•</span>
-                                    Visit the registration fees page for details
+                                    Register for the conference using the provided registration link.
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-indigo-600 mr-2">•</span>
-                                    Fee to be remitted to the following bank account
+                                    Fill out all required details carefully in the registration form.
                                 </li>
                                 <li className="flex items-start">
                                     <span className="text-indigo-600 mr-2">•</span>
-                                    The payment reference number has to be filled in the registration form. A confirmation will be sent to the registered mail id on successful payment of fees.
-                                </li>
-                                <li className="flex items-start">
-                                    <span className="text-indigo-600 mr-2">•</span>
-                                    On successful registration, a QR code will be sent to the mail id provided during registration. The QR code will be scanned at the registration desk on the day of the conference.
+                                    Save the registration ticket for your future reference.
                                 </li>
                             </ul>
                         </div>
