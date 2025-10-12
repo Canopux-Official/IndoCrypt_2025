@@ -1,12 +1,11 @@
 import React from "react";
 import { FaFilePdf } from "react-icons/fa";
-import acceptedList from "../assets/list_of_accepted_indocrypt_2025.pdf";
 
 const AcceptedPapers = () => {
   const papers = [
     {
       title: "Indocrypt 2025 Accepted Papers List",
-      link: acceptedList,
+      link: "/assets/list_of_accepted_indocrypt_2025.pdf",
       description:
         "The official list of papers accepted for presentation at IndoCrypt 2025, including titles, authors, and affiliations.",
     },
