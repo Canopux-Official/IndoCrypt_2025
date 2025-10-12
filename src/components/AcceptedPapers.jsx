@@ -5,7 +5,7 @@ const AcceptedPapers = () => {
   const papers = [
     {
       title: "Indocrypt 2025 Accepted Papers List",
-      link: "/assets/list_of_accepted_indocrypt_2025.pdf",
+      link: "/public/assets/list_of_accepted_indocrypt_2025.pdf",
       description:
         "The official list of papers accepted for presentation at IndoCrypt 2025, including titles, authors, and affiliations.",
     },
