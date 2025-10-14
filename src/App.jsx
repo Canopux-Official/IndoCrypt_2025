@@ -14,19 +14,19 @@ import ProgramCommitte from "./Committe/ProgramCommitte";
 import About from "./pages/About";
 import CallForPapers from "./Authors/CallForPapers"
 import PaperSubmission from "./Authors/PaperSubmission";
-import AuthorRegistration from "./Authors/AuthorRegistration";
+// import AuthorRegistration from "./Authors/AuthorRegistration";
 import AuthorGuidelines from "./Authors/AuthorGuidelines";
 
 import OrganizingCommitte from "./committe/OrganizingCommitte";
-import GeneralChairs from "./committe/GeneralChairs";
-import AdvisoryCommitte from "./committe/AdvisoryCommitte";
+import GeneralChairs from "./Committe/GeneralChairs";
+import AdvisoryCommitte from "./Committe/AdvisoryCommitte";
 import RegisterPage from "./Registration/RegisterPage";
 import Program from "./Program/Program";
 import PastIndocrypt from "./Program/PastIndocrypt";
 import Partners from "./General/Partners";
-import FinanceAndAdvisoryCommitte from "./committe/FinanceCommitte";
-import PublicityChair from "./committe/PublicityChair";
-import IndustryChair from "./committe/IndustryChair";
+import FinanceAndAdvisoryCommitte from "./Committe/FinanceCommitte";
+import PublicityChair from "./Committe/PublicityChair";
+import IndustryChair from "./Committe/IndustryChair";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/utils/ScrollToTop";
 import Sponsors from "./pages/Sponsors";
