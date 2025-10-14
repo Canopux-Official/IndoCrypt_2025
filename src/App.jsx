@@ -16,8 +16,9 @@ import CallForPapers from "./Authors/CallForPapers"
 import PaperSubmission from "./Authors/PaperSubmission";
 import AuthorRegistration from "./Authors/AuthorRegistration";
 import AuthorGuidelines from "./Authors/AuthorGuidelines";
-import GeneralChairs from "./committe/GeneralChairs";
+
 import OrganizingCommitte from "./committe/OrganizingCommitte";
+import GeneralChairs from "./committe/GeneralChairs";
 import AdvisoryCommitte from "./committe/AdvisoryCommitte";
 import RegisterPage from "./Registration/RegisterPage";
 import Program from "./Program/Program";
