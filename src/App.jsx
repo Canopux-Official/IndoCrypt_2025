@@ -17,15 +17,16 @@ import PaperSubmission from "./Authors/PaperSubmission";
 // import AuthorRegistration from "./Authors/AuthorRegistration";
 import AuthorGuidelines from "./Authors/AuthorGuidelines";
 
-import OrganizingCommitte from "./committe/OrganizingCommitte";
+import OrganizingCommitte from "./Committe/OrganizingCommitte";
 import GeneralChairs from "./Committe/GeneralChairs";
 import AdvisoryCommitte from "./Committe/AdvisoryCommitte";
 import RegisterPage from "./Registration/RegisterPage";
 import Program from "./Program/Program";
 import PastIndocrypt from "./Program/PastIndocrypt";
 import Partners from "./General/Partners";
-import FinanceAndAdvisoryCommitte from "./Committe/FinanceCommitte";
+
 import PublicityChair from "./Committe/PublicityChair";
+import FinanceAndAdvisoryCommitte from "./Committe/FinanceCommitte";
 import IndustryChair from "./Committe/IndustryChair";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/utils/ScrollToTop";
