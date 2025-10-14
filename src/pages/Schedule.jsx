@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import ScheduleCard from "../components/ScheduleCard";
-import Countdown from "../components/Countdown";
+import Countdown from "../Home/Countdown";
 const scheduleData = [
   {
     day: "Day",

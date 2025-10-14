@@ -1,7 +1,8 @@
 import React from 'react'
-import HeroSection from '../components/HeroSection'
-import ConferencePage from '../components/ConferencePage'
-import AcceptedPapersListPopup from '../components/AcceptedPapersListPopup'
+import HeroSection from '../Home/HeroSection'
+import ConferencePage from '../Home/ConferencePage'
+
+import AcceptedPapersListPopup from '../Authors/AcceptedPapersListPopup'
 const HomePage = () => {
   return (
     <>

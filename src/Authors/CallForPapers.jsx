@@ -114,13 +114,14 @@ const CallForPapers = () => {
                 <p className="font-semibold text-lg">📅 Paper Submission Deadline</p>
                 <p>September 10, 2025</p>
               </div>
-              <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-purple-500">
-                <p className="font-semibold text-lg">🔔 Notification to Authors</p>
-                <p>October 10, 2025</p>
-              </div>
+              
               <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-500">
                 <p className="font-semibold text-lg">📝 Final Manuscript Due</p>
-                <p>October 15, 2025</p>
+                <p>October 20, 2025</p>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-purple-500">
+                <p className="font-semibold text-lg">⏰ Registration due for Authors</p>
+                <p>October 27, 2025</p>
               </div>
               <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-red-500">
                 <p className="font-semibold text-lg">📍 Conference Dates</p>

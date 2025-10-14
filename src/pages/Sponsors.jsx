@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SponsorsImage from '../components/SponsorsImage'
+import SponsorsImage from '../Sponsors/SponsorsImage'
 
 const Sponsors = () => {
 

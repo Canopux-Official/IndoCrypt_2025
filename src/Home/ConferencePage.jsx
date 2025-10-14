@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import OrganizerSection from './OrganizerSection';
 import { Link, useNavigate } from 'react-router-dom';
-import SponsorsImage from './SponsorsImage';
+import SponsorsImage from '../Sponsors/SponsorsImage';
 
 const ConferencePage = () => {
 
@@ -61,8 +61,8 @@ const ConferencePage = () => {
             <h3 className="text-2xl font-semibold mb-4">All deadlines correspond to 23:59:59 anywhere on Earth (UTC-12).</h3>
             <ul className="space-y-4">
               <li> September 10, 2025 -Paper submission deadline</li>
-              <li>October 10, 2025 - Notification to authors</li>
-              <li>October 15, 2025 - Final manuscripts due </li>
+              <li>October 20, 2025 - Final manuscripts due</li>
+              <li>October 27, 2025 - Registration due for Authors </li>
               <li>December 14-17, 2025 - Dates of the conference </li>
             </ul>
           </div>
