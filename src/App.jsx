@@ -86,7 +86,7 @@ function App() {
           <Route path="/paper-submission" element={<PaperSubmission />} />
           {/* <Route path="/registration" element={<AuthorRegistration />} /> */}
           <Route path="/guidelines" element={<AuthorGuidelines />} />
-          {/* <Route path="/accepted-papers" element={<AcceptedPapers />} /> */}
+          <Route path="/accepted-papers" element={<AcceptedPapers />} />
 
 
           {/* program page */}

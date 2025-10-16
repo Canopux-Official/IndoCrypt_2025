@@ -86,7 +86,7 @@ const Header = () => {
         { name: 'Guidelines', to: '/guidelines' },
         { name: 'Paper Submission', to: '/paper-submission' },
         { name: 'Registration', to: '/register-page' },
-        // { name: 'Accepted Papers List', to: '/accepted-papers' },
+        { name: 'Accepted Papers List', to: '/accepted-papers' },
       ]
     },
     {
@@ -117,8 +117,8 @@ const Header = () => {
   const announcements = [
     { icon: <FaBullhorn color='red' className="inline mr-1" />, text: "Call For Papers", link: "/call-for-papers" },
     { icon: <RiAdminFill color='violet' className="inline mr-1" />, text: "Author Registration is Live", link: "/register-page" },
-    // { icon: <IoNewspaper color='yellow' className="inline mr-1" />, text: "Accepted Papers List Released", link: "/accepted-papers" },
-    { icon: <HiUsers color='black' className="inline mr-1" />, text: "General Registration Is Open Now", link: "/register-page" }
+    { icon: <IoNewspaper color='yellow' className="inline mr-1" />, text: "Accepted Papers List Released", link: "/accepted-papers" },
+    { icon: <HiUsers color='black' className="inline mr-1" />, text: "General Registration is open now !", link: "/register-page" }
   ];
 
 
