@@ -168,7 +168,7 @@ const Speaker = () => {
       name: "Shuichi Katsumata",
       desg: "Lead Cryptography Researcher",
       title: "To Be Announced",
-      college: "PQShield Ltd, U.K",
+      college: "PQShield and AIST, Japan",
       // bio: "Lucca Hirschi is a researcher at Inria (France) specializing in formal methods for security. His work focuses on analyzing and strengthening cryptographic protocols used in real-world systems.",
       image: img1
     },
