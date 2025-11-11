@@ -11,9 +11,9 @@ export const tutorialSpeakers = [
         "id": 1,
         "name": "Luca De Feo",
         "desg": "Research Staff Member",
-        "title": "To Be Announced",
+        "title": "Isogeny-based Cryptography",
         "college": "IBM Research Europe",
-        "abstract": "",
+        "abstract": "Isogenies of elliptic curves have played a role in cryptography since the beginnings of Elliptic Curve Cryptography, chiefly as a computational tool to speed-up point counting algorithms. As attention is shifting from ECC to post-quantum cryptography, isogenies are playing an increasingly large role as a new foundation for public-key encryption, signatures, and more.",
         "image": luca
     },
     {
