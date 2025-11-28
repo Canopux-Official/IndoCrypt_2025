@@ -8,7 +8,7 @@ import { FaBullhorn } from 'react-icons/fa';
 import { MdAppRegistration } from 'react-icons/md';
 import { GiGraduateCap, GiTeacher } from 'react-icons/gi';
 import { IoNewspaper } from 'react-icons/io5';
-import { RiAdminFill } from 'react-icons/ri';
+import { RiAdminFill, RiCalendarScheduleLine } from 'react-icons/ri';
 import { PiUsersThreeFill } from 'react-icons/pi';
 import { HiUsers } from 'react-icons/hi';
 
@@ -115,7 +115,7 @@ const Header = () => {
 
   // this is for the announcements
   const announcements = [
-    { icon: <FaBullhorn color='red' className="inline mr-1" />, text: "Call For Papers", link: "/call-for-papers" },
+    { icon: <RiCalendarScheduleLine color='red' className="inline mr-1" />, text: "Program Schedule List Uploaded", link: "/program" },
     { icon: <RiAdminFill color='violet' className="inline mr-1" />, text: "Author Registration is Live", link: "/register-page" },
     { icon: <IoNewspaper color='yellow' className="inline mr-1" />, text: "Accepted Papers List Released", link: "/accepted-papers" },
     { icon: <HiUsers color='black' className="inline mr-1" />, text: "General Registration is open now !", link: "/register-page" }
