@@ -184,7 +184,7 @@ const Speaker = () => {
           </div>
         </section>
 
-        {/* Speakers List */}
+        {/* Speakers List Keynote/Invited Speakers speakers */}
         <section className="py-10 bg-gray-50">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Keynote Speakers</h2>

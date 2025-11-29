@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import publicityData from '../assets/jsonFile/publicityChair.json'
+import publicityData from '../assets/CommitteDetails/publicityChair.json'
 import user from '../assets/user.png';
 
 const PublicityChair = () => {

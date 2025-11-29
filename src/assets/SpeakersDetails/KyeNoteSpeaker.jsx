@@ -3,7 +3,7 @@ import img1 from '../Speaker Images/img1.jpg'
 import img2 from '../Speaker Images/img2.jpg'
 import img3 from '../Speaker Images/img3.jpg'
 import img4 from '../Speaker Images/img4.jpg'
-import luca from '../Speaker Images/luca.jpg'
+import img5 from '../Speaker Images/img5.jpg'
 
 export const KeynoteSpeakers = [
 
@@ -33,6 +33,14 @@ export const KeynoteSpeakers = [
     "college": "PQShield & AIST, Japan",
     "abstract": "Not long ago, post-quantum cryptography (PQC) was a topic mainly discussed by academic researchers. However, as governmental bodies and the industry began to realize the massive potential threat posed by quantum computers, the narrative shifted. With NIST publishing five FIPS PQC standards for KEMs and digital signatures mid-2024, the transition to PQC has become highly active. While most classical cryptography can theoretically be replaced by PQC, this does not mean our job as researchers is complete. An illustrative example is the TLS protocol: making it fully post-quantum has proven to be a nightmare for practitioners due to the massive overhead incurred by the new post-quantum KEMs and digital signatures.\n\nIn this keynote, we use Signal as a motivating example where theory alone was not enough. We will walk through our recently deployed Triple Ratchet protocol and provide a preview of the RingXKEM protocol, which, when combined, yields a fully post-quantum Signal protocol. We explain why known theoretical results were insufficient and detail the pragmatic choices, accounting for real-world bandwidth and memory restrictions, that were needed to make the protocol practical.",
     "image": img1
+  },
+  {
+    "id": 4,
+    "name": "Pantelimon St˘anic˘a",
+    "desg": "Professor and Manager of Secure Communication program",
+    "title": "From theory to practice: Inner c-differential cryptanalysis on modern block ciphers",
+    "college": "Applied Mathematics Department, Naval Postgraduate School",
+    "abstract": "Differential cryptanalysis remains a cornerstone of symmetric key evaluation. While the concept of c-differential uniformity generalized this technique, it remained theoretically interesting but practically inapplicable to iterative block ciphers. The primary obstacle was that the outer multiplication by c disrupts the key addition layer, preventing standard differential propagation. In this talk, we introduce Inner c-Differential Cryptanalysis, recovering essential structural properties – specifically key and linearity invariance – for multi-round analysis. We apply this methodology to the Kuznyechik block cipher (GOST R 34.12-2015) and demonstrate the first practical distinguisher for the full 9-round cipher (no key pre-whitening) with a data complexity of approximately 233 chosen plaintext pairs.",
+    "image": img5
   }
-
 ]

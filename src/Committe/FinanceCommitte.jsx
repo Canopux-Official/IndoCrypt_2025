@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import financeData from '../assets/jsonFile/financeCommittee.json'
+import financeData from '../assets/CommitteDetails/financeCommittee.json'
 import user from '../assets/user.png';
 
 const FinanceAndAdvisoryCommitte = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import generalChairData from '../assets/jsonFile/generalChair.json'
+import generalChairData from '../assets/CommitteDetails/generalChair.json'
 import user from '../assets/user.png';
 
 const GeneralChairs = () => {

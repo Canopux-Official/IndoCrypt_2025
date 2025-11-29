@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import advisoryData from '../assets/jsonFile/advisoryCommitee.json'
+import advisoryData from '../assets/CommitteDetails/advisoryCommitee.json'
 import user from '../assets/user.png';
 
 const AdvisoryCommitte = () => {

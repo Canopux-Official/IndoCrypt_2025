@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import industrychairData from '../assets/jsonFile/industryChair.json'
+import industrychairData from '../assets/CommitteDetails/industryChair.json'
 import user from '../assets/user.png';
 
 const IndustryChair = () => {
