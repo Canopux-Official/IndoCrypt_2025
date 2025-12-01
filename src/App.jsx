@@ -35,6 +35,7 @@ import RegistrationForIndianStudents from "./Registration/RegistrationForIndianS
 import RegistrationForForeignParticipants from "./Registration/RegistrationForForeignParticipants";
 import CodeOfConduct from "./Registration/CodeOfConduct";
 import AcceptedPapers from "./Authors/AcceptedPapers";
+import WebsiteMaintain from "./Committe/WebsiteMaintain";
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
           <Route path="/finance-committe" element={<FinanceAndAdvisoryCommitte />} />
           <Route path="/publicity-chair" element={<PublicityChair />} />
           <Route path="/industry-chair" element={<IndustryChair />} />
+          <Route path="/website-maintenance" element={<WebsiteMaintain />} />
 
 
 

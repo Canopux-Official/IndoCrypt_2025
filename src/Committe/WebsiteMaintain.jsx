@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import organizingData from '../assets/CommitteDetails/organizingCommittee.json'
+import websiteMaintain  from '../assets/CommitteDetails/websiteMaintain.json'
 import user from '../assets/user.png';
 
-const OrganizingCommitte = () => {
-    const [data] = useState(organizingData);
+const WebsiteMaintain = () => {
+    const [data] = useState(websiteMaintain);
     const members = data.filter(member => member.type === "member");
 
     const renderMembers = (list) => (
@@ -32,14 +32,14 @@ const OrganizingCommitte = () => {
         <>
             <div className="bg-white py-12 px-4 md:px-10">
                 <h1 className="text-4xl font-bold text-center text-blue-800 mb-12">
-                    Organizing Committees
+                    Website Maintenance
                 </h1>
 
-                <h2 className="text-2xl font-semibold text-gray-800 mb-6">Organizing Committee Members</h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-6">Maintained By</h2>
                 {renderMembers(members)}
             </div>
         </>
     );
 };
 
-export default OrganizingCommitte;
+export default WebsiteMaintain;

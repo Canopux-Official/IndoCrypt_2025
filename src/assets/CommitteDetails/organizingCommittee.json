@@ -13,14 +13,5 @@
     {"name": "Riya Kumari","institute": "IIIT Bhubaneswar, India","type":"member"},
     {"name": "Meenu Rani Dey","institute": "IIIT Bhubaneswar, India","type":"member"},
     {"name": "Jagannath Paramguru","institute": "IIIT Bhubaneswar, India","type":"member"},
-    {"name": "Kalpana Samal","institute": "IIIT Bhubaneswar, India","type":"member"},
-
-    {"name": "Prem Chandra Prasad","institute": "IIIT Bhubaneswar, India","type":"maintain"},
-    {"name": "Asish Mittal","institute": "IIIT Bhubaneswar, India","type":"maintain"},
-    {"name": "Pratik Sourav Panda","institute": "IIIT Bhubaneswar, India","type":"maintain"},
-    {"name": "Archit Mishra","institute": "IIIT Bhubaneswar, India","type":"maintain"},
-    {"name": "Jagannath Adhikari","institute": "IIIT Bhubaneswar, India","type":"maintain"},
-    {"name": "Baibhab Kumar Sahu","institute": "IIIT Bhubaneswar, India","type":"maintain"},
-    {"name": "Paresh Chandra Pothal","institute": "IIIT Bhubaneswar, India","type":"maintain"}
-
+    {"name": "Kalpana Samal","institute": "IIIT Bhubaneswar, India","type":"member"}
 ]
