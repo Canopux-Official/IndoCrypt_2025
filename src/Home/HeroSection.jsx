@@ -183,7 +183,7 @@ import { useEffect, useState } from 'react';
 const HeroSection = () => {
   const navigate = useNavigate();
   const handleRegister = () => navigate("/register-page");
-  const handleSchedule = () => navigate("/schedule");
+  const handleSchedule = () => navigate("/program");
 
   const imageArray = [bg1, bg2, bg3, bg4, bg5];
   const allImages = [...imageArray, ...imageArray];

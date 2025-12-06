@@ -124,18 +124,18 @@ const Header = () => {
 
 
   const dropdownRef = useRef(null);
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setDropdownOpen(null);
-      }
-    };
+  // useEffect(() => {
+  //   const handleClickOutside = (event) => {
+  //     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+  //       setDropdownOpen(null);
+  //     }
+  //   };
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
+  //   document.addEventListener('mousedown', handleClickOutside);
+  //   return () => {
+  //     document.removeEventListener('mousedown', handleClickOutside);
+  //   };
+  // }, []);
 
 
 
@@ -276,7 +276,8 @@ const Header = () => {
                           <Link
                             key={subIndex}
                             to={sublink.to}
-                            onClick={() => setMenuOpen(false)}
+                            onClick={() => {setMenuOpen(false)
+                              setDropdownOpen(null) }}
                             className="block py-2 pl-2 text-sm text-gray-600 hover:text-indigo-600"
                           >
                             {sublink.name}
@@ -288,7 +289,8 @@ const Header = () => {
                 ) : (
                   <Link
                     to={link.to}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={() => {setMenuOpen(false)
+                  setDropdownOpen(null)}}
                     className="block py-2 text-base font-medium text-gray-800 hover:text-indigo-600"
                   >
                     {link.name}
