@@ -4,19 +4,38 @@ export const programData = [
         subtitle: "Tutorials",
         sessions: [
             {
-                time: "10:15 AM – 1:00 PM",
-                title: "Tutorial 1: Generalising the NTRU Family",
+                time: "10:15 AM – 11:15 AM",
+                title: "Tutorial 1: From theory to practice",
+                description: "Inner c-differential cryptanalysis on modern block ciphers",
+                speaker: "Prof. Pantelimon Stanica, Naval Postgraduate School, USA",
+                type: "tutorial"
+            },
+            {
+                time: "11:15 AM – 11:30 AM",
+                title: "High Tea",
+                description: "Refreshments",
+                type: "break"
+            },
+            {
+                time: "11:30 AM – 1:00 PM",
+                title: "Tutorial 2: Generalising the NTRU Family",
                 description: "A Unified Perspective on the NTRU Family",
                 speaker: "Prof. Sugata Gangopadhyay, IIT Roorkee",
                 type: "tutorial"
             },
             {
-                time: "2:15 PM – 5:00 PM",
-                title: "Tutorial 2: Isogeny-based Cryptography",
+                time: "1:00 PM – 2:30 PM",
+                title: "Lunch Break",
+                description: "Networking and refreshments",
+                type: "break"
+            },
+            {
+                time: "2:30 PM – 5:00 PM",
+                title: "Tutorial 3: Isogeny-based Cryptography",
                 description: "Exploring Modern Isogeny-based Cryptographic Techniques",
                 speaker: "Luca De Feo, IBM Research Europe",
                 type: "tutorial"
-            },
+            }
         ],
     },
     {
@@ -31,7 +50,7 @@ export const programData = [
             },
             {
                 time: "10:30 AM – 11:00 AM",
-                title: "High Tea & Networking",
+                title: "High Tea",
                 description: "Connect with fellow researchers and attendees",
                 type: "break"
             },
@@ -74,8 +93,9 @@ export const programData = [
             },
             {
                 time: "5:00 PM – 6:00 PM",
-                title: "Industry Talks",
-                description: "Insights from industry leaders in cryptography",
+                title: "Industry Talks (1)",
+                description: "Industry Side Story of Cryptology and Security with current global data security threat and vulnerability",
+                speaker: "Alok Tiwari, CEO & Co-Founder, AIVOT",
                 type: "industry"
             },
             {
@@ -104,9 +124,16 @@ export const programData = [
                 type: "break"
             },
             {
-                time: "11:00 AM – 1:00 PM",
-                title: "Isogeny-based Cryptography",
-                description: "4 papers on CTIDH, identity-based signatures, and parallel algorithms",
+                time: "11:00 AM – 12:00 PM",
+                title: "Industry Talk (2)",
+                description: "Title: TBU",
+                speaker: "Nilesh Dande, CEO, Fortytwo Labs",
+                type: "industry"
+            },
+            {
+                time: "12:00 PM – 1:00 PM",
+                title: "Isogeny-based Cryptography (Part 1)",
+                description: "2 papers: 'Smooth twins' and 'Hardened CTIDH'",
                 type: "technical"
             },
             {
@@ -116,28 +143,28 @@ export const programData = [
                 type: "break"
             },
             {
-                time: "2:00 PM – 3:30 PM",
+                time: "2:00 PM – 3:00 PM",
+                title: "Isogeny-based Cryptography (Part 2)",
+                description: "2 papers: 'Key-Updatable Identity-Based Signatures' and 'Parallelizing GA-dlog'",
+                type: "technical"
+            },
+            {
+                time: "3:00 PM – 4:30 PM",
                 title: "Quantum Security",
                 description: "3 papers on quantum gates, one-time memories, and quantum analysis",
                 type: "technical"
             },
             {
-                time: "3:30 PM – 4:30 PM",
+                time: "4:30 PM – 5:30 PM",
                 title: "Secret Sharing, Privacy & Distributed Trust",
                 description: "2 papers on secret sharing and secure vault schemes",
                 type: "technical"
             },
             {
-                time: "4:30 PM – 5:00 PM",
+                time: "5:30 PM – 6:00 PM",
                 title: "Tea Break",
-                description: "Refreshments and networking",
+                description: "Refreshments before the banquet",
                 type: "break"
-            },
-            {
-                time: "5:00 PM – 6:00 PM",
-                title: "Industry Presentations",
-                description: "Latest developments from the cryptography industry",
-                type: "industry"
             },
             {
                 time: "6:00 PM onwards",
